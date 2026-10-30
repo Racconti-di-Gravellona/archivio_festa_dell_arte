@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archivio Storico Festa dell'Arte — Gravellona Lomellina</title>
+<link rel="stylesheet" href="assets/style.restyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>body{font-family:'Plus Jakarta Sans',sans-serif;} .font-serif{font-family:'Playfair Display',serif;}</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Archivio Festa dell'Arte — Gravellona Lomellina","description":"Archivio storico di tutte le edizioni della Festa dell'Arte a Gravellona Lomellina (1995–2026), con locandine, manifesti e trascrizioni.","url":"https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/","inLanguage":"it"}
+</script>
+</head>
+<body class="min-h-screen flex flex-col bg-stonebg text-stone-900">
+<header class="sticky top-0 z-30 bg-white/88 backdrop-blur border-b border-stone-200/80 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col md:flex-row items-center justify-between gap-3">
+    <div class="flex items-center space-x-3">
+      <div class="w-10 h-10 rounded-full bg-terracotta-600 text-white flex items-center justify-center font-serif text-xl font-bold shadow-md shadow-terracotta-600/30"><i class="fa-solid fa-landmark text-sm"></i></div>
+      <div>
+        <h1 class="font-serif text-xl sm:text-2xl font-bold tracking-tight leading-tight">Archivio Festa dell'Arte</h1>
+        <p class="text-xs font-semibold text-terracotta-700 tracking-wider uppercase">Gravellona Lomellina — 30 Edizioni (1995–2026)</p>
+      </div>
+    </div>
+    <div class="flex items-center space-x-3 w-full md:w-auto">
+      <div class="relative flex-grow md:w-64">
+        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-xs"></i>
+        <input type="text" id="global-search" oninput="handleSearch()" placeholder="Cerca anno, tema, luogo…" class="w-full pl-9 pr-3 py-1.5 text-sm bg-stone-100 border border-stone-200 rounded-full focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:bg-white transition-all">
+      </div>
+
+    </div>
+  </div>
+</header>
+<main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-10">
+  <section class="space-y-4">
+    <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 bg-white p-4 sm:p-5 rounded-3xl border border-stone-200/80 shadow-sm">
+      <div>
+        <div class="inline-flex items-center space-x-2 text-terracotta-600 font-bold text-xs uppercase tracking-wider mb-1"><i class="fa-solid fa-clock-rotate-left"></i><span>Esplora l'Archivio Storico (1995 – 2026)</span></div>
+        <h2 class="font-serif text-2xl font-bold text-stone-900">30 Edizioni di Locandine & Manifesti</h2>
+      </div>
+      <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1" id="decade-filters"></div>
+    </div>
+    <div id="carousel-view-container" class="relative">
+      <div id="posters-carousel" class="flex gap-4 sm:gap-6 overflow-x-auto no-scrollbar py-4 px-1 scroll-smooth snap-x snap-mandatory"></div>
+      <button onclick="scrollCarousel(-320)" class="absolute left-2 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 hover:bg-white text-stone-800 flex items-center justify-center shadow-lg border border-stone-200 transition-all z-10" aria-label="Scorri a sinistra"><i class="fa-solid fa-chevron-left text-sm"></i></button>
+      <button onclick="scrollCarousel(320)" class="absolute right-2 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 hover:bg-white text-stone-800 flex items-center justify-center shadow-lg border border-stone-200 transition-all z-10" aria-label="Scorri a destra"><i class="fa-solid fa-chevron-right text-sm"></i></button>
+    </div>
+
+    <div id="no-results-msg" class="hidden text-center py-12 bg-white rounded-3xl border border-stone-200 space-y-2">
+      <i class="fa-solid fa-ghost text-3xl text-stone-300"></i>
+      <p class="font-serif text-lg font-bold text-stone-700">Nessuna edizione trovata</p>
+      <p class="text-xs text-stone-500">Prova a cercare un altro anno, tema o luogo.</p>
+    </div>
+  </section>
+
+  <section id="selected-edition-section" class="space-y-8 pt-4">
+    <div class="bg-gradient-to-br from-terracotta-800 via-terracotta-700 to-stone-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl relative overflow-hidden">
+      <div class="absolute right-0 top-0 w-96 h-96 bg-ambergold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div class="space-y-3 max-w-3xl">
+          <div class="flex items-center space-x-2">
+            <span id="active-edition-number" class="px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-amber-300 text-xs font-bold uppercase tracking-wider border border-white/10">Edizione</span>
+            <span id="active-edition-date" class="text-xs text-stone-300 font-semibold flex items-center gap-1"><i class="fa-regular fa-calendar"></i></span>
+          </div>
+          <h2 id="active-edition-title" class="font-serif text-3xl sm:text-5xl font-black tracking-tight leading-tight"></h2>
+          <p id="active-edition-desc" class="text-stone-200 text-sm sm:text-base leading-relaxed pt-1"></p>
+        </div>
+        <button onclick="openMainPosterLightbox()" class="self-start md:self-auto bg-white/10 hover:bg-white/20 backdrop-blur-md px-4 py-3 rounded-2xl border border-white/20 transition-all flex items-center space-x-3 shrink-0 group">
+          <i class="fa-solid fa-expand text-amber-300 group-hover:scale-110 transition-transform"></i>
+          <div class="text-left">
+            <span class="block text-[10px] uppercase text-stone-300 font-bold tracking-wider">Locandina Ufficiale</span>
+            <span class="text-xs font-bold text-white">Ingrandisci ad Alta Risoluzione</span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 class="font-serif text-2xl font-bold text-stone-900 flex items-center gap-2"><i class="fa-regular fa-images text-terracotta-600"></i> File dell'Edizione</h3>
+        <span class="text-xs text-stone-500">Clicca su un'immagine per aprire il Lightbox</span>
+      </div>
+      <div id="edition-gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+    </div>
+
+    <div id="edition-context" class="hidden bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+      <h3 class="font-serif text-xl font-bold text-stone-900 mb-2 flex items-center gap-2"><i class="fa-solid fa-landmark text-terracotta-600"></i> Storia dell'edizione</h3>
+      <p id="context-text" class="text-sm text-stone-700 leading-relaxed"></p>
+      <p id="context-sources" class="mt-3 text-xs text-stone-500"></p>
+    </div>
+    <div id="edition-transcription" class="hidden bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+      <details>
+        <summary class="cursor-pointer font-serif text-xl font-bold text-stone-900 flex items-center gap-2"><i class="fa-solid fa-file-lines text-terracotta-600"></i> Trascrizione del testo della locandina</summary>
+        <pre id="transcription-text" class="mt-4 whitespace-pre-wrap text-xs text-stone-700 bg-stone-50 p-4 rounded-2xl border border-stone-200 overflow-x-auto"></pre>
+        <div id="edition-dati" class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs"></div>
+      </details>
+    </div>
+
+    <div class="bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+      <h3 class="font-serif text-xl font-bold text-stone-900 mb-3 flex items-center gap-2"><i class="fa-solid fa-book-open text-terracotta-600"></i> Contesto e approfondimenti</h3>
+      <p class="text-sm text-stone-600 mb-3">Per il contesto storico di Gravellona Lomellina e l'archivio ufficiale della Festa dell'Arte:</p>
+      <ul class="space-y-1 text-sm">
+        <li><a href="https://it.wikipedia.org/wiki/Gravellona_Lomellina" target="_blank" rel="noopener" class="text-terracotta-600 hover:underline flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i> Wikipedia — Gravellona Lomellina</a></li>
+        <li><a href="https://www.gravellonartistica.com/festa-dell-arte" target="_blank" rel="noopener" class="text-terracotta-600 hover:underline flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i> GravellonArtistica — Festa dell'Arte</a></li>
+      </ul>
+    </div>
+    <div id="edition-links" class="hidden bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+      <h3 class="font-serif text-xl font-bold text-stone-900 mb-3 flex items-center gap-2"><i class="fa-solid fa-link text-terracotta-600"></i> Link esterni</h3>
+      <ul id="links-list" class="space-y-1 text-sm"></ul>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-stone-900 text-stone-400 py-10 mt-16 border-t border-stone-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-6">
+    <div class="space-y-1">
+      <p class="font-serif text-lg font-bold text-stone-200">Archivio Festa dell'Arte Gravellona Lomellina</p>
+      <p class="text-xs text-stone-500">Oltre tre decenni di creatività, mostre, murales e riscoperta dei cortili storici.</p>
+    </div>
+    <div class="flex items-center space-x-4 text-xs text-stone-400">
+      <a href="index.html" class="hover:text-terracotta-500 transition-colors flex items-center gap-1.5"><i class="fa-solid fa-arrow-left"></i> Torna al carosello</a>
+      <a href="https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/" target="_blank" rel="noopener" class="hover:text-terracotta-500 transition-colors flex items-center gap-1.5"><i class="fa-solid fa-globe"></i> Sito Ufficiale Racconti di Gravellona</a>
+    </div>
+  </div>
+</footer>
+
+<div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/95 backdrop-blur-md hidden opacity-0 transition-opacity duration-300 flex flex-col justify-between p-4 sm:p-6 select-none" role="dialog" aria-modal="true" aria-label="Visualizzazione immagine" tabindex="-1">
+  <div class="flex items-center justify-between text-white z-20">
+    <div class="flex items-center space-x-3">
+      <span id="lightbox-badge" class="px-3 py-1 rounded-full text-xs font-bold uppercase bg-terracotta-600 text-white">File</span>
+      <span id="lightbox-counter" class="text-xs text-stone-400 font-mono">1 / 1</span>
+    </div>
+    <div class="flex items-center space-x-2">
+      <button onclick="zoomOut()" class="p-2 rounded-full hover:bg-white/20 text-white transition-colors" title="Zoom Out"><i class="fa-solid fa-magnifying-glass-minus text-lg"></i></button>
+      <button onclick="resetZoom()" class="p-2 rounded-full hover:bg-white/20 text-white transition-colors text-xs font-bold">100%</button>
+      <button onclick="zoomIn()" class="p-2 rounded-full hover:bg-white/20 text-white transition-colors" title="Zoom In"><i class="fa-solid fa-magnifying-glass-plus text-lg"></i></button>
+      <div class="w-px h-5 bg-white/20 mx-1"></div>
+      <button onclick="closeLightbox()" class="p-2 rounded-full hover:bg-red-500/80 text-white transition-colors" title="Chiudi"><i class="fa-solid fa-xmark text-2xl"></i></button>
+    </div>
+  </div>
+  <div class="relative flex-grow flex items-center justify-center overflow-hidden my-4" id="lightbox-stage">
+    <div id="lightbox-img-wrapper" class="transition-transform duration-150 ease-out zoom-grab" style="transform: translate(0px, 0px) scale(1);">
+      <img id="lightbox-img" src="" alt="Vista Lightbox" class="max-h-[80vh] max-w-[90vw] object-contain shadow-2xl rounded-lg pointer-events-none">
+    </div>
+    <button onclick="prevLightboxSlide()" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/30 text-white flex items-center justify-center backdrop-blur-md border border-white/20 transition-all z-20"><i class="fa-solid fa-chevron-left text-xl"></i></button>
+    <button onclick="nextLightboxSlide()" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/30 text-white flex items-center justify-center backdrop-blur-md border border-white/20 transition-all z-20"><i class="fa-solid fa-chevron-right text-xl"></i></button>
+  </div>
+  <div class="text-center max-w-2xl mx-auto space-y-1 z-20">
+    <h3 id="lightbox-title" class="font-serif text-lg sm:text-xl font-bold text-white">Titolo</h3>
+    <p id="lightbox-desc" class="text-xs sm:text-sm text-stone-400"></p>
+  </div>
+</div>
+
+<script>
+let archiveEditions = [];
+let activeEditionYear = null;
+let currentDecadeFilter = 'all';
+let currentGalleryMedia = [];
+let currentGalleryIndex = 0;
+let lightboxZoomScale = 1;
+let isDragging = false;
+let startX=0,startY=0,currentX=0,currentY=0;
+
+const DECADES = ['all','2020s','2010s','2000s','1990s'];
+
+async function init() {
+  const res = await fetch('data/edizioni.json');
+  archiveEditions = await res.json();
+  // decade filters
+  const df = document.getElementById('decade-filters');
+  DECADES.forEach(d => {
+    const b = document.createElement('button');
+    b.id = 'decade-'+d;
+    b.className = 'decade-btn px-3 py-1.5 rounded-full text-xs font-semibold ' + (d==='all'?'bg-terracotta-600 text-white shadow-sm':'bg-stone-100 text-stone-600 hover:bg-stone-200');
+    b.textContent = d==='all' ? `Tutti (${archiveEditions.length})` : d;
+    b.onclick = () => filterDecade(d);
+    df.appendChild(b);
+  });
+  renderCarouselAndGrid();
+  selectEdition(archiveEditions[0].year);
+  setupLightboxDrag();
+  setupKeyboardNav();
+}
+window.addEventListener('DOMContentLoaded', init);
+
+function filterDecade(decade) {
+  currentDecadeFilter = decade;
+  document.querySelectorAll('.decade-btn').forEach(btn => {
+    btn.classList.remove('bg-terracotta-600','text-white','shadow-sm');
+    btn.classList.add('bg-stone-100','text-stone-600');
+  });
+  const active = document.getElementById('decade-'+decade);
+  if (active) { active.classList.remove('bg-stone-100','text-stone-600'); active.classList.add('bg-terracotta-600','text-white','shadow-sm'); }
+  renderCarouselAndGrid();
+}
+function handleSearch(){ renderCarouselAndGrid(); }
+function renderCarouselAndGrid() {
+  const query = document.getElementById('global-search').value.toLowerCase().trim();
+  const carousel = document.getElementById('posters-carousel');
+  const noRes = document.getElementById('no-results-msg');
+  carousel.innerHTML='';
+  const filtered = archiveEditions.filter(item => {
+    const matchesDecade = currentDecadeFilter==='all' || item.decade===currentDecadeFilter;
+    const haystack = [item.year, item.title||'', item.description, item.location||'', (item.transcription||'')].join(' ').toLowerCase();
+    const matchesSearch = query==='' || haystack.includes(query) || item.files.some(f => (f.caption||'').toLowerCase().includes(query));
+    return matchesDecade && matchesSearch;
+  });
+  if (filtered.length===0) {
+    noRes.classList.remove('hidden');
+    document.getElementById('carousel-view-container').classList.add('hidden');
+    return;
+  }
+  noRes.classList.add('hidden');
+  document.getElementById('carousel-view-container').classList.remove('hidden');
+  filtered.forEach(item => {
+    const isSelected = item.year===activeEditionYear;
+    const card = document.createElement('div');
+    card.className = `flex-shrink-0 w-44 sm:w-56 bg-white rounded-2xl overflow-hidden border-2 cursor-pointer snap-start transition-all ${isSelected?'border-terracotta-600 ring-4 ring-terracotta-500/20 shadow-xl scale-105':'border-stone-200/80 hover:border-stone-400 shadow-sm opacity-90 hover:opacity-100'}`;
+    card.onclick = () => { selectEdition(item.year); document.getElementById('selected-edition-section').scrollIntoView({behavior:'smooth',block:'start'}); };
+    const img = item.thumb && (item.thumb) ? item.thumb : item.primaryPoster;
+    card.innerHTML = `
+      <div class="relative aspect-[3/4] bg-stone-900 overflow-hidden">
+        <img src="${img}" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="Locandina ${item.year}" loading="lazy">
+        <div class="absolute top-2 left-2 bg-black/75 text-amber-300 backdrop-blur-md px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider">${item.year}</div>
+      </div>
+      <div class="p-3 space-y-1">
+        <span class="text-[10px] font-bold text-terracotta-600 uppercase block">${item.edition}ª edizione</span>
+        <h4 class="font-serif text-xs sm:text-sm font-bold text-stone-900 line-clamp-1">${item.title||'Festa dell\'Arte'}</h4>
+      </div>`;
+    carousel.appendChild(card);
+  });
+}
+function scrollCarousel(a){ document.getElementById('posters-carousel').scrollBy({left:a,behavior:'smooth'}); }
+
+function selectEdition(year) {
+  activeEditionYear = year;
+  const ed = archiveEditions.find(e=>e.year===year);
+  if (!ed) return;
+  document.getElementById('active-edition-number').textContent = `${ed.edition}ª edizione`;
+  document.getElementById('active-edition-date').textContent = ed.date || ed.year;
+  document.getElementById('active-edition-title').textContent = ed.title ? `"${ed.title}"` : `Festa dell'Arte ${ed.year}`;
+  document.getElementById('active-edition-desc').textContent = ed.description || '';
+
+  // gallery
+  currentGalleryMedia = ed.files.map((f,i) => ({
+    url: f.url,
+    badge: f.caption || 'File',
+    title: f.caption || `File ${i+1}`,
+    description: f.alt || '',
+  }));
+  const gg = document.getElementById('edition-gallery-grid');
+  gg.innerHTML = '';
+  ed.files.forEach((f, idx) => {
+    const isImg = /\.(jpe?g|png|webp|gif)$/i.test(f.url);
+    const card = document.createElement('div');
+    card.className = 'group relative bg-stone-900 rounded-2xl overflow-hidden aspect-[4/3] cursor-pointer shadow-md hover:shadow-xl transition-all';
+    card.onclick = () => isImg ? openLightboxAt(idx) : window.open(f.url,'_blank');
+    if (isImg) {
+      card.innerHTML = `<img src="${f.medium || f.url}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100" alt="${ed.year} — ${f.caption||f.url.split('/').pop()}" loading="lazy">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-3 flex flex-col justify-between">
+          <span class="self-start bg-terracotta-600/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">${f.caption||'Immagine'}</span>
+          <div><h5 class="font-serif text-sm font-bold text-white line-clamp-1">${f.caption||''}</h5></div>
+        </div>`;
+    } else {
+      card.innerHTML = `<div class="w-full h-full flex flex-col items-center justify-center text-white gap-2"><i class="fa-solid fa-file-pdf text-3xl"></i><span class="text-xs font-bold">${f.caption||'PDF'}</span><span class="text-[10px] text-stone-300">Apri in nuova scheda</span></div>`;
+    }
+    gg.appendChild(card);
+  });
+
+  // context / storia dell'edizione
+  const cBox = document.getElementById('edition-context');
+  if (ed.context) {
+    cBox.classList.remove('hidden');
+    document.getElementById('context-text').textContent = ed.context;
+    const src = document.getElementById('context-sources');
+    src.innerHTML = 'Fonti: ' + (ed.sources||[]).map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="text-terracotta-600 hover:underline">${s.label}</a>`).join(' · ');
+  } else { cBox.classList.add('hidden'); }
+
+  // transcription
+  const tBox = document.getElementById('edition-transcription');
+  if (ed.transcription) {
+    tBox.classList.remove('hidden');
+    document.getElementById('transcription-text').textContent = ed.transcription;
+    const dati = document.getElementById('edition-dati');
+    dati.innerHTML = '';
+    (ed.dati||[]).forEach(d => {
+      const div = document.createElement('div');
+      div.className = 'bg-stone-50 rounded-xl p-2 border border-stone-200';
+      div.innerHTML = `<span class="font-bold text-terracotta-700">${d.key}:</span> <span class="text-stone-700">${d.value}</span>`;
+      dati.appendChild(div);
+    });
+  } else { tBox.classList.add('hidden'); }
+
+  // external links
+  const lBox = document.getElementById('edition-links');
+  if (ed.externalLinks && ed.externalLinks.length) {
+    lBox.classList.remove('hidden');
+    const ul = document.getElementById('links-list');
+    ul.innerHTML = '';
+    ed.externalLinks.forEach(l => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${l.url}" target="_blank" rel="noopener" class="text-terracotta-600 hover:underline flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>${l.label}</a>`;
+      ul.appendChild(li);
+    });
+  } else { lBox.classList.add('hidden'); }
+
+  renderCarouselAndGrid();
+  if (window.innerWidth < 768) document.getElementById('selected-edition-section').scrollIntoView({behavior:'smooth'});
+}
+
+function openMainPosterLightbox(){ openLightboxAt(0); }
+function openLightboxAt(index){
+  currentGalleryIndex = index;
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('hidden');
+  setTimeout(()=>modal.classList.add('opacity-100'),10);
+  updateLightbox();
+}
+function closeLightbox(){
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('opacity-100');
+  setTimeout(()=>modal.classList.add('hidden'),300);
+}
+function updateLightbox(){
+  const item = currentGalleryMedia[currentGalleryIndex];
+  if (!item) return;
+  document.getElementById('lightbox-img').src = item.url;
+  document.getElementById('lightbox-badge').textContent = item.badge;
+  document.getElementById('lightbox-counter').textContent = `${currentGalleryIndex+1} / ${currentGalleryMedia.length}`;
+  document.getElementById('lightbox-title').textContent = item.title;
+  document.getElementById('lightbox-desc').textContent = item.description;
+  resetZoom();
+}
+function prevLightboxSlide(){ currentGalleryIndex = (currentGalleryIndex-1+currentGalleryMedia.length)%currentGalleryMedia.length; updateLightbox(); }
+function nextLightboxSlide(){ currentGalleryIndex = (currentGalleryIndex+1)%currentGalleryMedia.length; updateLightbox(); }
+
+function applyTransform(){ document.getElementById('lightbox-img-wrapper').style.transform = `translate(${currentX}px,${currentY}px) scale(${lightboxZoomScale})`; }
+function zoomIn(){ if (lightboxZoomScale<3.5){ lightboxZoomScale+=0.4; applyTransform(); } }
+function zoomOut(){ if (lightboxZoomScale>0.8){ lightboxZoomScale-=0.3; if (lightboxZoomScale<=1){currentX=0;currentY=0;} applyTransform(); } }
+function resetZoom(){ lightboxZoomScale=1; currentX=0; currentY=0; applyTransform(); }
+function setupLightboxDrag(){
+  const wrapper = document.getElementById('lightbox-img-wrapper');
+  const stage = document.getElementById('lightbox-stage');
+  stage.addEventListener('mousedown', e => {
+    if (lightboxZoomScale<=1) return;
+    isDragging=true; startX=e.clientX-currentX; startY=e.clientY-currentY;
+    wrapper.classList.remove('zoom-grab'); wrapper.classList.add('zoom-grabbing');
+  });
+  window.addEventListener('mousemove', e => {
+    if (!isDragging) return; e.preventDefault();
+    currentX=e.clientX-startX; currentY=e.clientY-startY; applyTransform();
+  });
+  window.addEventListener('mouseup', () => { isDragging=false; wrapper.classList.remove('zoom-grabbing'); wrapper.classList.add('zoom-grab'); });
+}
+function setupKeyboardNav(){
+  window.addEventListener('keydown', e => {
+    const modal = document.getElementById('lightbox-modal');
+    const open = !modal.classList.contains('hidden');
+    if (!open) return;
+    if (e.key==='Escape') closeLightbox();
+    if (e.key==='ArrowLeft') prevLightboxSlide();
+    if (e.key==='ArrowRight') nextLightboxSlide();
+    if (e.key==='+'||e.key==='=') zoomIn();
+    if (e.key==='-') zoomOut();
+  });
+}
+</script>
+</body>
+</html>
