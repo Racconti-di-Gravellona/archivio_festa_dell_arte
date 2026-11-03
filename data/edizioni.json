@@ -5,7 +5,7 @@
   "edition": 1,
   "decade": "1990s",
   "title": null,
-  "description": "La primissima Festa dell'Arte, il 17-18 giugno 1995: «Una grande festa a giugno in piazza». Disegno di Regianini con scritta, usato come header dell'archivio; dallo stesso storico delle locandine; la locandina 1995 «di Gravellona e Barbavara», ricomposta dallo scorcio del video. Immagine restaurata con Gemini.",
+  "description": "La primissima Festa dell'Arte, il 17-18 giugno 1995: «una grande festa a giugno in piazza». Sulla copertina il disegno di Regianini; la locandina è di Gravellona e Barbavara.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/1995-01ed-locandina-hd.jpg",
@@ -13,7 +13,7 @@
   "files": [
    {
     "url": "volantini/1995-01ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "1995-01ed-locandina-hd.jpg"
    },
    {
@@ -53,7 +53,7 @@
   "edition": 2,
   "decade": "1990s",
   "title": null,
-  "description": "8-9 giugno 1996. Locandina ricomposta dallo storico delle locandine (@niktuberto1). Immagine restaurata con Gemini.",
+  "description": "2ª edizione, 8-9 giugno 1996: torna il doppio tema del primo anno, «San Giorgio combatte contro il drago» e «l'uomo libero combatte contro la burocrazia».",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/1996-02ed-locandina-hd.jpg",
@@ -61,7 +61,7 @@
   "files": [
    {
     "url": "volantini/1996-02ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "1996-02ed-locandina-hd.jpg"
    },
    {
@@ -96,7 +96,7 @@
   "edition": 3,
   "decade": "1990s",
   "title": null,
-  "description": "3ª edizione, 7-8 giugno 1997; tema «Medio Evo: San Giorgio combatte contro il drago» e «XX Secolo: l'uomo libero incontra la burocrazia e gli altri mostri». Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "3ª edizione, 7-8 giugno 1997: al tema medievale si affianca «l'uomo libero incontra la burocrazia e gli altri mostri». Sulla locandina compare per la prima volta l'indirizzo internet della festa.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/1997-03ed-locandina-hd.jpg",
@@ -104,7 +104,7 @@
   "files": [
    {
     "url": "volantini/1997-03ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "1997-03ed-locandina-hd.jpg"
    },
    {
@@ -139,7 +139,7 @@
   "edition": 4,
   "decade": "1990s",
   "title": null,
-  "description": "4ª edizione, 6-7 giugno 1998: sul dosso del Valdarengo, all&#x27;ingresso del paese, viene collocato il dolmen, ricavato dalle pietre della frana che nel 1998 scese su Gravellona Toce (GravellonArtistica), in seguito spostato al Parco Tre Laghi. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "4ª edizione, 6-7 giugno 1998: sul dosso del Valdarengo, all'ingresso del paese, viene collocato il dolmen, ricavato dalle pietre della frana che nel 1998 scese su Gravellona Toce; sarà poi spostato al Parco dei Tre Laghi.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/1998-04ed-locandina-hd.jpg",
@@ -147,7 +147,7 @@
   "files": [
    {
     "url": "volantini/1998-04ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "1998-04ed-locandina-hd.jpg"
    },
    {
@@ -186,7 +186,7 @@
   "edition": 5,
   "decade": "1990s",
   "title": null,
-  "description": "5ª edizione, 4-5-6 giugno 1999. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "5ª edizione, 4-5-6 giugno 1999: tre cabine dell'Enel diventano giganti.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/1999-05ed-locandina-hd.jpg",
@@ -194,7 +194,7 @@
   "files": [
    {
     "url": "volantini/1999-05ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "1999-05ed-locandina-hd.jpg"
    },
    {
@@ -229,7 +229,7 @@
   "edition": 6,
   "decade": "2000s",
   "title": null,
-  "description": "6ª edizione, 3-4 e 10-11 giugno 2000. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "6ª edizione, 3-4 e 10-11 giugno 2000: vecchie macchine agricole reinterpretate come sculture.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2000-06ed-locandina-hd.jpg",
@@ -237,7 +237,7 @@
   "files": [
    {
     "url": "volantini/2000-06ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2000-06ed-locandina-hd.jpg"
    },
    {
@@ -272,7 +272,7 @@
   "edition": 7,
   "decade": "2000s",
   "title": null,
-  "description": "7ª edizione, sabato 2 – domenica 3 e sabato 9 – domenica 10 giugno 2001; convegno «Bellezza Natura Arte come fattori di sviluppo economico». Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "7ª edizione, due weekend a giugno (2-3 e 9-10): spaventapasseri e spazzacamini, il convegno «Bellezza Natura Arte come fattori di sviluppo economico» e la prima edizione del Campionato Europeo di Caccia alla Zanzara. In questi mesi partono i lavori del Parco dei Tre Laghi.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2001-07ed-locandina-hd.jpg",
@@ -280,7 +280,7 @@
   "files": [
    {
     "url": "volantini/2001-07ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2001-07ed-locandina-hd.jpg"
    },
    {
@@ -315,7 +315,7 @@
   "edition": 8,
   "decade": "2000s",
   "title": null,
-  "description": "8ª edizione, giugno 2002. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "8ª edizione, giugno 2002: enormi giganti di balle di paglia in piazza e lungo le strade che conducono a Gravellona; il lavatoio di Barbavara diventa palcoscenico.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2002-08ed-locandina-hd.jpg",
@@ -323,7 +323,7 @@
   "files": [
    {
     "url": "volantini/2002-08ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2002-08ed-locandina-hd.jpg"
    },
    {
@@ -358,7 +358,7 @@
   "edition": 9,
   "decade": "2000s",
   "title": null,
-  "description": "9ª edizione, da sabato 31 maggio a domenica 8 giugno 2003. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "9ª edizione, da sabato 31 maggio a domenica 8 giugno 2003: i muri di cinta diventano monumento.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2003-09ed-locandina-hd.jpg",
@@ -366,7 +366,7 @@
   "files": [
    {
     "url": "volantini/2003-09ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2003-09ed-locandina-hd.jpg"
    },
    {
@@ -401,7 +401,7 @@
   "edition": 10,
   "decade": "2000s",
   "title": null,
-  "description": "10ª edizione, sabato 5 – domenica 6 e sabato 12 – domenica 13 giugno 2004. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "10ª edizione, sabato 5 – domenica 6 e sabato 12 – domenica 13 giugno 2004: paracarri e spartitraffico dei margini stradali diventano colorati; in occasione della festa nascono i bicchieri celtici.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2004-10ed-locandina-hd.jpg",
@@ -409,7 +409,7 @@
   "files": [
    {
     "url": "volantini/2004-10ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2004-10ed-locandina-hd.jpg"
    },
    {
@@ -444,7 +444,7 @@
   "edition": 11,
   "decade": "2000s",
   "title": null,
-  "description": "11ª edizione, sabato 4 – domenica 5 e sabato 11 – domenica 12 giugno 2005. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "11ª edizione, sabato 4 – domenica 5 e sabato 11 – domenica 12 giugno 2005: si concludono i lavori del Parco dei Tre Laghi e compare una rana in granito accanto alla fontana.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2005-11ed-locandina-hd.jpg",
@@ -452,7 +452,7 @@
   "files": [
    {
     "url": "volantini/2005-11ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2005-11ed-locandina-hd.jpg"
    },
    {
@@ -487,7 +487,7 @@
   "edition": 12,
   "decade": "2000s",
   "title": null,
-  "description": "12ª Festa dell'Arte e dell'Artigianato Creativo, 2-3-4 e 10-11 giugno 2006. Locandina ricomposta dallo storico delle locandine. Immagine restaurata con Gemini.",
+  "description": "Festa dell'Arte e dell'Artigianato Creativo, 2-3-4 e 10-11 giugno 2006: inaugurazione del Parco dei Tre Laghi, costruito come un paesaggio naturale dentro il paese.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2006-12ed-locandina-hd.jpg",
@@ -495,7 +495,7 @@
   "files": [
    {
     "url": "volantini/2006-12ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2006-12ed-locandina-hd.jpg"
    },
    {
@@ -530,7 +530,7 @@
   "edition": 13,
   "decade": "2000s",
   "title": null,
-  "description": "13ª edizione, sabato 2 – domenica 3 e sabato 9 – domenica 10 giugno 2007: «il paese dove arte, natura e fantasia crescono ogni anno». Locandina ricomposta dallo storico delle locandine: è tagliata in alto, dove il numero «13ª» perde la prima cifra.",
+  "description": "13ª edizione, sabato 2 – domenica 3 e sabato 9 – domenica 10 giugno 2007: «il paese dove arte, natura e fantasia crescono ogni anno». Sagome ispirate alla vita contadina: pastori, capre, pecore, un carro trainato dai buoi, un cavallo.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2007-13ed-locandina-hd.png",
@@ -573,7 +573,7 @@
   "edition": 14,
   "decade": "2000s",
   "title": null,
-  "description": "Manifesto ufficiale della 14ª Festa dell'Arte (31 maggio – 1 e 2 giugno, 7 e 8 giugno 2008) a Gravellona Lomellina, in quattro pagine: copertina, «In piazza», «Parco dei 3 Laghi e Giardino Barbavara» e «Alla sera in piazza». Immagini restaurate con Gemini.",
+  "description": "14ª Festa dell'Arte, 31 maggio – 1-2 e 7-8 giugno 2008: totem di palude con gli animali della nostra terra — zanzara, airone, pesce, rana — su disegno di Libero Greco. Il manifesto ufficiale è in quattro pagine: copertina, «In piazza», «Parco dei 3 Laghi e Giardino Barbavara» e «Alla sera in piazza».",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2008-14ed-manifesto-pagina1-copertina.jpg",
@@ -621,7 +621,7 @@
   "edition": 15,
   "decade": "2000s",
   "title": null,
-  "description": "Sagome di zebre per il paese e secondo Concerto Ambientale in Villa Barbavara. Locandina dal blog Concertodautunno di Mario Mainino.",
+  "description": "15ª edizione: sagome di zebre per il paese e secondo Concerto Ambientale in Villa Barbavara.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2009-15ed-manifesto-hd.jpg",
@@ -659,7 +659,7 @@
   "edition": 16,
   "decade": "2010s",
   "title": null,
-  "description": "16ª edizione, 29-30 maggio e 1-2 giugno 2010, con festa celtica: al Parco Tre Laghi il dolmen (già sul dosso del Valdarengo dal 1998) e il cromlech. Locandina ricomposta dallo storico delle locandine (@niktuberto1). Immagine restaurata con Gemini.",
+  "description": "16ª edizione, 29-30 maggio e 1-2 giugno 2010, con la festa celtica: al Parco dei Tre Laghi arrivano il dolmen — installato nel 1998 sul dosso del Valdarengo — e il cromlech.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2010-16ed-locandina-hd.jpg",
@@ -667,7 +667,7 @@
   "files": [
    {
     "url": "volantini/2010-16ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2010-16ed-locandina-hd.jpg"
    },
    {
@@ -702,7 +702,7 @@
   "edition": 17,
   "decade": "2010s",
   "title": null,
-  "description": "17ª Festa dell'Arte con Festa Celtica (1–5 giugno 2011): mongolfiera-elefante di Libero, voli in elicottero, salvataggio in acqua con cani Terranova, raduno Vespa e Concerto Ambientale. La copertina ufficiale è la terza pagina del volantino in tre pagine, qui ritagliata a parte.",
+  "description": "17ª edizione con Festa Celtica, 1-5 giugno 2011: la mongolfiera-elefante di Libero, i voli in elicottero, il salvataggio in acqua con i cani Terranova, il raduno delle Vespe e il Concerto Ambientale.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2011-17ed-locandina-copertina.jpg",
@@ -740,7 +740,7 @@
   "edition": 18,
   "decade": "2010s",
   "title": null,
-  "description": "Edizione dell'avvio di Art'è, il libro d'arte all'aperto con le riproduzioni dell'Ottocento. Il 9 giugno, nel cortile del municipio, il concerto «Il valzer: dall'operetta alla canzone… ripensando la Belle Époque» dell'Accademia Quartet: Fabio Baldina al pianoforte, con Daniela Stigliano (soprano) ed Ennio Bellani (tenore). Manifesto firmato «Libero 2012», dal sito di Fabio Baldina (fabiobaldina.com). Le due locandine ufficiali (tema e date) sono ricavate dal video promozionale «PROMO Festa dell'Arte 2012» di NICOLA BIO, in cui scorrono: sono state ricomposte fotogramma per fotogramma; la versione «date» risulta tagliata in basso.",
+  "description": "18ª edizione, anno d'avvio di Art'è, il libro d'arte all'aperto con le riproduzioni dell'Ottocento italiano. Il 9 giugno, nel cortile del municipio, il concerto «Il valzer: dall'operetta alla canzone… ripensando la Belle Époque» dell'Accademia Quartet.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2012-18ed-locandina-tema.jpg",
@@ -783,7 +783,7 @@
   "edition": 19,
   "decade": "2010s",
   "title": null,
-  "description": "19ª edizione, 1-2 e 8-9 giugno 2013, con la processione goliardica di San Pessimino. Locandina ufficiale; sotto, il fotogramma dal video «Decennale San Pessimino 2003-2013» (@niktuberto1) da cui era stata ricomposta.",
+  "description": "19ª edizione, 1-2 e 8-9 giugno 2013, con la processione goliardica di San Pessimino. Prima festa «Il fiore e il lago» e nuova scalinata in granito al Parco dei Tre Laghi.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2013-19ed-locandina.jpg",
@@ -826,7 +826,7 @@
   "edition": 20,
   "decade": "2010s",
   "title": null,
-  "description": "L&#x27;Art&#x27;è cresce lungo via Marconi e i cartelli di benvenuto di Libero Greco accolgono i visitatori; le serate sono a ritmo di swing e Lindy Hop con i Milanoans. Immagine restaurata con Gemini.",
+  "description": "20ª edizione: Art'è cresce lungo via Marconi e i cartelli di benvenuto di Libero Greco accolgono i visitatori; le serate sono a ritmo di swing e Lindy Hop con i Milanoans.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2014-20ed-locandina-hd.jpg",
@@ -834,7 +834,7 @@
   "files": [
    {
     "url": "volantini/2014-20ed-locandina-hd.jpg",
-    "caption": "restaurata con Gemini",
+    "caption": "restaurata con Gemini (l'intelligenza artificiale può aver ricostruito in modo impreciso qualche dettaglio, come lo stemma comunale)",
     "alt": "2014-20ed-locandina-hd.jpg"
    },
    {
@@ -874,7 +874,7 @@
   "edition": 21,
   "decade": "2010s",
   "title": null,
-  "description": "L&#x27;anno degli ombrelli, installazione temporanea sopra le vie del paese. Sul palco lo swing di Paradisum e Sugar Pie &amp; The Candymen, gli ottoni dei Maxentia Brass e il Bubble Football; la sera la Notte delle Anime.",
+  "description": "21ª edizione, l'anno degli ombrelli: l'installazione temporanea copre le vie del paese. Sul palco lo swing di Paradisum e Sugar Pie & The Candymen, gli ottoni dei Maxentia Brass, il Bubble Football e, la sera, la Notte delle Anime.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2015-21ed-manifesto-hd.jpg",
@@ -912,7 +912,7 @@
   "edition": 22,
   "decade": "2010s",
   "title": null,
-  "description": "Tornano gli ombrelli, con la mostra di Ko Thea Dallosta, il quindicesimo Concerto Ambientale e la sfilata di Camelia.",
+  "description": "22ª edizione: tornano gli ombrelli, con la mostra di Ko Thea Dallosta, il quindicesimo Concerto Ambientale e la sfilata di Camelia.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2016-22ed-locandina-full.jpg",
@@ -960,7 +960,7 @@
   "edition": 23,
   "decade": "2010s",
   "title": null,
-  "description": "L&#x27;anno della bicicletta, con il grande biciclettone e la pista ciclabile verso Vigevano. Locandina e programma dal blog Concertodautunno di Mario Mainino.",
+  "description": "23ª edizione, l'anno della bicicletta: il grande biciclettone e la nuova pista ciclabile verso Vigevano.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2017-23ed-cda03.jpg",
@@ -1008,7 +1008,7 @@
   "edition": 24,
   "decade": "2010s",
   "title": null,
-  "description": "Edizione medievale, con la presentazione del progetto Monforte della Palude, il borgo altomedievale. In programma anche la Notte delle Anime.",
+  "description": "24ª edizione, a tema medievale: presentazione del progetto Monforte della Palude, il cantiere dell'incastellato della seconda metà dell'XI secolo con fattoria medievale. In programma anche la Notte delle Anime.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2018-24ed-locandina.jpg",
@@ -1046,7 +1046,7 @@
   "edition": 25,
   "decade": "2010s",
   "title": null,
-  "description": "25ª edizione, 1-2 giugno 2019: arte e artigianato tra piazza, cortile del municipio e vicolo Ca&#x27; di Ratt, con la Notte delle Anime il 15 giugno. Volantino, programma e pieghevoli Family Run e Family Bike.",
+  "description": "25ª edizione, 1-2 giugno 2019: arte e artigianato tra piazza, cortile del municipio e vicolo Ca' di Ratt; la Notte delle Anime chiude il 15 giugno.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2019-25ed-locandina-greco.png",
@@ -1114,7 +1114,7 @@
   "edition": 26,
   "decade": "2020s",
   "title": null,
-  "description": "Il ritorno in piazza dopo gli anni della pandemia: il Monforte della Palude con la proiezione dell&#x27;incendio e la richiesta ai cittadini se proseguire il progetto (Informatore Vigevanese, 24 maggio 2022), e la Notte delle Anime a fare da cornice.",
+  "description": "26ª edizione, il ritorno in piazza dopo gli anni della pandemia: il Monforte della Palude con la proiezione dell'incendio e la domanda ai cittadini se proseguire il progetto; la Notte delle Anime a fare da cornice.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2022-26ed-festa-arte.jpg",
@@ -1167,7 +1167,7 @@
   "edition": 27,
   "decade": "2020s",
   "title": null,
-  "description": "Festa al Parco Tre Laghi con il primo Trilagòn, il biathlon con le angurie.",
+  "description": "27ª edizione, interamente al Parco dei Tre Laghi, con il primo Trilagòn, il biathlon con le angurie.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2023-27ed-locandina-hd.jpg",
@@ -1205,7 +1205,7 @@
   "edition": 28,
   "decade": "2020s",
   "title": null,
-  "description": "L&#x27;anno dei gatti, con i manifesti di Marina che invitano in paese tra cantine, concerti e dj set. Nel cortile del Municipio anche la mostra dei manifesti tedeschi del 1920.",
+  "description": "28ª edizione, l'anno dei gatti: i manifesti di Marina invitano in paese tra cantine, concerti e dj set. Nel cortile del Municipio la mostra dei manifesti tedeschi del 1920.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2024-28ed-gatti-manifesto2.jpg",
@@ -1248,7 +1248,7 @@
   "edition": 29,
   "decade": "2020s",
   "title": null,
-  "description": "Mousiké, l&#x27;arte delle Muse: la mostra «Magia del Reale» di V. Alfieri, la sfilata di Spose e Fiori e tre giorni di concerti (31 maggio-2 giugno). Programma sul sito ufficiale.",
+  "description": "29ª edizione, «Mousiké — l'arte delle Muse» (31 maggio – 2 giugno): la mostra «Magia del Reale» di V. Alfieri con E. Gramone e G. Massara, la sfilata di Spose e Fiori, tai chi Lùjing e tre giorni di concerti: La Fenice, LimitedEdition, FoolSound.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2025-29ed-manifesto-mousike1.jpg",
@@ -1311,7 +1311,7 @@
   "edition": 30,
   "decade": "2020s",
   "title": null,
-  "description": "Edizione speciale (19-20 settembre): inaugurazione del Museo della Bicicletta Luciano Geddo, concerto dei MARPHILL in piazza, «Caccia all&#x27;Arte» in 10 tappe e premiazione dell&#x27;indovinello artistico al Parco dei Tre Laghi. Programma sul sito ufficiale.",
+  "description": "30ª edizione speciale, spostata a settembre (19-20): inaugurazione del Museo della Bicicletta Luciano Geddo, MARPHILL in piazza, la Caccia all'Arte in 10 tappe tra murales, mosaici e paesaggio, e premiazione dell'indovinello artistico al Parco dei Tre Laghi.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2026-30ed-manifesto.jpg",
