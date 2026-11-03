@@ -8,9 +8,236 @@
 <link rel="stylesheet" href="assets/style.restyle.css">
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-<style>body{font-family:'Plus Jakarta Sans',sans-serif;} .font-serif{font-family:'Playfair Display',serif;}</style>
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<style>body{font-family:'Plus Jakarta Sans',sans-serif;} .font-serif{font-family:'Playfair Display',serif;}
+/* Carosello dei documenti nel lightbox */
+.doc-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:15;display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:9999px;border:1px solid rgba(255,255,255,.18);background:rgba(12,10,9,.55);color:#fff;backdrop-filter:blur(6px);transition:background .2s,opacity .2s}
+.doc-arrow:hover{background:rgba(12,10,9,.85)}
+.doc-arrow:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.doc-arrow[hidden]{display:none}
+.doc-dot{width:.5rem;height:.5rem;border-radius:9999px;background:rgba(255,255,255,.35);border:0;padding:0;transition:background .2s,width .2s}
+.doc-dot[aria-current="true"]{background:#fff;width:1.35rem;border-radius:9999px}
+.doc-dot:hover{background:rgba(255,255,255,.7)}
+#lightbox-pdf{display:none;position:absolute;inset:0;align-items:center;justify-content:center;padding:2rem;text-align:center;color:#e7e5e4}
+#lightbox-pdf.is-visible{display:flex}
+/* Lo spazio in basso tiene l'immagine fuori dalla barra con didascalia e puntini */
+#lightbox-stage{padding-bottom:6.25rem}
+@media (min-width:1024px){#lightbox-stage{padding-bottom:7rem}}
+@media (max-width:1023px){.doc-arrow{width:2.25rem;height:2.25rem}}
+</style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"Festa dell'Arte — Le locandine · Gravellona Lomellina","description":"Trent'anni di locandine della Festa dell'Arte di Gravellona Lomellina (1995–2026).","url":"https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/","inLanguage":"it"}
+{
+ "@context": "https://schema.org",
+ "@type": "CollectionPage",
+ "name": "Festa dell'Arte — Le locandine · Gravellona Lomellina",
+ "description": "Trent'anni di locandine della Festa dell'Arte di Gravellona Lomellina (1995–2026).",
+ "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/",
+ "inLanguage": "it",
+ "about": {
+  "@type": "EventSeries",
+  "name": "Festa dell'Arte",
+  "location": {
+   "@type": "Place",
+   "name": "Gravellona Lomellina",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Gravellona Lomellina",
+    "addressRegion": "PV",
+    "addressCountry": "IT"
+   }
+  }
+ },
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 30,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Festa dell'Arte 1995 (1ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed1995"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Festa dell'Arte 1996 (2ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed1996"
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Festa dell'Arte 1997 (3ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed1997"
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "name": "Festa dell'Arte 1998 (4ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed1998"
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "name": "Festa dell'Arte 1999 (5ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed1999"
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "name": "Festa dell'Arte 2000 (6ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2000"
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "name": "Festa dell'Arte 2001 (7ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2001"
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "name": "Festa dell'Arte 2002 (8ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2002"
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "name": "Festa dell'Arte 2003 (9ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2003"
+   },
+   {
+    "@type": "ListItem",
+    "position": 10,
+    "name": "Festa dell'Arte 2004 (10ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2004"
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
+    "name": "Festa dell'Arte 2005 (11ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2005"
+   },
+   {
+    "@type": "ListItem",
+    "position": 12,
+    "name": "Festa dell'Arte 2006 (12ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2006"
+   },
+   {
+    "@type": "ListItem",
+    "position": 13,
+    "name": "Festa dell'Arte 2007 (13ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2007"
+   },
+   {
+    "@type": "ListItem",
+    "position": 14,
+    "name": "Festa dell'Arte 2008 (14ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2008"
+   },
+   {
+    "@type": "ListItem",
+    "position": 15,
+    "name": "Festa dell'Arte 2009 (15ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2009"
+   },
+   {
+    "@type": "ListItem",
+    "position": 16,
+    "name": "Festa dell'Arte 2010 (16ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2010"
+   },
+   {
+    "@type": "ListItem",
+    "position": 17,
+    "name": "Festa dell'Arte 2011 (17ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2011"
+   },
+   {
+    "@type": "ListItem",
+    "position": 18,
+    "name": "Festa dell'Arte 2012 (18ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2012"
+   },
+   {
+    "@type": "ListItem",
+    "position": 19,
+    "name": "Festa dell'Arte 2013 (19ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2013"
+   },
+   {
+    "@type": "ListItem",
+    "position": 20,
+    "name": "Festa dell'Arte 2014 (20ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2014"
+   },
+   {
+    "@type": "ListItem",
+    "position": 21,
+    "name": "Festa dell'Arte 2015 (21ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2015"
+   },
+   {
+    "@type": "ListItem",
+    "position": 22,
+    "name": "Festa dell'Arte 2016 (22ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2016"
+   },
+   {
+    "@type": "ListItem",
+    "position": 23,
+    "name": "Festa dell'Arte 2017 (23ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2017"
+   },
+   {
+    "@type": "ListItem",
+    "position": 24,
+    "name": "Festa dell'Arte 2018 (24ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2018"
+   },
+   {
+    "@type": "ListItem",
+    "position": 25,
+    "name": "Festa dell'Arte 2019 (25ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2019"
+   },
+   {
+    "@type": "ListItem",
+    "position": 26,
+    "name": "Festa dell'Arte 2022 (26ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2022"
+   },
+   {
+    "@type": "ListItem",
+    "position": 27,
+    "name": "Festa dell'Arte 2023 (27ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2023"
+   },
+   {
+    "@type": "ListItem",
+    "position": 28,
+    "name": "Festa dell'Arte 2024 (28ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2024"
+   },
+   {
+    "@type": "ListItem",
+    "position": 29,
+    "name": "Festa dell'Arte 2025 (29ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2025"
+   },
+   {
+    "@type": "ListItem",
+    "position": 30,
+    "name": "Festa dell'Arte 2026 (30ª edizione)",
+    "url": "https://racconti-di-gravellona.github.io/archivio_festa_dell_arte/#ed2026"
+   }
+  ]
+ }
+}
 </script>
 </head>
 <body class="min-h-screen flex flex-col overflow-x-hidden bg-stonebg text-stone-900 antialiased selection:bg-terracotta-600 selection:text-white">
@@ -52,7 +279,7 @@
   <section class="w-full min-w-0 mt-7 sm:mt-9" aria-label="Carosello delle locandine della Festa dell'Arte">
     <div class="relative w-full min-w-0">
       <div id="poster-track" class="poster-track w-full max-w-full flex gap-3 sm:gap-5 overflow-x-auto overflow-y-hidden py-6 px-4 sm:px-8 lg:px-12">
-        <noscript><p class="px-4 py-10 text-sm text-stone-600">Attiva JavaScript per sfogliare le locandine.</p></noscript>
+        <noscript><p class="px-4 py-10 text-sm text-stone-600">Attiva JavaScript per sfogliare il carosello, oppure apri <a class="font-semibold text-terracotta-700 underline" href="archivio.html">l'archivio completo</a>.</p></noscript>
       </div>
       <div class="pointer-events-none absolute inset-y-0 left-0 w-8 sm:w-20 bg-gradient-to-r from-stonebg via-stonebg/80 to-transparent" aria-hidden="true"></div>
       <div class="pointer-events-none absolute inset-y-0 right-0 w-8 sm:w-20 bg-gradient-to-l from-stonebg via-stonebg/80 to-transparent" aria-hidden="true"></div>
@@ -61,7 +288,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-1 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
       <p id="carousel-hint" class="text-xs text-stone-500 flex items-center gap-2">
         <i class="fa-solid fa-hand-pointer text-terracotta-600"></i>
-        <span>Scorri, trascina o usa le frecce · clicca una locandina per i dettagli</span>
+        <span>Scorri, trascina o usa le frecce · clicca una locandina: dentro trovi tutti i documenti dell'edizione</span>
       </p>
       <div class="flex items-center gap-2 self-end sm:self-auto">
         <button type="button" id="carousel-prev" class="w-10 h-10 rounded-full bg-white border border-stone-200 text-stone-700 hover:text-terracotta-700 hover:border-terracotta-600/40 hover:shadow-md transition-all flex items-center justify-center" aria-label="Locandine precedenti">
@@ -95,18 +322,45 @@
   <div class="relative h-full w-full flex items-stretch sm:items-center justify-center sm:p-5 lg:p-8">
     <div id="lightbox-panel" tabindex="-1" class="relative flex h-full w-full flex-col overflow-hidden bg-stonebg shadow-2xl outline-none sm:h-[min(92vh,900px)] sm:max-w-6xl sm:rounded-3xl lg:flex-row">
 
-      <section class="relative flex-none bg-stone-950 h-[40vh] sm:h-[46vh] lg:h-auto lg:flex-1 flex items-center justify-center overflow-hidden">
+      <section id="lightbox-stage" class="relative flex-none bg-stone-950 h-[40vh] sm:h-[46vh] lg:h-auto lg:flex-1 flex items-center justify-center overflow-hidden">
         <div id="lightbox-loader" class="absolute inset-0 flex items-center justify-center text-stone-500">
           <i class="fa-solid fa-circle-notch animate-spin text-2xl"></i>
         </div>
         <img id="lightbox-img" src="" alt="" class="relative max-h-full max-w-full object-contain p-4 sm:p-8 transition-opacity duration-300 opacity-0">
-        <div class="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 bg-gradient-to-t from-stone-950/90 to-transparent px-4 sm:px-6 pb-4 sm:pb-5 pt-12">
-          <span id="lightbox-year-badge" class="rounded-full bg-white/10 border border-white/15 backdrop-blur px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white"></span>
-          <a id="lightbox-original" href="#" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-[11px] font-semibold text-stone-300 hover:text-white transition-colors">
-            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> Apri originale
-          </a>
+        <div id="lightbox-pdf" class="absolute inset-0">
+          <div class="rounded-2xl border border-white/15 bg-white/5 px-6 py-8 backdrop-blur">
+            <i class="fa-solid fa-file-pdf text-3xl text-terracotta-500"></i>
+            <p id="lightbox-pdf-label" class="mt-3 text-sm font-semibold text-white"></p>
+            <a id="lightbox-pdf-link" href="#" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-bold text-stone-900 hover:bg-stone-200 transition-colors">
+              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> Apri il documento
+            </a>
+          </div>
         </div>
-        <button type="button" data-close class="absolute top-3 right-3 lg:hidden w-10 h-10 rounded-full bg-stone-950/60 border border-white/15 backdrop-blur text-white flex items-center justify-center hover:bg-stone-950/90 transition-colors" aria-label="Chiudi la locandina">
+
+        <button type="button" id="lightbox-doc-prev" class="doc-arrow left-2 sm:left-3" aria-label="Documento precedente dell'edizione" hidden>
+          <i class="fa-solid fa-chevron-left text-sm"></i>
+        </button>
+        <button type="button" id="lightbox-doc-next" class="doc-arrow right-2 sm:right-3" aria-label="Documento successivo dell'edizione" hidden>
+          <i class="fa-solid fa-chevron-right text-sm"></i>
+        </button>
+
+        <div class="absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-stone-950/95 via-stone-950/70 to-transparent px-4 sm:px-6 pb-4 sm:pb-5 pt-14">
+          <div class="flex items-end justify-between gap-3">
+            <div class="min-w-0">
+              <span id="lightbox-year-badge" class="rounded-full bg-white/10 border border-white/15 backdrop-blur px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white"></span>
+              <p id="lightbox-file-caption" class="mt-2 truncate text-xs font-semibold text-stone-200"></p>
+            </div>
+            <div class="flex shrink-0 items-center gap-3 pb-0.5">
+              <span id="lightbox-file-counter" class="font-mono text-[11px] text-stone-400"></span>
+              <a id="lightbox-original" href="#" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-[11px] font-semibold text-stone-300 hover:text-white transition-colors">
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> Apri originale
+              </a>
+            </div>
+          </div>
+          <div id="lightbox-doc-dots" class="mt-3 flex flex-wrap items-center gap-1.5" role="group" aria-label="Documenti di questa edizione"></div>
+        </div>
+
+        <button type="button" data-close class="absolute top-3 right-3 z-20 lg:hidden w-10 h-10 rounded-full bg-stone-950/60 border border-white/15 backdrop-blur text-white flex items-center justify-center hover:bg-stone-950/90 transition-colors" aria-label="Chiudi la locandina">
           <i class="fa-solid fa-xmark text-lg"></i>
         </button>
       </section>
@@ -155,11 +409,12 @@
         </div>
 
         <div class="flex items-center justify-between gap-3 border-t border-stone-200 bg-white/60 px-4 sm:px-6 py-3">
-          <button type="button" id="lightbox-prev" class="flex items-center gap-2 rounded-full px-3 py-2 text-[11px] font-bold text-stone-600 hover:bg-stone-100 hover:text-stone-900 transition-colors" aria-label="Edizione precedente">
-            <i class="fa-solid fa-chevron-left text-[10px]"></i> Precedente
+          <button type="button" id="lightbox-prev" class="flex items-center gap-2 rounded-full px-3 py-2 text-[11px] font-bold text-stone-600 hover:bg-stone-100 hover:text-stone-900 transition-colors" aria-label="Edizione precedente" title="Edizione precedente (Pag su)">
+            <i class="fa-solid fa-chevron-left text-[10px]"></i> Edizione
           </button>
-          <button type="button" id="lightbox-next" class="flex items-center gap-2 rounded-full px-3 py-2 text-[11px] font-bold text-stone-600 hover:bg-stone-100 hover:text-stone-900 transition-colors" aria-label="Edizione successiva">
-            Successiva <i class="fa-solid fa-chevron-right text-[10px]"></i>
+          <p class="text-center text-[10px] leading-tight text-stone-400">← → documenti<br><span class="hidden sm:inline">Pag su / Pag giù edizioni</span></p>
+          <button type="button" id="lightbox-next" class="flex items-center gap-2 rounded-full px-3 py-2 text-[11px] font-bold text-stone-600 hover:bg-stone-100 hover:text-stone-900 transition-colors" aria-label="Edizione successiva" title="Edizione successiva (Pag giù)">
+            Edizione <i class="fa-solid fa-chevron-right text-[10px]"></i>
           </button>
         </div>
       </aside>
@@ -175,6 +430,8 @@ const DRAG_THRESHOLD = 7; // px: oltre questa soglia il gesto è un trascinament
 
 let editions = [];
 let currentIndex = 0;
+let currentDocIndex = 0;
+let currentDocs = [];
 let lastFocused = null;
 
 let track = null;
@@ -224,10 +481,17 @@ async function init() {
   setupLightbox();
 
   const requestedYear = new URLSearchParams(window.location.search).get('edition');
-  if (requestedYear) {
-    const index = editions.findIndex(ed => ed.year === requestedYear);
+  const hashYear = (window.location.hash.match(/^#ed(\d{4})$/) || [])[1];
+  const wantedYear = requestedYear || hashYear;
+  if (wantedYear) {
+    const index = editions.findIndex(ed => ed.year === wantedYear);
     if (index >= 0) openLightbox(index);
   }
+  window.addEventListener('hashchange', () => {
+    const year = (window.location.hash.match(/^#ed(\d{4})$/) || [])[1];
+    const index = editions.findIndex(ed => ed.year === year);
+    if (index >= 0) openLightbox(index);
+  });
 }
 
 function renderCarousel() {
@@ -245,6 +509,7 @@ function createPosterCard(ed, index, isClone) {
   const card = document.createElement('button');
   card.type = 'button';
   card.dataset.year = ed.year;
+  if (!isClone) card.id = `ed${ed.year}`;
   card.className = 'poster-card group relative flex-none w-[132px] sm:w-[168px] lg:w-[198px] rounded-2xl text-left focus:outline-none focus-visible:ring-4 focus-visible:ring-terracotta-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-stonebg';
   card.setAttribute('aria-label', `Apri la locandina del ${ed.year}, ${ed.edition}ª edizione`);
   if (isClone) {
@@ -428,18 +693,45 @@ function setupLightbox() {
   lightbox.querySelectorAll('[data-close]').forEach(button => button.addEventListener('click', closeLightbox));
   document.getElementById('lightbox-prev').addEventListener('click', () => stepLightbox(-1));
   document.getElementById('lightbox-next').addEventListener('click', () => stepLightbox(1));
+  document.getElementById('lightbox-doc-prev').addEventListener('click', () => stepDocument(-1));
+  document.getElementById('lightbox-doc-next').addEventListener('click', () => stepDocument(1));
   document.addEventListener('keydown', handleLightboxKeydown);
   lightbox.addEventListener('keydown', trapLightboxFocus);
+  setupDocSwipe();
 }
 
-function openLightbox(index) {
+function setupDocSwipe() {
+  const stage = document.getElementById('lightbox-stage');
+  let startX = 0;
+  let startY = 0;
+  let tracking = false;
+  stage.addEventListener('pointerdown', event => {
+    if (event.pointerType === 'mouse') return;
+    tracking = true;
+    startX = event.clientX;
+    startY = event.clientY;
+  }, { passive: true });
+  stage.addEventListener('pointerup', event => {
+    if (!tracking) return;
+    tracking = false;
+    const dx = event.clientX - startX;
+    const dy = event.clientY - startY;
+    if (Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy)) return;
+    stepDocument(dx < 0 ? 1 : -1);
+  }, { passive: true });
+  stage.addEventListener('pointercancel', () => { tracking = false; }, { passive: true });
+}
+
+function openLightbox(index, docIndex = 0) {
   if (!editions.length) return;
   currentIndex = (index + editions.length) % editions.length;
+  currentDocIndex = docIndex;
   lastFocused = document.activeElement;
   const lightbox = document.getElementById('lightbox');
   lightbox.classList.remove('hidden');
   document.body.classList.add('overflow-hidden');
   renderLightbox();
+  syncHash();
   document.getElementById('lightbox-panel').focus({ preventScroll: true });
 }
 
@@ -449,41 +741,180 @@ function closeLightbox() {
   lightbox.classList.add('hidden');
   document.body.classList.remove('overflow-hidden');
   document.getElementById('lightbox-img').src = '';
+  if (window.location.hash) {
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
   if (lastFocused && typeof lastFocused.focus === 'function') {
     lastFocused.focus({ preventScroll: true });
   }
 }
 
+function syncHash() {
+  const ed = editions[currentIndex];
+  if (!ed) return;
+  const next = `#ed${ed.year}`;
+  if (window.location.hash !== next) {
+    history.replaceState(null, '', next);
+  }
+}
+
 function stepLightbox(direction) {
   currentIndex = (currentIndex + direction + editions.length) % editions.length;
+  currentDocIndex = 0;
   renderLightbox();
+  syncHash();
   document.getElementById('lightbox-scroll').scrollTop = 0;
+}
+
+/* Nome leggibile di un documento, ricavato dal nome del file
+   quando l'edizione non ha una didascalia propria. */
+function labelFromUrl(url) {
+  const name = String(url || '').split('/').pop().replace(/\.[a-z0-9]+$/i, '');
+  const rules = [
+    [/locandina-greco/, 'Locandina (ricostruzione grafica)'],
+    [/locandina-hd/, 'Locandina'],
+    [/locandina-video/, 'Locandina ricomposta dal video storico'],
+    [/manifesto-pagina1-copertina/, 'Manifesto, copertina'],
+    [/manifesto-pagina2-inpiazza/, 'Manifesto, in piazza'],
+    [/manifesto-pagina3-parco3laghi/, 'Manifesto, al Parco Tre Laghi'],
+    [/manifesto-pagina4-sera/, 'Manifesto, la sera in piazza'],
+    [/manifesto-restaurato/, 'Manifesto restaurato'],
+    [/manifesto/, 'Manifesto'],
+    [/programma/, 'Programma'],
+    [/volantino/, 'Volantino'],
+    [/depliant/, 'Depliant'],
+    [/notte-anime/, 'Notte delle Anime'],
+    [/family-bike/, 'Family Bike'],
+    [/family-run/, 'Family Run'],
+    [/baldina/, 'Concerto in villa'],
+    [/regianini-header/, 'Disegno di Regianini'],
+    [/locandina/, 'Locandina'],
+  ];
+  for (const [pattern, label] of rules) {
+    if (pattern.test(name)) return label;
+  }
+  return name.replace(/^\d{4}-?\d*ed-?/, '').replace(/-/g, ' ') || 'Documento';
+}
+
+function editionDocuments(ed) {
+  const urls = [];
+  if (ed.primaryPoster) urls.push(ed.primaryPoster);
+  (Array.isArray(ed.files) ? ed.files : []).forEach(file => {
+    if (file && file.url && !urls.includes(file.url)) urls.push(file.url);
+  });
+  const byUrl = new Map((Array.isArray(ed.files) ? ed.files : []).map(file => [file.url, file]));
+  return urls.map(url => {
+    const note = decode(byUrl.get(url)?.caption);
+    return { url, label: labelFromUrl(url), note };
+  });
+}
+
+function renderDocuments(ed) {
+  currentDocs = editionDocuments(ed);
+  if (currentDocIndex >= currentDocs.length) currentDocIndex = 0;
+
+  const many = currentDocs.length > 1;
+  document.getElementById('lightbox-doc-prev').hidden = !many;
+  document.getElementById('lightbox-doc-next').hidden = !many;
+
+  const dots = document.getElementById('lightbox-doc-dots');
+  dots.innerHTML = '';
+  if (many) {
+    currentDocs.forEach((doc, index) => {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'doc-dot';
+      dot.dataset.doc = String(index);
+      dot.title = doc.note || doc.label;
+      dot.setAttribute('aria-label', `Vai al documento ${index + 1}: ${doc.label}`);
+      dot.addEventListener('click', () => {
+        currentDocIndex = index;
+        showDocument();
+      });
+      dots.appendChild(dot);
+    });
+  }
+
+  showDocument();
+}
+
+function showDocument() {
+  const ed = editions[currentIndex];
+  const doc = currentDocs[currentDocIndex];
+  const image = document.getElementById('lightbox-img');
+  const loader = document.getElementById('lightbox-loader');
+  const pdfBox = document.getElementById('lightbox-pdf');
+  const counter = document.getElementById('lightbox-file-counter');
+  const caption = document.getElementById('lightbox-file-caption');
+  const original = document.getElementById('lightbox-original');
+
+  if (!doc) {
+    image.src = '';
+    image.classList.add('opacity-0');
+    loader.classList.add('hidden');
+    pdfBox.classList.remove('is-visible');
+    counter.textContent = '';
+    caption.textContent = '';
+    return;
+  }
+
+  const isPdf = /\.pdf$/i.test(doc.url);
+  if (isPdf) {
+    image.style.display = 'none';
+    image.classList.add('opacity-0');
+    loader.classList.add('hidden');
+    pdfBox.classList.add('is-visible');
+    document.getElementById('lightbox-pdf-label').textContent = doc.label;
+    document.getElementById('lightbox-pdf-link').href = doc.url;
+  } else {
+    pdfBox.classList.remove('is-visible');
+    image.style.display = '';
+    loader.classList.remove('hidden');
+    image.classList.remove('opacity-100');
+    image.classList.add('opacity-0');
+    image.onload = () => {
+      loader.classList.add('hidden');
+      image.classList.remove('opacity-0');
+      image.classList.add('opacity-100');
+    };
+    image.onerror = () => {
+      loader.classList.add('hidden');
+      image.classList.remove('opacity-0');
+      image.classList.add('opacity-100');
+    };
+    image.src = doc.url;
+    image.alt = `${doc.label}, ${ed.year}`;
+  }
+
+  original.href = doc.url;
+  counter.textContent = currentDocs.length > 1 ? `${currentDocIndex + 1} / ${currentDocs.length}` : '';
+  caption.textContent = doc.label;
+  caption.title = doc.note || doc.label;
+  document.getElementById('lightbox-stage').setAttribute('data-doc-label', doc.label);
+
+  document.querySelectorAll('#lightbox-doc-dots .doc-dot').forEach((dot, index) => {
+    dot.setAttribute('aria-current', index === currentDocIndex ? 'true' : 'false');
+  });
+
+  // Precarica il documento successivo, così lo scorrimento è immediato.
+  const nextDoc = currentDocs[(currentDocIndex + 1) % currentDocs.length];
+  if (nextDoc && currentDocs.length > 1 && !/\.pdf$/i.test(nextDoc.url)) {
+    const preload = new Image();
+    preload.src = nextDoc.url;
+  }
+}
+
+function stepDocument(direction) {
+  if (currentDocs.length < 2) return;
+  currentDocIndex = (currentDocIndex + direction + currentDocs.length) % currentDocs.length;
+  showDocument();
 }
 
 function renderLightbox() {
   const ed = editions[currentIndex];
   if (!ed) return;
 
-  const image = document.getElementById('lightbox-img');
-  const loader = document.getElementById('lightbox-loader');
-  image.classList.remove('opacity-100');
-  image.classList.add('opacity-0');
-  loader.classList.remove('hidden');
-  image.onload = () => {
-    loader.classList.add('hidden');
-    image.classList.remove('opacity-0');
-    image.classList.add('opacity-100');
-  };
-  image.onerror = () => {
-    loader.classList.add('hidden');
-    image.classList.remove('opacity-0');
-    image.classList.add('opacity-100');
-  };
-  image.src = ed.primaryPoster || ed.files?.[0]?.url || '';
-  image.alt = `Locandina della ${ed.edition}ª Festa dell'Arte, ${ed.year}`;
-
-  const original = document.getElementById('lightbox-original');
-  original.href = ed.primaryPoster || ed.files?.[0]?.url || '#';
+  renderDocuments(ed);
 
   document.getElementById('lightbox-eyebrow').textContent = `${ed.edition}ª edizione`;
   document.getElementById('lightbox-year-badge').textContent = `Festa dell'Arte ${ed.year}`;
@@ -572,12 +1003,23 @@ function handleLightboxKeydown(event) {
   if (event.key === 'Escape') {
     event.preventDefault();
     closeLightbox();
-  } else if (event.key === 'ArrowLeft') {
+  } else if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    event.preventDefault();
+    stepDocument(event.key === 'ArrowLeft' ? -1 : 1);
+  } else if (event.key === 'PageUp' || event.key === 'ArrowUp') {
     event.preventDefault();
     stepLightbox(-1);
-  } else if (event.key === 'ArrowRight') {
+  } else if (event.key === 'PageDown' || event.key === 'ArrowDown') {
     event.preventDefault();
     stepLightbox(1);
+  } else if (event.key === 'Home' && currentDocs.length > 1) {
+    event.preventDefault();
+    currentDocIndex = 0;
+    showDocument();
+  } else if (event.key === 'End' && currentDocs.length > 1) {
+    event.preventDefault();
+    currentDocIndex = currentDocs.length - 1;
+    showDocument();
   }
 }
 

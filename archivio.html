@@ -242,11 +242,12 @@ function selectEdition(year) {
   document.getElementById('active-edition-title').textContent = ed.title ? `"${ed.title}"` : `Festa dell'Arte ${ed.year}`;
   document.getElementById('active-edition-desc').textContent = ed.description || '';
 
-  // gallery
-  currentGalleryMedia = ed.files.map((f,i) => ({
+  // gallery: solo immagini, così le frecce non finiscono su un PDF
+  const galleryImages = ed.files.filter(f => /\.(jpe?g|png|webp|gif)$/i.test(f.url));
+  currentGalleryMedia = galleryImages.map((f,i) => ({
     url: f.url,
-    badge: f.caption || 'File',
-    title: f.caption || `File ${i+1}`,
+    badge: f.caption || 'Immagine',
+    title: f.caption || `Immagine ${i+1}`,
     description: f.alt || '',
   }));
   const gg = document.getElementById('edition-gallery-grid');
@@ -255,7 +256,7 @@ function selectEdition(year) {
     const isImg = /\.(jpe?g|png|webp|gif)$/i.test(f.url);
     const card = document.createElement('div');
     card.className = 'group relative bg-stone-900 rounded-2xl overflow-hidden aspect-[4/3] cursor-pointer shadow-md hover:shadow-xl transition-all';
-    card.onclick = () => isImg ? openLightboxAt(idx) : window.open(f.url,'_blank');
+    card.onclick = () => isImg ? openLightboxAt(galleryImages.indexOf(f)) : window.open(f.url,'_blank');
     if (isImg) {
       card.innerHTML = `<img src="${f.medium || f.url}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100" alt="${ed.year} — ${f.caption||f.url.split('/').pop()}" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-3 flex flex-col justify-between">
