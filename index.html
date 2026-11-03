@@ -790,7 +790,8 @@ function labelFromUrl(url) {
     [/locandina-hd/, 'Locandina'],
     [/locandina-video/, 'Locandina ricomposta dal video storico'],
     [/gatti-manifesto1/, 'Manifesto «Marina ti invita a…»'],
-    [/gatti-manifesto2/, 'Manifesto con il gatto nero'],
+    [/gatti-manifesto2/, 'Locandina'],
+    [/mostra-weimar/, 'Mostra Weimar: manifesti della Repubblica di Weimar'],
     [/manifesto-pagina1-copertina/, 'Manifesto, copertina'],
     [/manifesto-pagina2-inpiazza/, 'Manifesto, in piazza'],
     [/manifesto-pagina3-parco3laghi/, 'Manifesto, al Parco Tre Laghi'],
@@ -814,11 +815,13 @@ function labelFromUrl(url) {
 }
 
 function editionDocuments(ed) {
+  // L'ordine del lightbox è quello di `files`; la locandina di copertina
+  // (primaryPoster) entra per prima solo se non è già nell'elenco.
   const urls = [];
-  if (ed.primaryPoster) urls.push(ed.primaryPoster);
   (Array.isArray(ed.files) ? ed.files : []).forEach(file => {
     if (file && file.url && !urls.includes(file.url)) urls.push(file.url);
   });
+  if (ed.primaryPoster && !urls.includes(ed.primaryPoster)) urls.unshift(ed.primaryPoster);
   const byUrl = new Map((Array.isArray(ed.files) ? ed.files : []).map(file => [file.url, file]));
   return urls.map(url => {
     const note = decode(byUrl.get(url)?.caption);

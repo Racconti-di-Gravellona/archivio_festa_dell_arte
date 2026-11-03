@@ -1212,14 +1212,19 @@
   "thumb": "thumb/2024-28ed-gatti-manifesto2.webp",
   "files": [
    {
+    "url": "volantini/2024-28ed-gatti-manifesto1.jpg",
+    "caption": null,
+    "alt": "2024-28ed-gatti-manifesto1.jpg"
+   },
+   {
     "url": "volantini/2024-28ed-gatti-manifesto2.jpg",
     "caption": null,
     "alt": "2024-28ed-gatti-manifesto2.jpg"
    },
    {
-    "url": "volantini/2024-28ed-gatti-manifesto1.jpg",
+    "url": "volantini/mostra-weimar-manifesti-repubblica.jpg",
     "caption": null,
-    "alt": "2024-28ed-gatti-manifesto1.jpg"
+    "alt": "Mostra dei manifesti della Repubblica di Weimar, cortile del Municipio, 2024"
    }
   ],
   "transcription": null,
