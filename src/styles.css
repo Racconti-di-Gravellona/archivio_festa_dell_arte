@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { background-color: #fcfaf7; color: #292524; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Carosello locandine */
+.poster-track {
+  cursor: grab;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
+}
+.poster-track::-webkit-scrollbar { display: none; }
+.poster-track.is-dragging { cursor: grabbing; }
+.poster-track.is-dragging .poster-card { pointer-events: none; }
+.poster-card { -webkit-tap-highlight-color: transparent; }
+.poster-card img { pointer-events: none; user-select: none; -webkit-user-drag: none; }
+
+.zoom-grab { cursor: grab; }
+.zoom-grabbing { cursor: grabbing; }

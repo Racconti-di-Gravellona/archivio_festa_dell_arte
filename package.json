@@ -1,0 +1,13 @@
+{
+  "name": "archivio-festa-dell-arte-restyle",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:css": "tailwindcss -i src/styles.css -o assets/style.restyle.css --minify",
+    "watch:css": "tailwindcss -i src/styles.css -o assets/style.restyle.css --watch",
+    "build": "npm run build:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

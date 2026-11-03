@@ -1,20 +1,39 @@
 # Archivio della Festa dell'Arte — Gravellona Lomellina
 
 Raccolta pubblica di volantini, manifesti e foto di programma della
-**Festa dell'Arte di Gravellona Lomellina** (edizioni 1995, 2008–2026; delle
-edizioni 1996–2007 e di alcune altre restano pochi materiali).
+**Festa dell'Arte di Gravellona Lomellina** (edizioni 1995–2026; per il
+1996–2007 ci sono soprattutto le locandine ricavate dal video storico, mentre
+i programmi sono più lacunosi).
 
 - Gallery: `index.html` (sezioni per edizione, con tema e file).
-- Originali: `volantini/` (118 file: 106 jpg, 3 jpeg, 5 png, 1 webp + 3 PDF).
+- Originali: `volantini/` (164 file: 145 jpg, 3 jpeg, 10 png, 1 webp, 5 PDF).
+- Materiali di lavoro, non pubblicati: `sources/lavorazione/`.
+- Snapshot del vecchio sito: `sources/vecchio-sito/`.
 
 ## Diritti
 
 I manifesti restano dei rispettivi autori e organizzatori (Comune di
-Gravellona Lomellina, GravellonArtistica, Ca di Ratt, artisti come Libero
-Greco). Qui sono raccolti a scopo di studio e memoria locale: per qualsiasi
-riuso (stampa, merchandising, altre pubblicazioni) serve il permesso degli
-aventi diritto. Su richiesta motivata di un avente diritto un file viene
-rimosso.
+Gravellona Lomellina, associazioni, artisti come Libero Greco). Qui sono
+raccolti a scopo di studio e memoria locale: per qualsiasi riuso (stampa,
+merchandising, altre pubblicazioni) serve il permesso degli aventi diritto.
+Su richiesta motivata di un avente diritto un file viene rimosso.
+
+I testi delle edizioni riprendono in parte contenuti del sito
+**GravellonArtistica**: quel sito e i suoi contenuti, comprese le note in
+calce alle pagine, sono di proprietà del Comune di Gravellona Lomellina.
+
+## Note legali e privacy
+
+- La pagina pubblicata è `privacy.html`: informativa GDPR (artt. 13-14),
+  gestione dei cookie, diritti d'autore e procedura di rimozione.
+- Il sito **non usa cookie** né strumenti di tracciamento: nessun banner di
+  consenso.
+- Font e icone sono ospitati in `assets/fonts/` e `assets/fontawesome/`, così
+  che nessuna richiesta parta verso Google Fonts o Cloudflare. Se aggiorni i
+  font, rigenera `assets/fonts/fonts.css` con i soli subset `latin` e
+  `latin-ext`.
+- La pagina `privacy.html` è nell'elenco `content` di `tailwind.config.js`:
+  dopo averla modificata, lancia `npm run build:css`.
 
 ## Contribuire
 
