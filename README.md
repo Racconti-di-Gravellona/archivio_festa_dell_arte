@@ -6,7 +6,7 @@ Raccolta pubblica di volantini, manifesti e foto di programma della
 i programmi sono più lacunosi).
 
 - Gallery: `index.html` (sezioni per edizione, con tema e file).
-- Originali: `volantini/` (164 file: 145 jpg, 3 jpeg, 10 png, 1 webp, 5 PDF).
+- Originali: `volantini/` (168 file: 148 jpg, 3 jpeg, 11 png, 1 webp, 5 PDF).
 - Materiali di lavoro, non pubblicati: `sources/lavorazione/`.
 - Snapshot del vecchio sito: `sources/vecchio-sito/`.
 
