@@ -444,7 +444,7 @@
   "edition": 11,
   "decade": "2000s",
   "title": null,
-  "description": "11ª edizione, sabato 4 – domenica 5 e sabato 11 – domenica 12 giugno 2005: si concludono i lavori del Parco dei Tre Laghi e compare una rana in granito accanto alla fontana. Il manifesto ufficiale è in quattro pagine: copertina, «In piazza», i concerti al Giardino Barbavara e «Dov'è la festa» con le opere dal 1992 al 2005.",
+  "description": "11ª edizione, sabato 4 – domenica 5 e sabato 11 – domenica 12 giugno 2005: si concludono i lavori del Parco dei Tre Laghi e compare una rana in granito accanto alla fontana. Il manifesto ufficiale è in quattro pagine: copertina, le due pagine centrali riunite («In piazza» e i concerti al Giardino Barbavara) e «Dov'è la festa» con le opere dal 1992 al 2005.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2005-11ed-manifesto-pagina1-copertina.jpg",
@@ -457,16 +457,10 @@
     "alt": "2005-11ed-manifesto-pagina1-copertina.jpg"
    },
    {
-    "url": "volantini/2005-11ed-manifesto-pagina2-inpiazza.jpg",
-    "medium": "medium/2005-11ed-manifesto-pagina2-inpiazza.webp",
-    "caption": "Programma in piazza: sabato 4, domenica 5, sabato 11 e domenica 12 giugno 2005",
-    "alt": "2005-11ed-manifesto-pagina2-inpiazza.jpg"
-   },
-   {
-    "url": "volantini/2005-11ed-manifesto-pagina3-giardinobarbavara.jpg",
-    "medium": "medium/2005-11ed-manifesto-pagina3-giardinobarbavara.webp",
-    "caption": "Concerti ambientali al Giardino Barbavara, la domenica dalle 16 alle 19",
-    "alt": "2005-11ed-manifesto-pagina3-giardinobarbavara.jpg"
+    "url": "volantini/2005-11ed-manifesto-pagine2-3-inpiazza-giardinobarbavara.jpg",
+    "medium": "medium/2005-11ed-manifesto-pagine2-3-inpiazza-giardinobarbavara.webp",
+    "caption": "Pagine centrali: programma in piazza e concerti ambientali al Giardino Barbavara",
+    "alt": "2005-11ed-manifesto-pagine2-3-inpiazza-giardinobarbavara.jpg"
    },
    {
     "url": "volantini/2005-11ed-manifesto-pagina4-dove-la-festa.jpg",
