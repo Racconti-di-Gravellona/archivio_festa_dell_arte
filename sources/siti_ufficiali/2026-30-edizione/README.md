@@ -25,7 +25,13 @@ fotografa la resa della pagina in un dato giorno.
 
 ## Internet Archive
 
-Catture esistenti al 5-11-2026 (verificate con la Wayback Availability API):
+Catture rinnovate con **Save Page Now** il **5 novembre 2026**:
+
+- 30ª Festa: <https://web.archive.org/web/20261105110554/https://www.gravellonartistica.com/festa-dell-arte-2026>
+- Home: <https://web.archive.org/web/20261105110748/https://www.gravellonartistica.com/>
+- Cento anni: <https://web.archive.org/web/20261105110949/https://www.gravellonartistica.com/cento-anni>
+
+Catture precedenti (ottobre 2026):
 
 - <https://web.archive.org/web/20261019224738/https://www.gravellonartistica.com/festa-dell-arte-2026>
 - <https://web.archive.org/web/20261001190442/https://www.gravellonartistica.com/>
