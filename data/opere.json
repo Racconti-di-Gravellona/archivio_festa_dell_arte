@@ -178,6 +178,111 @@
    ]
   },
   {
+   "id": "arredo",
+   "titolo": "Arredo e arte",
+   "descrizione": "Paracarri e spartitraffico dipinti, la zanzara, le cabine Enel trasformate in giganti, la rana, le pecore e i carri: gli arredi e le installazioni che hanno trasformato le strade del paese in un museo a cielo aperto.",
+   "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f",
+   "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f?immagini",
+   "credito": "Foto: Comune di Gravellona Lomellina",
+   "opere": [
+    {
+     "titolo": "Paracarri",
+     "didascalia": "Arredo e arte - Paracarri e spartitraffico dipinti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7260--26-1224-0-0-63e05437a411aa61ee4cd849b8fae1b7"
+    },
+    {
+     "titolo": "Zanzarone",
+     "didascalia": "Zanzarone",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7270--26-1224-0-0-99a9a59661357b25d148415fd6f5db06"
+    },
+    {
+     "titolo": "Spazzacamini",
+     "didascalia": "Spazzacamini",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7272--26-1224-0-0-bd7096f17708f638b433ff63d2fcd828"
+    },
+    {
+     "titolo": "Carri",
+     "didascalia": "Vecchi oggetti come arredo: carri",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c"
+    },
+    {
+     "titolo": "Albero della cuccagna",
+     "didascalia": "Albero della cuccagna",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8247--26-1224-0-0-97d5f37b8d9dea6008064ef136326459"
+    },
+    {
+     "titolo": "Cabine Enel come giganti",
+     "didascalia": "Cabine Enel come giganti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8248--26-1224-0-0-fc050058d314102187ac434de752ccbd"
+    },
+    {
+     "titolo": "Casa Cocchetti",
+     "didascalia": "Casa Cocchetti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8249--26-1224-0-0-586e805d514a5371e595164e0b27cf27"
+    },
+    {
+     "titolo": "Ci guardano dall'alto",
+     "didascalia": "Ci guardano dall'alto",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8250--26-1224-0-0-0d55a682e255cf7f9ad88c9801b281a3"
+    },
+    {
+     "titolo": "Pecore",
+     "didascalia": "Pecore",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8252--26-1224-0-0-c8461642d81d31e88169d27ec0b417aa"
+    },
+    {
+     "titolo": "Pecore all'ingresso del paese",
+     "didascalia": "Pecore all'ingresso del paese",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8253--26-1224-0-0-bbcdc1abc66a95fd210d4f091828429d"
+    },
+    {
+     "titolo": "Rana, velocipede, spazzacamini",
+     "didascalia": "Rana, velocipede, spazzacamini",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8254--26-1224-0-0-af5a6df945c53524b9b62b6cb754f852"
+    },
+    {
+     "titolo": "Rondini",
+     "didascalia": "Rondini",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8255--26-1224-0-0-6f97f2676001ca5d6df76f4782c33450"
+    },
+    {
+     "titolo": "Volontari dipingono",
+     "didascalia": "Volontari dipingono",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8256--26-1224-0-0-e18b0bcb1f1eb331b7352aa509ea38de"
+    },
+    {
+     "titolo": "Zebre con la neve",
+     "didascalia": "Zebre con la neve",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8257--26-1224-0-0-9299601f858dcf9ebd49cd4dd38149f8"
+    },
+    {
+     "titolo": "Cromlech",
+     "didascalia": "Cromlech",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26638--26-1224-0-0-7ae119ba975e98faecb832da9e1f52f1"
+    },
+    {
+     "titolo": "Cicogna",
+     "didascalia": "Cicogna",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26639--26-1224-0-0-eb091f6538e3c5be33da79ec89ea4875"
+    },
+    {
+     "titolo": "Pescione",
+     "didascalia": "Pescione",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b"
+    },
+    {
+     "titolo": "Rondini",
+     "didascalia": "Rondini",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26641--26-1224-0-0-641ef29e3783a05792e8a6ef59c33c7c"
+    },
+    {
+     "titolo": "Una casa colorata",
+     "didascalia": "Una casa colorata",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26642--26-1224-0-0-ad6c831d7b15ac695b47af690024998f"
+    }
+   ]
+  },
+  {
    "id": "libro-arte",
    "titolo": "Libro d'arte all'aperto",
    "descrizione": "Le riproduzioni dei capolavori dell'Ottocento italiano installate lungo le strade dal 2012, con il progetto Art'è: Segantini, Fattori, Signorini, Pellizza da Volpedo, De Nittis, Corcos, Palizzi.",
