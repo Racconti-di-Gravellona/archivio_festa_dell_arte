@@ -760,7 +760,12 @@
   ],
   "transcription": null,
   "dati": [],
-  "externalLinks": [],
+  "externalLinks": [
+   {
+    "url": "https://www.concertodautunno.it/110000-varie/110701-trio-accademia.htm",
+    "label": "Concertodautunno — «Dall'America del rag all'Italia dello swing», 1° luglio 2011"
+   }
+  ],
   "context": "Muro decorativo all'Oratorio San Faustino.",
   "sources": [
    {
@@ -806,7 +811,11 @@
   "externalLinks": [
    {
     "url": "https://www.concertodautunno.it/120609-valzer/120609-valzer.htm",
-    "label": "Concertodautunno — il concerto sul valzer, 9-10 giugno 2012"
+    "label": "Concertodautunno — il concerto sul valzer, 9 giugno 2012"
+   },
+   {
+    "url": "https://www.concertodautunno.it/120609-valzer/120610-valzer.htm",
+    "label": "Concertodautunno — il concerto sul valzer, 10 giugno 2012"
    },
    {
     "url": "https://www.youtube.com/watch?v=S5JupEANJVs",
