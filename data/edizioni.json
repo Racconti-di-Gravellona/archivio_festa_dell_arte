@@ -632,7 +632,12 @@
   ],
   "transcription": null,
   "dati": [],
-  "externalLinks": [],
+  "externalLinks": [
+   {
+    "url": "https://comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f",
+    "label": "Comune di Gravellona — Arredo e Arte"
+   }
+  ],
   "context": "Totem di palude con gli animali totemici della nostra terra (zanzara, airone, pesce, rana). Idea Gravellonese, disegno di Libero Greco, 14ª festa dell'Arte.",
   "sources": [
    {
@@ -816,6 +821,10 @@
    {
     "url": "https://www.concertodautunno.it/120609-valzer/120610-valzer.htm",
     "label": "Concertodautunno — il concerto sul valzer, 10 giugno 2012"
+   },
+   {
+    "url": "https://comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/libro-d-arte-all-aperto-straordinaria-collezione-dell-800-italiano-29246-1-2ee19e2fb7cffd0bd8645a204bf1c083",
+    "label": "Comune di Gravellona — Libro d'arte all'aperto"
    },
    {
     "url": "https://www.youtube.com/watch?v=S5JupEANJVs",
@@ -1426,6 +1435,14 @@
    {
     "url": "https://www.gravellonartistica.com/festa-dell-arte-2026",
     "label": "sito ufficiale"
+   },
+   {
+    "url": "https://comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7?immagini#galleria-foto",
+    "label": "Comune di Gravellona — Murales"
+   },
+   {
+    "url": "https://comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/mosaici-36442-1-6d6c3bd1951c261df551687b5964b5d6?immagini",
+    "label": "Comune di Gravellona — Mosaici"
    }
   ],
   "context": "Festa spostata in settembre. Inaugurazione del Museo della Bicicletta Luciano Geddo.",
