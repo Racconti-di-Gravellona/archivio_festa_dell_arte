@@ -14,6 +14,8 @@ in `../../volantini/`. Non fanno parte della gallery e non vanno collegati da
 | `2013-volantino-full.png`, `2013-volantino-crop.png` | fotogramma del volantino 2013 e ritaglio |
 | `2013-sanpessimino.jpeg` | immagine del Decennale San Pessimino 2013 |
 | `installazione-arte31a.jpg` | piccola foto di un'installazione (208x150), provenienza da verificare |
+| `anteprima-social-1200x630.png` | copertina social (1200×630) con il disegno del favicon e il titolo «Archivio Festa dell'Arte»; la versione pubblicata è `../../assets/social/anteprima-social-1200x630.jpg` |
+| `socialcard.swift` | script AppKit che genera la copertina social: sfondo sfumato, favicon arrotondato, testo in Didot/Playfair |
 
 Regola: prima di aggiungere un file qui, controlla che non esista già in
 `../../volantini/` (stesso contenuto, anche con nome diverso).
