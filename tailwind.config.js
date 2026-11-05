@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./index.html', './archivio.html', './privacy.html', './src/**/*.js'],
+  content: ['./index.html', './archivio.html', './opere.html', './privacy.html', './src/**/*.js'],
   safelist: [
     'bg-terracotta-600','text-white','shadow-sm',
     'bg-stone-100','text-stone-600',
