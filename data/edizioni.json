@@ -45,6 +45,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Pannelli di ceramica di G. Crippa"
   ]
  },
  {
@@ -52,10 +55,10 @@
   "year": "1996",
   "edition": 2,
   "decade": "1990s",
-  "title": null,
-  "description": "2ª edizione, 8-9 giugno 1996: torna il doppio tema del primo anno, «San Giorgio combatte contro il drago» e «l'uomo libero combatte contro la burocrazia».",
-  "date": null,
-  "location": null,
+  "title": "San Giorgio combatte contro il drago / L'uomo libero combatte contro la burocrazia",
+  "description": "2ª edizione, 8-9 giugno 1996: torna il doppio tema del primo anno, «San Giorgio combatte contro il drago» e «l'uomo libero combatte contro la burocrazia». Il manifesto, firmato «Libera 96», mostra San Giorgio che piange lacrime di sangue, la burocrazia (spada di carta, penna e calamaio) che piange lacrime d'inchiostro e il coccodrillo che piange lacrime di coccodrillo: tutti con l'aureola, perché «in Italia nessuno è mai colpevole e tutti sono bravi». Il primo premio è un San Giorgio che infilza i presenti come spiedini con la lancia; sulla facciata del municipio Libero Greco realizza fuori concorso i pannelli sull'uomo libero incatenato alla burocrazia e sulla «società» (banchiere, mafioso, politico, giudice, generale, prete, giornalista…), fronteggiata da un maiale che simboleggia il popolo.",
+  "date": "8-9 giugno 1996",
+  "location": "Gravellona e Barbavara",
   "primaryPoster": "volantini/1996-02ed-locandina-hd.jpg",
   "thumb": "thumb/1996-02ed-locandina-hd.webp",
   "files": [
@@ -76,9 +79,17 @@
    {
     "url": "https://www.youtube.com/watch?v=qxwoVUxzl0Q",
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
+   },
+   {
+    "label": "Vecchio sito — edizioni passate (archivio 2016)",
+    "url": "https://web.archive.org/web/20160305093339/http://www.festadellarte.com/www.festadellarte.com/edizioni_passate.html"
+   },
+   {
+    "label": "Giannella Channel — storia e opere delle prime edizioni (2014)",
+    "url": "https://www.giannellachannel.info/gravellona-lomellina-dove-bellezza-creativita-sposano-ironia-atlante-paesi-dipinti-lombardia-benedetta-rutigliano/"
    }
   ],
-  "context": "2º Concorso sul tema «Medioevo: San Giorgio combatte contro il drago — XX Secolo: l'uomo libero combatte contro la burocrazia».",
+  "context": "2º Concorso sul tema «Medioevo: San Giorgio combatte contro il drago — XX Secolo: l'uomo libero combatte contro la burocrazia». Le opere del concorso sono i murales del paese.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -88,17 +99,25 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": [
+   "San Giorgio che infilza i presenti (1º premio)",
+   "Pannelli di Libero Greco (fuori concorso)"
+  ],
+  "opereLink": {
+   "label": "Vedi i Murales",
+   "url": "opere.html#murales"
+  }
  },
  {
   "id": "ed1997",
   "year": "1997",
   "edition": 3,
   "decade": "1990s",
-  "title": null,
-  "description": "3ª edizione, 7-8 giugno 1997: al tema medievale si affianca «l'uomo libero incontra la burocrazia e gli altri mostri». Sulla locandina compare per la prima volta l'indirizzo internet della festa.",
-  "date": null,
-  "location": null,
+  "title": "San Giorgio combatte contro il drago / L'uomo libero incontra la burocrazia e gli altri mostri",
+  "description": "3ª edizione, 7-8 giugno 1997: al tema medievale si affianca «l'uomo libero incontra la burocrazia e gli altri mostri». Il manifesto ha per simbolo il porcellino, cioè il popolo: «animale che si nutre di tutto, digerisce tutto, ingrassa con tutto e poi si fa spolpare tutto». Sulla locandina compare per la prima volta l'indirizzo internet della festa. Sugli stessi temi dipingono sulle case anche quattro artisti novaresi: Roberta Filippi, Vittorio Tonon, Antonio Ferrara e Massimo Gemelli.",
+  "date": "7-8 giugno 1997",
+  "location": "Gravellona e Barbavara",
   "primaryPoster": "volantini/1997-03ed-locandina-hd.jpg",
   "thumb": "thumb/1997-03ed-locandina-hd.webp",
   "files": [
@@ -119,9 +138,13 @@
    {
     "url": "https://www.youtube.com/watch?v=qxwoVUxzl0Q",
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
+   },
+   {
+    "label": "Vecchio sito — edizioni passate (archivio 2016)",
+    "url": "https://web.archive.org/web/20160305093339/http://www.festadellarte.com/www.festadellarte.com/edizioni_passate.html"
    }
   ],
-  "context": "3º Concorso sul tema «Medioevo: San Giorgio combatte contro il drago — XX Secolo: l'uomo libero combatte contro la burocrazia e altri mostri».",
+  "context": "3º Concorso sul tema «Medioevo: San Giorgio combatte contro il drago — XX Secolo: l'uomo libero combatte contro la burocrazia e altri mostri». Le opere del concorso sono i murales del paese.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -131,7 +154,14 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": [
+   "Opere del concorso di pittura"
+  ],
+  "opereLink": {
+   "label": "Vedi i Murales",
+   "url": "opere.html#murales"
+  }
  },
  {
   "id": "ed1998",
@@ -178,6 +208,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Dolmen"
   ]
  },
  {
@@ -221,6 +254,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Cabine Enel trasformate in giganti"
   ]
  },
  {
@@ -264,6 +300,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Sculture di vecchie macchine agricole"
   ]
  },
  {
@@ -307,6 +346,11 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Strega di Libero Greco",
+   "Spaventapasseri",
+   "Spazzacamini"
   ]
  },
  {
@@ -350,6 +394,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Giganti di balle di paglia"
   ]
  },
  {
@@ -393,6 +440,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Muri di cinta dipinti"
   ]
  },
  {
@@ -436,6 +486,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Paracarri e spartitraffico colorati"
   ]
  },
  {
@@ -505,6 +558,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Rana in granito"
   ]
  },
  {
@@ -552,6 +608,10 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Triciclo sul sagrato",
+   "Parco dei Tre Laghi"
   ]
  },
  {
@@ -595,6 +655,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Sagome contadine: pastori, capre, pecore, buoi, cavallo"
   ]
  },
  {
@@ -648,6 +711,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Totem di palude: zanzara, airone, pesce, rana"
   ]
  },
  {
@@ -691,6 +757,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Sagome di zebre"
   ]
  },
  {
@@ -738,6 +807,10 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Dolmen (spostato dal 1998)",
+   "Cromlech"
   ]
  },
  {
@@ -781,6 +854,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Muro decorativo all'Oratorio San Faustino"
   ]
  },
  {
@@ -841,6 +917,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Art'è: riproduzioni dell'Ottocento"
   ]
  },
  {
@@ -892,6 +971,10 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Art'è: Signorini e Hayez",
+   "Scalinata in granito"
   ]
  },
  {
@@ -945,6 +1028,10 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Art'è in via Marconi",
+   "Cartelli di benvenuto di Libero Greco"
   ]
  },
  {
@@ -983,6 +1070,10 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Ombrelli (temporanei)",
+   "Art'è"
   ]
  },
  {
@@ -1048,6 +1139,10 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Ombrelli (temporanei)",
+   "Art'è"
   ]
  },
  {
@@ -1096,6 +1191,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Orologio-bicicletta"
   ]
  },
  {
@@ -1134,7 +1232,8 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": []
  },
  {
   "id": "ed2019",
@@ -1202,6 +1301,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Art'è"
   ]
  },
  {
@@ -1255,7 +1357,8 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": []
  },
  {
   "id": "ed2023",
@@ -1293,7 +1396,8 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": []
  },
  {
   "id": "ed2024",
@@ -1327,10 +1431,6 @@
   "dati": [],
   "externalLinks": [
    {
-    "url": "https://www.giannellachannel.info/gravellona-lomellina-dove-bellezza-creativita-sposano-ironia-atlante-paesi-dipinti-lombardia-benedetta-rutigliano/",
-    "label": "Giannella Channel — la collezione di manifesti della Repubblica di Weimar"
-   },
-   {
     "url": "https://www.gravellonartistica.com/festadellars/ev",
     "label": "GravellonArtistica — programma della 28ª Festa dell'Arte (2024)"
    }
@@ -1345,7 +1445,8 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": []
  },
  {
   "id": "ed2025",
@@ -1408,7 +1509,8 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
-  ]
+  ],
+  "opere": []
  },
  {
   "id": "ed2026",
@@ -1459,6 +1561,9 @@
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
    }
+  ],
+  "opere": [
+   "Museo della Bicicletta Luciano Geddo"
   ]
  }
 ]

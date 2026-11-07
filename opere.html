@@ -188,7 +188,7 @@ function card(opera){
 
 function gallery(g){
   return `
-    <section id="${esc(g.id)}" class="space-y-5">
+    <section id="${esc(g.id)}" class="scroll-mt-24 space-y-5">
       <div class="max-w-3xl">
         <h2 class="font-serif text-2xl sm:text-3xl font-bold tracking-tight">${esc(g.titolo)} <span class="text-base font-normal text-stone-400">· ${g.opere.length} immagini</span></h2>
         <p class="mt-2 text-sm leading-relaxed text-stone-600">${esc(g.descrizione)}</p>
@@ -212,6 +212,8 @@ async function init(){
     const data = await res.json();
     document.getElementById('avvertenza').textContent = data.avvertenza;
     box.innerHTML = data.gallerie.map(gallery).join('');
+    const anchor = window.location.hash ? document.getElementById(window.location.hash.slice(1)) : null;
+    if (anchor) requestAnimationFrame(() => anchor.scrollIntoView({ block: 'start' }));
     document.getElementById('fonti').innerHTML = data.gallerie.map(g =>
       `<li><a href="${esc(g.scheda)}" target="_blank" rel="noopener" class="text-terracotta-700 hover:underline">Comune di Gravellona Lomellina — ${esc(g.titolo)}</a> <span class="text-stone-400">(${g.opere.length} immagini)</span></li>`
     ).join('');

@@ -294,11 +294,6 @@
         Caccia all'Arte. Una festa ponte tra festa popolare e ricerca
         artistica. Trent'anni di locandine lo raccontano.
       </p>
-      <p class="mt-4 max-w-2xl text-sm sm:text-base leading-relaxed text-stone-600">
-        Scorri la collezione delle edizioni, oppure prendila in mano e trascinala.
-        Clicca una locandina per aprirla in grande e leggere cosa è stato installato,
-        gli eventi e le note di quell'anno.
-      </p>
       <div class="mt-6 flex flex-wrap items-center gap-3">
         <a href="archivio.html" class="inline-flex items-center gap-2 rounded-full bg-terracotta-600 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white shadow-md shadow-terracotta-600/25 transition hover:bg-terracotta-700">
           <i class="fa-solid fa-table-cells-large text-[11px]"></i> Sfoglia l'archivio
@@ -325,7 +320,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-1 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
       <p id="carousel-hint" class="text-xs text-stone-500 flex items-center gap-2">
         <i class="fa-solid fa-hand-pointer text-terracotta-600"></i>
-        <span>Scorri, trascina o usa le frecce · clicca una locandina: dentro trovi tutti i documenti dell'edizione</span>
+        <span>Scorri, trascina o usa le frecce · sotto ogni locandina le opere installate · clicca per i documenti dell'edizione</span>
       </p>
       <div class="flex items-center gap-2 self-end sm:self-auto">
         <button type="button" id="carousel-prev" class="w-10 h-10 rounded-full bg-white border border-stone-200 text-stone-700 hover:text-terracotta-700 hover:border-terracotta-600/40 hover:shadow-md transition-all flex items-center justify-center" aria-label="Locandine precedenti">
@@ -418,6 +413,11 @@
             <div>
               <h3 class="text-[10px] font-bold uppercase tracking-[0.18em] text-stone-500">La festa</h3>
               <p id="lightbox-description" class="mt-2 text-sm leading-relaxed text-stone-700"></p>
+            </div>
+
+            <div id="lightbox-opere-box" class="hidden">
+              <h3 class="text-[10px] font-bold uppercase tracking-[0.18em] text-stone-500">Opere installate</h3>
+              <ul id="lightbox-opere" class="mt-2 flex flex-wrap gap-1.5"></ul>
             </div>
 
             <div id="lightbox-notes-box" class="hidden">
@@ -543,19 +543,25 @@ function renderCarousel() {
 }
 
 function createPosterCard(ed, index, isClone) {
-  const card = document.createElement('button');
-  card.type = 'button';
+  const card = document.createElement('div');
   card.dataset.year = ed.year;
   if (!isClone) card.id = `ed${ed.year}`;
-  card.className = 'poster-card group relative flex-none w-[132px] sm:w-[168px] lg:w-[198px] rounded-2xl text-left focus:outline-none focus-visible:ring-4 focus-visible:ring-terracotta-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-stonebg';
-  card.setAttribute('aria-label', `Apri la locandina del ${ed.year}, ${ed.edition}ª edizione`);
-  if (isClone) {
-    card.tabIndex = -1;
-    card.setAttribute('aria-hidden', 'true');
-  }
+  card.className = 'poster-card relative flex-none w-[132px] sm:w-[168px] lg:w-[198px] text-left';
+  if (isClone) card.setAttribute('aria-hidden', 'true');
+
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'group block w-full rounded-2xl text-left focus:outline-none focus-visible:ring-4 focus-visible:ring-terracotta-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-stonebg';
+  if (isClone) button.tabIndex = -1;
+
+  const opere = Array.isArray(ed.opere) ? ed.opere : [];
+  const opereLink = ed.opereLink && ed.opereLink.url ? ed.opereLink : null;
+  const opereLabel = opere.length ? opere.join(' · ') : 'Nessuna opera permanente documentata';
+  const opereCardLabel = opereLink ? `${opereLabel} → ${opereLink.label}` : opereLabel;
+  button.setAttribute('aria-label', `Apri la locandina del ${ed.year}, ${ed.edition}ª edizione — opere installate: ${opereCardLabel}`);
 
   const image = ed.thumb || ed.primaryPoster;
-  card.innerHTML = `
+  button.innerHTML = `
     <span class="relative block aspect-[3/4] overflow-hidden rounded-2xl bg-stone-900 ring-1 ring-stone-900/10 shadow-[0_18px_40px_-20px_rgba(41,37,36,0.55)] transition-all duration-500 group-hover:-translate-y-1.5 group-hover:shadow-[0_28px_55px_-22px_rgba(41,37,36,0.55)] group-focus-visible:-translate-y-1.5">
       <img src="${escapeHtml(image)}" alt="Locandina della ${ed.edition}ª Festa dell'Arte, ${ed.year}" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.035]" loading="${index < 5 ? 'eager' : 'lazy'}" decoding="async" draggable="false">
       <span class="absolute inset-0 bg-gradient-to-t from-stone-950/60 via-stone-950/0 to-stone-950/10"></span>
@@ -566,11 +572,31 @@ function createPosterCard(ed, index, isClone) {
       </span>
     </span>`;
 
-  card.querySelector('img').addEventListener('error', function () {
+  const caption = document.createElement('span');
+  caption.className = 'mt-2 block px-1 text-[10px] leading-snug text-stone-500';
+  caption.title = opereCardLabel;
+  const captionLine = document.createElement('span');
+  captionLine.className = 'flex items-start gap-1.5';
+  captionLine.innerHTML = `
+    <i class="fa-solid fa-palette mt-0.5 shrink-0 text-[9px] text-terracotta-600"></i>
+    <span class="${opere.length ? 'line-clamp-2' : 'text-stone-400'}">${escapeHtml(opereLabel)}</span>`;
+  caption.appendChild(captionLine);
+  if (opereLink) {
+    const link = document.createElement('a');
+    link.href = opereLink.url;
+    link.className = 'mt-0.5 block pl-5 font-semibold text-terracotta-700 hover:underline';
+    link.textContent = `${opereLink.label} →`;
+    if (isClone) link.tabIndex = -1;
+    caption.appendChild(link);
+  }
+
+  card.append(button, caption);
+
+  button.querySelector('img').addEventListener('error', function () {
     if (ed.primaryPoster && this.getAttribute('src') !== ed.primaryPoster) this.src = ed.primaryPoster;
   });
 
-  card.addEventListener('click', () => {
+  button.addEventListener('click', () => {
     if (suppressClick) return;
     openLightbox(index);
   });
@@ -972,6 +998,35 @@ function renderLightbox() {
   document.getElementById('lightbox-meta').innerHTML = metaParts.join('');
 
   document.getElementById('lightbox-description').textContent = decode(ed.description) || 'Descrizione non ancora disponibile per questa edizione.';
+
+  const opereBox = document.getElementById('lightbox-opere-box');
+  const opereList = document.getElementById('lightbox-opere');
+  opereList.innerHTML = '';
+  const opere = Array.isArray(ed.opere) ? ed.opere : [];
+  const opereLink = ed.opereLink && ed.opereLink.url ? ed.opereLink : null;
+  if (opere.length || opereLink) {
+    opereBox.classList.remove('hidden');
+    opere.forEach(opera => {
+      const item = document.createElement('li');
+      item.className = 'rounded-full border border-stone-200 bg-white px-2.5 py-1 text-[11px] font-semibold text-stone-600';
+      item.textContent = opera;
+      opereList.appendChild(item);
+    });
+    if (opereLink) {
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = opereLink.url;
+      link.className = 'inline-flex items-center gap-1 rounded-full border border-terracotta-600/40 bg-white px-2.5 py-1 text-[11px] font-semibold text-terracotta-700 transition hover:border-terracotta-600';
+      link.innerHTML = '<i class="fa-solid fa-arrow-right text-[9px]"></i>';
+      const label = document.createElement('span');
+      label.textContent = opereLink.label;
+      link.appendChild(label);
+      item.appendChild(link);
+      opereList.appendChild(item);
+    }
+  } else {
+    opereBox.classList.add('hidden');
+  }
 
   const notesBox = document.getElementById('lightbox-notes-box');
   const notes = decode(ed.context);
