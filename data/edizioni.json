@@ -1301,9 +1301,9 @@
   "edition": 28,
   "decade": "2020s",
   "title": null,
-  "description": "28ª edizione, l'anno dei gatti: i manifesti di Marina invitano in paese tra cantine, concerti e dj set. Nel cortile del Municipio la mostra dei manifesti tedeschi del 1920.",
-  "date": null,
-  "location": null,
+  "description": "28ª edizione, l'anno dei gatti: sabato 1° e domenica 2 giugno 2024 i manifesti di Marina invitano in paese tra cantine, concerti e dj set. Nel cortile del Municipio la mostra fotografica e i manifesti tedeschi del 1920; nella chiesa di San Lino la mostra dei mulini di Francesco Vasori.",
+  "date": "1-2 giugno 2024",
+  "location": "Gravellona Lomellina",
   "primaryPoster": "volantini/2024-28ed-gatti-manifesto2.jpg",
   "thumb": "thumb/2024-28ed-gatti-manifesto2.webp",
   "files": [
@@ -1321,6 +1321,12 @@
     "url": "volantini/mostra-weimar-manifesti-repubblica.jpg",
     "caption": null,
     "alt": "Mostra dei manifesti della Repubblica di Weimar, cortile del Municipio, 2024"
+   },
+   {
+    "url": "volantini/2024-28ed-incipit-diploma-ottone-ingone.png",
+    "medium": "medium/2024-28ed-incipit-diploma-ottone-ingone.webp",
+    "caption": "incipit della concessione ad Ingone, si riconosce secondo Ghignoli la mano dello scrittore, codificato ora come It. B, che potrebbe essere Uberto stesso.",
+    "alt": "Incipit del diploma di Ottone I per Ingone e i figli, in scrittura cancelleresca"
    }
   ],
   "transcription": null,
@@ -1329,9 +1335,17 @@
    {
     "url": "https://www.giannellachannel.info/gravellona-lomellina-dove-bellezza-creativita-sposano-ironia-atlante-paesi-dipinti-lombardia-benedetta-rutigliano/",
     "label": "Giannella Channel — la collezione di manifesti della Repubblica di Weimar"
+   },
+   {
+    "url": "https://www.gravellonartistica.com/festadellars/ev",
+    "label": "GravellonArtistica — programma della 28ª Festa dell'Arte (2024)"
+   },
+   {
+    "url": "https://www.rmoa.unina.it/1008/1/RM-Ghignoli-DiplomadiOttoneI.pdf",
+    "label": "Antonella Ghignoli — I diplomi di Ottone I (edizione e note del diploma per Ingone)"
    }
   ],
-  "context": "Tema dell'edizione: i gatti.",
+  "context": "Tema dell'edizione: i gatti. Programma del 1° e 2 giugno 2024: nel cortile del Municipio bar ristoro, pranzo per i nuovi gravellonesi, cantine del Podestà, mostra fotografica e manifesti tedeschi del 1920, il trottolaio; in via Matteotti, chiesa di San Lino, mostra dei mulini di Francesco Vasori e vendita di mobili e oggetti antichi; in piazza Delucca DJ Decibel con «Dal Charleston alla Cumbia» e Luca Guaralli con «The Great Night of Rock & Roll», oltre al Beer Puppeteer; al Teatro del Mutuo Soccorso concerto di Manuel Signorelli, Beatrice Oteri e Marco Pesce, con i costumi dell'Associazione Ventaglio d'Argento; al Giardino Conti Barbavara il Giardinun e l'accesso al Parco dei Tre Laghi, dove sono previsti giri in canoa e pedalò, bambini a cavallo, area camper e ricarica per bici elettriche. Sabato e domenica sera, alle 21,15, passeggiata tra le lucciole al Parco dei Tre Laghi.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
