@@ -84,6 +84,13 @@
       vedi <a href="privacy.html#autore" class="text-terracotta-700 underline decoration-terracotta-600/40 hover:decoration-terracotta-600">diritti d'autore e richieste di rimozione</a>.
     </p>
     <p class="mt-2 text-xs text-stone-600">
+      In coda alla sezione <a href="#murales" class="text-terracotta-700 underline decoration-terracotta-600/40 hover:decoration-terracotta-600">Murales</a>
+      ci sono due fotografie dell'archivio e non del Comune: un fregio su muro
+      ocra con figure in marcia, di autore e titolo non documentati. La seconda
+      immagine è una ricostruzione cromatica generata con AI: i colori non sono
+      quelli del muro e non vanno usati come documentazione dell'opera.
+    </p>
+    <p class="mt-2 text-xs text-stone-600">
       Chi ritiene che un'immagine violi un proprio diritto può scrivere a
       <a href="mailto:archivio.festadellarte@outlook.it?subject=Segnalazione%20immagine%20opere" class="text-terracotta-700 underline decoration-terracotta-600/40 hover:decoration-terracotta-600">archivio.festadellarte@outlook.it</a>:
       la rimozione avviene rapidamente, senza formalità.
@@ -169,19 +176,27 @@
 const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
 function card(opera){
+  /* `file` = immagine nostra, ospitata nell'archivio; `img` = URL sul sito
+     del Comune. Le due rese differiscono: la foto del Comune ha taglio 4:3,
+     la nostra è un fregio larga e va mostrata intera. */
+  const locale = Boolean(opera.file);
+  const src = locale ? opera.file : opera.img;
+  const didascalia = opera.didascalia || opera.titolo;
   return `
     <figure class="break-inside-avoid overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
-      <a href="${esc(opera.img)}" target="_blank" rel="noopener" class="block aspect-[4/3] bg-stone-200 overflow-hidden">
-        <img src="${esc(opera.img)}" alt="${esc(opera.didascalia)}" loading="lazy" referrerpolicy="no-referrer"
-             class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-             onerror="this.style.display='none';this.parentElement.classList.add('flex','items-center','justify-center','p-4');this.parentElement.innerHTML='<span class=&quot;text-xs text-stone-500 text-center&quot;>Immagine non disponibile: apri la scheda del Comune</span>';">
+      <a href="${esc(src)}" target="_blank" rel="noopener" class="block ${locale ? 'bg-stone-100' : 'aspect-[4/3] bg-stone-200'} overflow-hidden">
+        <img src="${esc(src)}" alt="${esc(didascalia)}" loading="lazy"${locale ? '' : ' referrerpolicy="no-referrer"'}
+             class="w-full ${locale ? 'h-auto' : 'h-full object-cover'} transition-transform duration-500 hover:scale-105"
+             onerror="this.style.display='none';this.parentElement.classList.add('flex','items-center','justify-center','p-4');this.parentElement.innerHTML='<span class=&quot;text-xs text-stone-500 text-center&quot;>Immagine non disponibile${locale ? '' : ': apri la scheda del Comune'}</span>';">
       </a>
       <figcaption class="p-3">
         <p class="font-serif text-sm font-bold text-stone-900 leading-snug">${esc(opera.titolo)}</p>
         ${opera.didascalia && opera.didascalia !== opera.titolo ? `<p class="mt-1 text-xs leading-relaxed text-stone-500">${esc(opera.didascalia)}</p>` : ''}
-        <a href="${esc(opera.img)}" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
+        ${opera.nota ? `<p class="mt-1 text-xs leading-relaxed text-stone-600">${esc(opera.nota)}</p>` : ''}
+        ${opera.credito ? `<p class="mt-2 text-[10px] font-bold uppercase tracking-wider text-stone-400">${esc(opera.credito)}</p>` : ''}
+        ${locale ? '' : `<a href="${esc(opera.img)}" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
           <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i> Foto sul sito del Comune
-        </a>
+        </a>`}
       </figcaption>
     </figure>`;
 }

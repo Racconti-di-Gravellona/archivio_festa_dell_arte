@@ -1,6 +1,6 @@
 {
  "aggiornato": "2026-11-05",
- "avvertenza": "Le immagini non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori.",
+ "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
  "gallerie": [
   {
    "id": "murales",
@@ -8,7 +8,7 @@
    "descrizione": "I murales nati nel 1992 a Barbavara per iniziativa del pittore Luigi Regianini e proseguiti in paese con il concorso «San Giorgio contro il drago / l'uomo libero contro la burocrazia». Molti sono scomparsi per umidità o ristrutturazioni.",
    "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7",
    "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7?immagini#galleria-foto",
-   "credito": "Foto: Comune di Gravellona Lomellina",
+   "credito": "Foto: Comune di Gravellona Lomellina; le ultime due dell'archivio",
    "opere": [
     {
      "titolo": "Frazione Barbavara",
@@ -89,6 +89,24 @@
      "titolo": "Un muro dipinto",
      "didascalia": "Un muro dipinto",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26654--26-1224-0-0-70ee7ffcbc6c5e39ff11ff7ecb014105"
+    },
+    {
+     "titolo": "Muro con figure in marcia (autore e titolo non documentati)",
+     "didascalia": "Un fregio su muro ocra: undici figure in cammino verso un timbro a forma di pedina, una con un cappello a tesa; la figura centrale è inginocchiata sotto il peso del timbro",
+     "file": "opere/murales-timbro-omini-originale.jpg",
+     "w": 1280,
+     "h": 346,
+     "credito": "Foto dell'archivio, 2026",
+     "nota": "Autore e titolo del murale non sono documentati: la foto arriva da una segnalazione, non da una scheda. Non è nella galleria del Comune."
+    },
+    {
+     "titolo": "Lo stesso muro, ricostruzione cromatica con AI",
+     "didascalia": "Ricostruzione cromatica ipotetica dello stesso fregio, generata con ChatGPT",
+     "file": "opere/murales-timbro-omini-ricostruzione-chatgpt.jpg",
+     "w": 1600,
+     "h": 533,
+     "credito": "Elaborazione con ChatGPT, 2026",
+     "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera."
     }
    ]
   },
