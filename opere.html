@@ -182,19 +182,22 @@ function card(opera){
   const locale = Boolean(opera.file);
   const src = locale ? opera.file : opera.img;
   const didascalia = opera.didascalia || opera.titolo;
+  /* Griglia: le foto del Comune sono 4:3 e occupano una cella; i nostri due
+     fregi sono molto larghi (circa 10:3) e prendono due celle, così restano
+     interi dentro un riquadro della stessa altezza degli altri. */
   return `
-    <figure class="break-inside-avoid overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
-      <a href="${esc(src)}" target="_blank" rel="noopener" class="block ${locale ? 'bg-stone-100' : 'aspect-[4/3] bg-stone-200'} overflow-hidden">
+    <figure class="flex h-full flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm${locale ? ' col-span-2' : ''}">
+      <a href="${esc(src)}" target="_blank" rel="noopener" class="block overflow-hidden ${locale ? 'aspect-[10/3] bg-stone-100' : 'aspect-[4/3] bg-stone-200'}">
         <img src="${esc(src)}" alt="${esc(didascalia)}" loading="lazy"${locale ? '' : ' referrerpolicy="no-referrer"'}
-             class="w-full ${locale ? 'h-auto' : 'h-full object-cover'} transition-transform duration-500 hover:scale-105"
+             class="w-full h-full ${locale ? 'object-contain' : 'object-cover'} transition-transform duration-500 hover:scale-105"
              onerror="this.style.display='none';this.parentElement.classList.add('flex','items-center','justify-center','p-4');this.parentElement.innerHTML='<span class=&quot;text-xs text-stone-500 text-center&quot;>Immagine non disponibile${locale ? '' : ': apri la scheda del Comune'}</span>';">
       </a>
-      <figcaption class="p-3">
+      <figcaption class="flex flex-1 flex-col p-3">
         <p class="font-serif text-sm font-bold text-stone-900 leading-snug">${esc(opera.titolo)}</p>
         ${opera.didascalia && opera.didascalia !== opera.titolo ? `<p class="mt-1 text-xs leading-relaxed text-stone-500">${esc(opera.didascalia)}</p>` : ''}
         ${opera.nota ? `<p class="mt-1 text-xs leading-relaxed text-stone-600">${esc(opera.nota)}</p>` : ''}
         ${opera.credito ? `<p class="mt-2 text-[10px] font-bold uppercase tracking-wider text-stone-400">${esc(opera.credito)}</p>` : ''}
-        ${locale ? '' : `<a href="${esc(opera.img)}" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
+        ${locale ? '' : `<a href="${esc(opera.img)}" target="_blank" rel="noopener" class="mt-auto self-start pt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
           <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i> Foto sul sito del Comune
         </a>`}
       </figcaption>
@@ -213,7 +216,7 @@ function gallery(g){
           <a href="${esc(g.scheda)}" target="_blank" rel="noopener" class="text-terracotta-700 hover:underline"><i class="fa-solid fa-book-open text-[10px] mr-1"></i>Scheda del Comune</a>
         </p>
       </div>
-      <div class="columns-2 sm:columns-3 lg:columns-4 gap-4 [column-fill:_balance]">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
         ${g.opere.map(card).join('')}
       </div>
     </section>`;
