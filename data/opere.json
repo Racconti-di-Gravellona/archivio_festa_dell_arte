@@ -1,6 +1,6 @@
 {
  "aggiornato": "2026-11-05",
- "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
+ "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
  "gallerie": [
   {
    "id": "murales",
@@ -8,7 +8,7 @@
    "descrizione": "I murales nati nel 1992 a Barbavara per iniziativa del pittore Luigi Regianini e proseguiti in paese con il concorso «San Giorgio contro il drago / l'uomo libero contro la burocrazia». Molti sono scomparsi per umidità o ristrutturazioni.",
    "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7",
    "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7?immagini#galleria-foto",
-   "credito": "Foto: Comune di Gravellona Lomellina; le ultime due dell'archivio",
+   "credito": "Foto: Comune di Gravellona Lomellina; una foto da mural.ch; le ultime due dell'archivio",
    "opere": [
     {
      "titolo": "Frazione Barbavara",
@@ -54,6 +54,16 @@
      "titolo": "Libero Greco - I benestanti",
      "didascalia": "I benestanti - foto di gruppo",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26647--26-1224-0-0-38ecde3d0490968e496a836523793d7d"
+    },
+    {
+     "titolo": "L'uomo libero combatte contro la burocrazia",
+     "didascalia": "Libero Greco, 1996, Barbavara: un bambino punta una pistola contro una pila di pratiche, un uomo incatenato resta carponi",
+     "img": "https://www.mural.ch/img/img_2213.jpg",
+     "w": 974,
+     "h": 599,
+     "credito": "Foto: Giannella Channel, da mural.ch",
+     "fonte": "mural.ch",
+     "nota": "Scheda e fotografia dalla voce 5255 di mural.ch, inserita nel 2017. L'opera fa parte del complesso «Barbavara di Gravellona Lomellina borgo dipinto»."
     },
     {
      "titolo": "San Giorgio porta i burocrati",
@@ -210,7 +220,7 @@
     },
     {
      "titolo": "Zanzarone",
-     "didascalia": "Zanzarone",
+     "didascalia": "Monumento alla Zanzara (Salvatore Fiori, 2001)",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7270--26-1224-0-0-99a9a59661357b25d148415fd6f5db06"
     },
     {

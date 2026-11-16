@@ -182,15 +182,19 @@ function card(opera){
   const locale = Boolean(opera.file);
   const src = locale ? opera.file : opera.img;
   const didascalia = opera.didascalia || opera.titolo;
+  /* `w`/`h` danno il rapporto d'aspetto esatto della foto: serve ai due fregi
+     larghi e alle immagini che non vengono dal Comune. */
+  const ratio = opera.w && opera.h ? `${opera.w}/${opera.h}` : (locale ? '10/3' : '4/3');
+  const fonte = opera.fonte || 'il sito del Comune';
   /* Griglia: le foto del Comune sono 4:3 e occupano una cella; i nostri due
      fregi sono molto larghi (circa 10:3) e prendono due celle, così restano
      interi dentro un riquadro della stessa altezza degli altri. */
   return `
     <figure class="flex h-full flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm${locale ? ' col-span-2' : ''}">
-      <a href="${esc(src)}" target="_blank" rel="noopener" class="block overflow-hidden ${locale ? 'aspect-[10/3] bg-stone-100' : 'aspect-[4/3] bg-stone-200'}">
+      <a href="${esc(src)}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}" class="block overflow-hidden ${locale ? 'aspect-[10/3] bg-stone-100' : 'aspect-[4/3] bg-stone-200'}">
         <img src="${esc(src)}" alt="${esc(didascalia)}" loading="lazy"${locale ? '' : ' referrerpolicy="no-referrer"'}
              class="w-full h-full ${locale ? 'object-contain' : 'object-cover'} transition-transform duration-500 hover:scale-105"
-             onerror="this.style.display='none';this.parentElement.classList.add('flex','items-center','justify-center','p-4');this.parentElement.innerHTML='<span class=&quot;text-xs text-stone-500 text-center&quot;>Immagine non disponibile${locale ? '' : ': apri la scheda del Comune'}</span>';">
+             onerror="this.style.display='none';this.parentElement.classList.add('flex','items-center','justify-center','p-4');this.parentElement.innerHTML='<span class=&quot;text-xs text-stone-500 text-center&quot;>Immagine non disponibile${locale ? '' : ': apri il link della foto'}</span>';">
       </a>
       <figcaption class="flex flex-1 flex-col p-3">
         <p class="font-serif text-sm font-bold text-stone-900 leading-snug">${esc(opera.titolo)}</p>
@@ -198,7 +202,7 @@ function card(opera){
         ${opera.nota ? `<p class="mt-1 text-xs leading-relaxed text-stone-600">${esc(opera.nota)}</p>` : ''}
         ${opera.credito ? `<p class="mt-2 text-[10px] font-bold uppercase tracking-wider text-stone-400">${esc(opera.credito)}</p>` : ''}
         ${locale ? '' : `<a href="${esc(opera.img)}" target="_blank" rel="noopener" class="mt-auto self-start pt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
-          <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i> Foto sul sito del Comune
+          <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i> Foto su ${esc(fonte)}
         </a>`}
       </figcaption>
     </figure>`;
