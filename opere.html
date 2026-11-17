@@ -176,22 +176,19 @@
 const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
 function card(opera){
-  /* `file` = immagine nostra, ospitata nell'archivio; `img` = URL sul sito
-     del Comune. Le due rese differiscono: la foto del Comune ha taglio 4:3,
-     la nostra è un fregio larga e va mostrata intera. */
+  /* `file` = immagine nostra, ospitata nell'archivio; `img` = URL esterno.
+     Tutte le card stanno in una cella della stessa griglia: le immagini
+     nostre, più larghe, si vedono intere (object-contain) dentro il 4:3. */
   const locale = Boolean(opera.file);
   const src = locale ? opera.file : opera.img;
   const didascalia = opera.didascalia || opera.titolo;
-  /* `w`/`h` danno il rapporto d'aspetto esatto della foto: serve ai due fregi
-     larghi e alle immagini che non vengono dal Comune. */
-  const ratio = opera.w && opera.h ? `${opera.w}/${opera.h}` : (locale ? '10/3' : '4/3');
+  /* `w`/`h` danno il rapporto d'aspetto esatto delle foto esterne (per
+     esempio quella di mural.ch); per le nostre vale il 4:3 della griglia. */
+  const ratio = !locale && opera.w && opera.h ? `${opera.w}/${opera.h}` : '4/3';
   const fonte = opera.fonte || 'il sito del Comune';
-  /* Griglia: le foto del Comune sono 4:3 e occupano una cella; i nostri due
-     fregi sono molto larghi (circa 10:3) e prendono due celle, così restano
-     interi dentro un riquadro della stessa altezza degli altri. */
   return `
-    <figure class="flex h-full flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm${locale ? ' col-span-2' : ''}">
-      <a href="${esc(src)}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}" class="block overflow-hidden ${locale ? 'aspect-[10/3] bg-stone-100' : 'aspect-[4/3] bg-stone-200'}">
+    <figure class="flex h-full flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+      <a href="${esc(src)}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}" class="block overflow-hidden ${locale ? 'bg-stone-100' : 'bg-stone-200'}">
         <img src="${esc(src)}" alt="${esc(didascalia)}" loading="lazy"${locale ? '' : ' referrerpolicy="no-referrer"'}
              class="w-full h-full ${locale ? 'object-contain' : 'object-cover'} transition-transform duration-500 hover:scale-105"
              onerror="this.style.display='none';this.parentElement.classList.add('flex','items-center','justify-center','p-4');this.parentElement.innerHTML='<span class=&quot;text-xs text-stone-500 text-center&quot;>Immagine non disponibile${locale ? '' : ': apri il link della foto'}</span>';">

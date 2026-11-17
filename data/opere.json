@@ -125,11 +125,6 @@
      "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera."
     },
     {
-     "titolo": "Il drago burocratico",
-     "didascalia": "Il drago burocratico",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26979--26-1224-0-0-d33300e7c869e39e752908ff4e6e487f"
-    },
-    {
      "titolo": "Targa dei murales di Barbavara",
      "didascalia": "Targa ricordo dei primi murales, opera degli artisti di Arte Nord, dal 1992",
      "img": "https://static.wixstatic.com/media/e8d208_9aa7583b4bba417aa325cc809de22b8e~mv2.jpg/v1/fill/w_333,h_249,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/barbavara018.jpg",
@@ -253,7 +248,8 @@
     {
      "titolo": "Carri",
      "didascalia": "Vecchi oggetti come arredo: carri",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c",
+     "anno": 2007
     },
     {
      "titolo": "Albero della cuccagna",
@@ -315,7 +311,8 @@
     {
      "titolo": "Cromlech",
      "didascalia": "Cromlech",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26638--26-1224-0-0-7ae119ba975e98faecb832da9e1f52f1"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26638--26-1224-0-0-7ae119ba975e98faecb832da9e1f52f1",
+     "anno": 2010
     },
     {
      "titolo": "Pescione",
@@ -336,7 +333,8 @@
     {
      "titolo": "Gatto e strega",
      "didascalia": "Gatto e strega",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26978--26-1224-0-0-8664497b47d55bda00c3ec3a1e3baf14"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26978--26-1224-0-0-8664497b47d55bda00c3ec3a1e3baf14",
+     "anno": 2001
     },
     {
      "titolo": "Sui tetti",
@@ -442,11 +440,6 @@
      "titolo": "DeNittis Colazione a Posillipo",
      "didascalia": "De Nittis Colazione a Posillipo",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26974--26-1224-0-0-62cee1bd37b1f21a7e6bbefa555f7249"
-    },
-    {
-     "titolo": "Giro d'arte con riscio'",
-     "didascalia": "Possibile giro d'arte con riscio'",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26975--26-1224-0-0-957686bd91cbdb5a8a0873cebc686553"
     },
     {
      "titolo": "Vittorio Corcos - Sogni",
