@@ -228,10 +228,37 @@
    "credito": "Foto: Comune di Gravellona Lomellina; alcune da GravellonArtistica",
    "opere": [
     {
-     "titolo": "Paracarri",
-     "didascalia": "Libero Greco, 2003",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7260--26-1224-0-0-63e05437a411aa61ee4cd849b8fae1b7",
-     "anno": 2003
+     "titolo": "Dolmen",
+     "didascalia": "Dolmen installato nel 1998 sul dosso del Valdarengo, dal 2010 al Parco dei Tre Laghi",
+     "img": "https://static.wixstatic.com/media/e8d208_bb08f52a96724c0fad1407ff21b44d71~mv2.jpg/v1/fill/w_564,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E003.jpg",
+     "anno": 1998,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Cabine Enel come giganti",
+     "didascalia": "Cabine Enel come giganti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8248--26-1224-0-0-fc050058d314102187ac434de752ccbd",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cabina enel",
+     "didascalia": "Cabina enel",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26976--26-1224-0-0-51a4832a2812a3e838743f2f77f7d7f5",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cicogne sui tetti",
+     "didascalia": "Cicogne sui tetti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27133--26-1224-0-0-4e2c43e5d70ba06608f72d47adf60d21",
+     "anno": 2000,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Escavatore fioriera",
+     "didascalia": "Escavatore trasformato in fioriera",
+     "img": "https://static.wixstatic.com/media/e8d208_e7f2ad73e93548b7bc301625c913543c~mv2.jpg/v1/fill/w_385,h_289,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E06040.jpg",
+     "anno": 2000
     },
     {
      "titolo": "Zanzarone",
@@ -246,32 +273,65 @@
      "anno": 2001
     },
     {
-     "titolo": "Carri",
-     "didascalia": "Vecchi oggetti come arredo: carri",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c",
-     "anno": 2007
-    },
-    {
-     "titolo": "Albero della cuccagna",
-     "didascalia": "Albero della cuccagna",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8247--26-1224-0-0-97d5f37b8d9dea6008064ef136326459"
-    },
-    {
-     "titolo": "Cabine Enel come giganti",
-     "didascalia": "Cabine Enel come giganti",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8248--26-1224-0-0-fc050058d314102187ac434de752ccbd",
-     "anno": 1999
-    },
-    {
-     "titolo": "Casa Cocchetti",
-     "didascalia": "Casa Cocchetti",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8249--26-1224-0-0-586e805d514a5371e595164e0b27cf27"
-    },
-    {
      "titolo": "Ci guardano dall'alto",
      "didascalia": "Libero Greco, 2001",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8250--26-1224-0-0-0d55a682e255cf7f9ad88c9801b281a3",
      "anno": 2001
+    },
+    {
+     "titolo": "Rondini",
+     "didascalia": "Rondini",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8255--26-1224-0-0-6f97f2676001ca5d6df76f4782c33450",
+     "anno": 2001
+    },
+    {
+     "titolo": "Gatto e strega",
+     "didascalia": "Gatto e strega",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26978--26-1224-0-0-8664497b47d55bda00c3ec3a1e3baf14",
+     "anno": 2001
+    },
+    {
+     "titolo": "Sui tetti",
+     "didascalia": "Libero Greco, 2001",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26981--26-1224-0-0-25a2875e8f0a94c353ea918f3747e18a",
+     "anno": 2001
+    },
+    {
+     "titolo": "Rondini sul filo",
+     "didascalia": "Rondini sul filo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27135--26-1224-0-0-2debc5f5b09564039a9081af0c60b0f9",
+     "anno": 2001
+    },
+    {
+     "titolo": "Albero della cuccagna",
+     "didascalia": "Albero della cuccagna",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8247--26-1224-0-0-97d5f37b8d9dea6008064ef136326459",
+     "anno": 2002,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Paracarri",
+     "didascalia": "Libero Greco, 2003",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7260--26-1224-0-0-63e05437a411aa61ee4cd849b8fae1b7",
+     "anno": 2003
+    },
+    {
+     "titolo": "Fontana rana",
+     "didascalia": "Giuliano Zanetti, 2005",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27140--26-1224-0-0-5b5b73fd9a6c838dc6c127944294c88a",
+     "anno": 2005
+    },
+    {
+     "titolo": "Velocipede",
+     "didascalia": "Giuseppe Petralia, 2006",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27137--26-1224-0-0-9dc18bdfce80061ee10b753b1807005c",
+     "anno": 2006
+    },
+    {
+     "titolo": "Carri",
+     "didascalia": "Vecchi oggetti come arredo: carri",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c",
+     "anno": 2007
     },
     {
      "titolo": "Pecore all'ingresso del paese",
@@ -286,15 +346,18 @@
      "anno": 2007
     },
     {
-     "titolo": "Rondini",
-     "didascalia": "Rondini",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8255--26-1224-0-0-6f97f2676001ca5d6df76f4782c33450",
-     "anno": 2001
+     "titolo": "Totem di palude",
+     "didascalia": "Libero Greco, 2008",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27138--26-1224-0-0-d66e414136e9eb0b88ea1559ae433574",
+     "anno": 2008
     },
     {
-     "titolo": "Volontari dipingono",
-     "didascalia": "Volontari dipingono",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8256--26-1224-0-0-e18b0bcb1f1eb331b7352aa509ea38de"
+     "titolo": "Totem al parco",
+     "didascalia": "Totem di palude con gli animali totemici della nostra terra: l'airone, la rana, la zanzara, il pesce",
+     "img": "https://static.wixstatic.com/media/e8d208_67226059252e435aa2efca98706a638b~mv2.png/v1/fill/w_259,h_476,al_c,lg_1,q_85,enc_avif,quality_auto/totem.png",
+     "anno": 2008,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
     },
     {
      "titolo": "Zebre con la neve",
@@ -315,6 +378,24 @@
      "anno": 2010
     },
     {
+     "titolo": "Lavatoio palcoscenico",
+     "didascalia": "Libero Greco, 2011",
+     "img": "https://static.wixstatic.com/media/e8d208_4d729ac737024a31b2228311478e7803~mv2.jpg/v1/fill/w_448,h_307,al_c,q_80,enc_avif,quality_auto/barbavara022.jpg",
+     "anno": 2011,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Casa Cocchetti",
+     "didascalia": "Casa Cocchetti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8249--26-1224-0-0-586e805d514a5371e595164e0b27cf27"
+    },
+    {
+     "titolo": "Volontari dipingono",
+     "didascalia": "Volontari dipingono",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8256--26-1224-0-0-e18b0bcb1f1eb331b7352aa509ea38de"
+    },
+    {
      "titolo": "Pescione",
      "didascalia": "Pescione",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b"
@@ -325,86 +406,9 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26642--26-1224-0-0-ad6c831d7b15ac695b47af690024998f"
     },
     {
-     "titolo": "Cabina enel",
-     "didascalia": "Cabina enel",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26976--26-1224-0-0-51a4832a2812a3e838743f2f77f7d7f5",
-     "anno": 1999
-    },
-    {
-     "titolo": "Gatto e strega",
-     "didascalia": "Gatto e strega",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26978--26-1224-0-0-8664497b47d55bda00c3ec3a1e3baf14",
-     "anno": 2001
-    },
-    {
-     "titolo": "Sui tetti",
-     "didascalia": "Libero Greco, 2001",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26981--26-1224-0-0-25a2875e8f0a94c353ea918f3747e18a",
-     "anno": 2001
-    },
-    {
-     "titolo": "Cicogne sui tetti",
-     "didascalia": "Cicogne sui tetti",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27133--26-1224-0-0-4e2c43e5d70ba06608f72d47adf60d21"
-    },
-    {
-     "titolo": "Rondini sul filo",
-     "didascalia": "Rondini sul filo",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27135--26-1224-0-0-2debc5f5b09564039a9081af0c60b0f9",
-     "anno": 2001
-    },
-    {
      "titolo": "Carretto",
      "didascalia": "Carretto",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27136--26-1224-0-0-20b6f65cca6c8b17a36a4342d7a52fef"
-    },
-    {
-     "titolo": "Velocipede",
-     "didascalia": "Giuseppe Petralia, 2006",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27137--26-1224-0-0-9dc18bdfce80061ee10b753b1807005c",
-     "anno": 2006
-    },
-    {
-     "titolo": "Totem di palude",
-     "didascalia": "Libero Greco, 2008",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27138--26-1224-0-0-d66e414136e9eb0b88ea1559ae433574",
-     "anno": 2008
-    },
-    {
-     "titolo": "Fontana rana",
-     "didascalia": "Giuliano Zanetti, 2005",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27140--26-1224-0-0-5b5b73fd9a6c838dc6c127944294c88a",
-     "anno": 2005
-    },
-    {
-     "titolo": "Escavatore fioriera",
-     "didascalia": "Escavatore trasformato in fioriera, 1998",
-     "img": "https://static.wixstatic.com/media/e8d208_e7f2ad73e93548b7bc301625c913543c~mv2.jpg/v1/fill/w_385,h_289,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E06040.jpg",
-     "anno": 1998
-    },
-    {
-     "titolo": "Dolmen",
-     "didascalia": "Dolmen installato nel 1998 sul dosso del Valdarengo, dal 2010 al Parco dei Tre Laghi",
-     "img": "https://static.wixstatic.com/media/e8d208_bb08f52a96724c0fad1407ff21b44d71~mv2.jpg/v1/fill/w_564,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E003.jpg",
-     "anno": 1998,
-     "credito": "Foto: GravellonArtistica",
-     "fonte": "GravellonArtistica"
-    },
-    {
-     "titolo": "Totem al parco",
-     "didascalia": "Totem di palude con gli animali totemici della nostra terra: l'airone, la rana, la zanzara, il pesce",
-     "img": "https://static.wixstatic.com/media/e8d208_67226059252e435aa2efca98706a638b~mv2.png/v1/fill/w_259,h_476,al_c,lg_1,q_85,enc_avif,quality_auto/totem.png",
-     "anno": 2008,
-     "credito": "Foto: GravellonArtistica",
-     "fonte": "GravellonArtistica"
-    },
-    {
-     "titolo": "Lavatoio palcoscenico",
-     "didascalia": "Libero Greco, 2011",
-     "img": "https://static.wixstatic.com/media/e8d208_4d729ac737024a31b2228311478e7803~mv2.jpg/v1/fill/w_448,h_307,al_c,q_80,enc_avif,quality_auto/barbavara022.jpg",
-     "anno": 2011,
-     "credito": "Foto: GravellonArtistica",
-     "fonte": "GravellonArtistica"
     }
    ]
   },
