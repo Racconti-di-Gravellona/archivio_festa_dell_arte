@@ -1,6 +1,6 @@
 {
  "aggiornato": "2026-11-05",
- "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
+ "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch e alcune immagini da GravellonArtistica, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
  "gallerie": [
   {
    "id": "murales",
@@ -8,7 +8,7 @@
    "descrizione": "I murales nati nel 1992 a Barbavara per iniziativa del pittore Luigi Regianini e proseguiti in paese con il concorso «San Giorgio contro il drago / l'uomo libero contro la burocrazia». Molti sono scomparsi per umidità o ristrutturazioni.",
    "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7",
    "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7?immagini#galleria-foto",
-   "credito": "Foto: Comune di Gravellona Lomellina; una foto da mural.ch; le ultime due dell'archivio",
+   "credito": "Foto: Comune di Gravellona Lomellina; una foto da mural.ch; una da GravellonArtistica; le ultime due dell'archivio",
    "opere": [
     {
      "titolo": "Frazione Barbavara",
@@ -128,6 +128,14 @@
      "titolo": "Il drago burocratico",
      "didascalia": "Il drago burocratico",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26979--26-1224-0-0-d33300e7c869e39e752908ff4e6e487f"
+    },
+    {
+     "titolo": "Targa dei murales di Barbavara",
+     "didascalia": "Targa ricordo dei primi murales, opera degli artisti di Arte Nord, dal 1992",
+     "img": "https://static.wixstatic.com/media/e8d208_9aa7583b4bba417aa325cc809de22b8e~mv2.jpg/v1/fill/w_333,h_249,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/barbavara018.jpg",
+     "anno": 1992,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
     }
    ]
   },
@@ -222,7 +230,7 @@
    "descrizione": "Paracarri e spartitraffico dipinti, la zanzara, le cabine Enel trasformate in giganti, la rana, le pecore e i carri: gli arredi e le installazioni che hanno trasformato le strade del paese in un museo a cielo aperto.",
    "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f",
    "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f?immagini",
-   "credito": "Foto: Comune di Gravellona Lomellina",
+   "credito": "Foto: Comune di Gravellona Lomellina; alcune da GravellonArtistica",
    "opere": [
     {
      "titolo": "Paracarri",
@@ -270,12 +278,6 @@
      "anno": 2001
     },
     {
-     "titolo": "Pecore",
-     "didascalia": "Sagome di pecore e pastori, 2007",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8252--26-1224-0-0-c8461642d81d31e88169d27ec0b417aa",
-     "anno": 2007
-    },
-    {
      "titolo": "Pecore all'ingresso del paese",
      "didascalia": "Sagome di pecore e pastori, 2007",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8253--26-1224-0-0-bbcdc1abc66a95fd210d4f091828429d",
@@ -286,11 +288,6 @@
      "didascalia": "Sagome di pecore e pastore, 2007",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27125--26-1224-0-0-6c9accb35811082d5130736a0b71fff0",
      "anno": 2007
-    },
-    {
-     "titolo": "Rana, velocipede, spazzacamini",
-     "didascalia": "Rana di Giuliano Zanetti (2005), velocipede di Giuseppe Petralia (2006), spazzacamini di Libero Greco (2001)",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8254--26-1224-0-0-af5a6df945c53524b9b62b6cb754f852"
     },
     {
      "titolo": "Rondini",
@@ -321,20 +318,9 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26638--26-1224-0-0-7ae119ba975e98faecb832da9e1f52f1"
     },
     {
-     "titolo": "Cicogna",
-     "didascalia": "Cicogna",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26639--26-1224-0-0-eb091f6538e3c5be33da79ec89ea4875"
-    },
-    {
      "titolo": "Pescione",
      "didascalia": "Pescione",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b"
-    },
-    {
-     "titolo": "Rondini",
-     "didascalia": "Rondini",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26641--26-1224-0-0-641ef29e3783a05792e8a6ef59c33c7c",
-     "anno": 2001
     },
     {
      "titolo": "Una casa colorata",
@@ -348,11 +334,6 @@
      "anno": 1999
     },
     {
-     "titolo": "Cromlech",
-     "didascalia": "Cromlech",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26977--26-1224-0-0-86d7ffb7893b7decbef867fea4f91b41"
-    },
-    {
      "titolo": "Gatto e strega",
      "didascalia": "Gatto e strega",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26978--26-1224-0-0-8664497b47d55bda00c3ec3a1e3baf14"
@@ -364,20 +345,9 @@
      "anno": 2001
     },
     {
-     "titolo": "Paracarri colorati",
-     "didascalia": "Libero Greco, 2003",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27132--26-1224-0-0-b4ce1f856f67a26c28789bc6315a4b1b",
-     "anno": 2003
-    },
-    {
      "titolo": "Cicogne sui tetti",
      "didascalia": "Cicogne sui tetti",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27133--26-1224-0-0-4e2c43e5d70ba06608f72d47adf60d21"
-    },
-    {
-     "titolo": "Una casa colorata",
-     "didascalia": "Una casa colorata",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27134--26-1224-0-0-c99359821f89a178598551aa1cb3c493"
     },
     {
      "titolo": "Rondini sul filo",
@@ -403,12 +373,6 @@
      "anno": 2008
     },
     {
-     "titolo": "Monumento alla zanzara",
-     "didascalia": "Salvatore Fiori, 2001",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27139--26-1224-0-0-dc36b62a2c650c4439c3f5ad527354d2",
-     "anno": 2001
-    },
-    {
      "titolo": "Fontana rana",
      "didascalia": "Giuliano Zanetti, 2005",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27140--26-1224-0-0-5b5b73fd9a6c838dc6c127944294c88a",
@@ -419,6 +383,30 @@
      "didascalia": "Escavatore trasformato in fioriera, 1998",
      "img": "https://static.wixstatic.com/media/e8d208_e7f2ad73e93548b7bc301625c913543c~mv2.jpg/v1/fill/w_385,h_289,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E06040.jpg",
      "anno": 1998
+    },
+    {
+     "titolo": "Dolmen",
+     "didascalia": "Dolmen installato nel 1998 sul dosso del Valdarengo, dal 2010 al Parco dei Tre Laghi",
+     "img": "https://static.wixstatic.com/media/e8d208_bb08f52a96724c0fad1407ff21b44d71~mv2.jpg/v1/fill/w_564,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E003.jpg",
+     "anno": 1998,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Totem al parco",
+     "didascalia": "Totem di palude con gli animali totemici della nostra terra: l'airone, la rana, la zanzara, il pesce",
+     "img": "https://static.wixstatic.com/media/e8d208_67226059252e435aa2efca98706a638b~mv2.png/v1/fill/w_259,h_476,al_c,lg_1,q_85,enc_avif,quality_auto/totem.png",
+     "anno": 2008,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Lavatoio palcoscenico",
+     "didascalia": "Libero Greco, 2011",
+     "img": "https://static.wixstatic.com/media/e8d208_4d729ac737024a31b2228311478e7803~mv2.jpg/v1/fill/w_448,h_307,al_c,q_80,enc_avif,quality_auto/barbavara022.jpg",
+     "anno": 2011,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
     }
    ]
   },
