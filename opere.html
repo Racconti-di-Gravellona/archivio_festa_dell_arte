@@ -200,6 +200,9 @@ function card(opera){
         <p class="font-serif text-sm font-bold text-stone-900 leading-snug">${esc(opera.titolo)}</p>
         ${opera.didascalia && opera.didascalia !== opera.titolo ? `<p class="mt-1 text-xs leading-relaxed text-stone-500">${esc(opera.didascalia)}</p>` : ''}
         ${opera.nota ? `<p class="mt-1 text-xs leading-relaxed text-stone-600">${esc(opera.nota)}</p>` : ''}
+        ${opera.anno ? `<a href="index.html#ed${esc(opera.anno)}" title="Apri l'edizione ${esc(opera.anno)} nell'archivio" class="mt-2 self-start inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
+          <i class="fa-solid fa-calendar-days text-[9px]"></i> Festa dell'Arte ${esc(opera.anno)}
+        </a>` : ''}
         ${opera.credito ? `<p class="mt-2 text-[10px] font-bold uppercase tracking-wider text-stone-400">${esc(opera.credito)}</p>` : ''}
         ${locale ? '' : `<a href="${esc(opera.img)}" target="_blank" rel="noopener" class="mt-auto self-start pt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-terracotta-700 hover:underline">
           <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i> Foto su ${esc(fonte)}

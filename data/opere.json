@@ -43,17 +43,20 @@
     {
      "titolo": "Cardano San Giorgio e il Drago",
      "didascalia": "Cardano San Giorgio e il Drago",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26645--26-1224-0-0-a9f2a63a903376a07103a2c9dc55ca9b"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26645--26-1224-0-0-a9f2a63a903376a07103a2c9dc55ca9b",
+     "anno": 1995
     },
     {
      "titolo": "Il drago burocratico",
      "didascalia": "Il drago burocratico trasforma tutto in carta",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26646--26-1224-0-0-f37e1fcc2951013c7ec72a19fe0d2b91"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26646--26-1224-0-0-f37e1fcc2951013c7ec72a19fe0d2b91",
+     "anno": 1995
     },
     {
      "titolo": "Libero Greco - I benestanti",
      "didascalia": "I benestanti - foto di gruppo",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26647--26-1224-0-0-38ecde3d0490968e496a836523793d7d"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26647--26-1224-0-0-38ecde3d0490968e496a836523793d7d",
+     "anno": 1996
     },
     {
      "titolo": "L'uomo libero combatte contro la burocrazia",
@@ -63,17 +66,20 @@
      "h": 599,
      "credito": "Foto: Giannella Channel, da mural.ch",
      "fonte": "mural.ch",
-     "nota": "Scheda e fotografia dalla voce 5255 di mural.ch, inserita nel 2017. L'opera fa parte del complesso «Barbavara di Gravellona Lomellina borgo dipinto»."
+     "nota": "Scheda e fotografia dalla voce 5255 di mural.ch, inserita nel 2017. L'opera fa parte del complesso «Barbavara di Gravellona Lomellina borgo dipinto».",
+     "anno": 1996
     },
     {
      "titolo": "San Giorgio porta i burocrati",
      "didascalia": "San Giorgio porta i burocrati all'inferno",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26648--26-1224-0-0-a065458d7cc3315403c58c3a15ecd221"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26648--26-1224-0-0-a065458d7cc3315403c58c3a15ecd221",
+     "anno": 1996
     },
     {
      "titolo": "Le ceramiche di G. Crippa",
      "didascalia": "Le ceramiche di G. Crippa",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26649--26-1224-0-0-36acfb0414fd80128e28282741eb7b04"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26649--26-1224-0-0-36acfb0414fd80128e28282741eb7b04",
+     "anno": 1995
     },
     {
      "titolo": "L'eroe nella foresta di regole",
@@ -215,18 +221,21 @@
    "opere": [
     {
      "titolo": "Paracarri",
-     "didascalia": "Arredo e arte - Paracarri e spartitraffico dipinti",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7260--26-1224-0-0-63e05437a411aa61ee4cd849b8fae1b7"
+     "didascalia": "Libero Greco, 2003",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7260--26-1224-0-0-63e05437a411aa61ee4cd849b8fae1b7",
+     "anno": 2003
     },
     {
      "titolo": "Zanzarone",
      "didascalia": "Monumento alla Zanzara (Salvatore Fiori, 2001)",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7270--26-1224-0-0-99a9a59661357b25d148415fd6f5db06"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7270--26-1224-0-0-99a9a59661357b25d148415fd6f5db06",
+     "anno": 2001
     },
     {
      "titolo": "Spazzacamini",
-     "didascalia": "Spazzacamini",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7272--26-1224-0-0-bd7096f17708f638b433ff63d2fcd828"
+     "didascalia": "Libero Greco, 2001",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7272--26-1224-0-0-bd7096f17708f638b433ff63d2fcd828",
+     "anno": 2001
     },
     {
      "titolo": "Carri",
@@ -241,7 +250,8 @@
     {
      "titolo": "Cabine Enel come giganti",
      "didascalia": "Cabine Enel come giganti",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8248--26-1224-0-0-fc050058d314102187ac434de752ccbd"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8248--26-1224-0-0-fc050058d314102187ac434de752ccbd",
+     "anno": 1999
     },
     {
      "titolo": "Casa Cocchetti",
@@ -250,28 +260,32 @@
     },
     {
      "titolo": "Ci guardano dall'alto",
-     "didascalia": "Ci guardano dall'alto",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8250--26-1224-0-0-0d55a682e255cf7f9ad88c9801b281a3"
+     "didascalia": "Libero Greco, 2001",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8250--26-1224-0-0-0d55a682e255cf7f9ad88c9801b281a3",
+     "anno": 2001
     },
     {
      "titolo": "Pecore",
-     "didascalia": "Pecore",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8252--26-1224-0-0-c8461642d81d31e88169d27ec0b417aa"
+     "didascalia": "Sagome di pecore e pastori, 2007",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8252--26-1224-0-0-c8461642d81d31e88169d27ec0b417aa",
+     "anno": 2007
     },
     {
      "titolo": "Pecore all'ingresso del paese",
-     "didascalia": "Pecore all'ingresso del paese",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8253--26-1224-0-0-bbcdc1abc66a95fd210d4f091828429d"
+     "didascalia": "Sagome di pecore e pastori, 2007",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8253--26-1224-0-0-bbcdc1abc66a95fd210d4f091828429d",
+     "anno": 2007
     },
     {
      "titolo": "Rana, velocipede, spazzacamini",
-     "didascalia": "Rana, velocipede, spazzacamini",
+     "didascalia": "Rana di Giuliano Zanetti (2005), velocipede di Giuseppe Petralia (2006), spazzacamini di Libero Greco (2001)",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8254--26-1224-0-0-af5a6df945c53524b9b62b6cb754f852"
     },
     {
      "titolo": "Rondini",
      "didascalia": "Rondini",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8255--26-1224-0-0-6f97f2676001ca5d6df76f4782c33450"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8255--26-1224-0-0-6f97f2676001ca5d6df76f4782c33450",
+     "anno": 2001
     },
     {
      "titolo": "Volontari dipingono",
@@ -280,8 +294,9 @@
     },
     {
      "titolo": "Zebre con la neve",
-     "didascalia": "Zebre con la neve",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8257--26-1224-0-0-9299601f858dcf9ebd49cd4dd38149f8"
+     "didascalia": "Zebre, 2009",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8257--26-1224-0-0-9299601f858dcf9ebd49cd4dd38149f8",
+     "anno": 2009
     },
     {
      "titolo": "Cromlech",
@@ -301,7 +316,8 @@
     {
      "titolo": "Rondini",
      "didascalia": "Rondini",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26641--26-1224-0-0-641ef29e3783a05792e8a6ef59c33c7c"
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26641--26-1224-0-0-641ef29e3783a05792e8a6ef59c33c7c",
+     "anno": 2001
     },
     {
      "titolo": "Una casa colorata",
