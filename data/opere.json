@@ -140,6 +140,27 @@
      "credito": "Elaborazione con ChatGPT, 2026",
      "fonte": "https://www.facebook.com/photo/?fbid=1022513604483466&set=pb.100063560470620.-2207520000",
      "nota": "I colori non sono quelli del muro: l'elaborazione è generata con ChatGPT. Serve solo a leggere le figure, non a documentare l'opera."
+    },
+    {
+     "titolo": "Muro dietro l'oratorio (mongolfiera)",
+     "didascalia": "Muro dietro l'oratorio, con scene di paese. Opera di Libero Greco, 2011",
+     "file": "opere/muro-oratorio-mongolfiera.jpg",
+     "anno": 2011,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Volantino 22ª edizione (2016) - fronte",
+     "didascalia": "Volantino 22ª edizione della Festa dell'Arte - fronte",
+     "file": "opere/volantino-22-edizione-fronte.jpg",
+     "anno": 2016,
+     "fonte": "https://www.facebook.com/photo/?fbid=989276057807221&set=pb.100063560470620.-2207520000"
+    },
+    {
+     "titolo": "Volantino 22ª edizione (2016) - retro",
+     "didascalia": "Volantino 22ª edizione della Festa dell'Arte - retro",
+     "file": "opere/volantino-22-edizione-retro.jpg",
+     "anno": 2016,
+     "fonte": "https://www.facebook.com/photo/?fbid=989276057807221&set=pb.100063560470620.-2207520000"
     }
    ]
   },
@@ -225,6 +246,14 @@
      "titolo": "Treno",
      "didascalia": "Mosaici di Gravellona Lomellina - Treno - Dal soprannome di un antico albergo con stallaggio",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7219--26-1224-0-0-bb459f2e2bccc42360aef542a82fa5db"
+    },
+    {
+     "titolo": "Tonon - Il Drago ferito",
+     "didascalia": "Il Drago ferito - mosaico, ricostruzione tramite ChatGPT",
+     "file": "opere/drago-mosaico-in-volo.png",
+     "anno": 1996,
+     "annoDubbio": true,
+     "credito": "Elaborazione con ChatGPT, 2026"
     }
    ]
   },
