@@ -88,7 +88,7 @@
     {
      "titolo": "L'eroe nella foresta di regole",
      "didascalia": "Giorgio Crippa - L'eroe nella foresta di regole",
-    "anno": 1995,
+     "anno": 1995,
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26650--26-1224-0-0-7279e12b4ff926f59f8ea923e1bcdcde"
     },
     {
@@ -97,9 +97,9 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26651--26-1224-0-0-be46123ef011dfd4c911bb36dcbcf878"
     },
     {
-    "titolo":"Murales in Corso Insurrezione",
-    "didascalia": "Murales opera di quattro autori di Novara - dal sito Gravellonartistica",
-    "img": "https://static.wixstatic.com/media/e8d208_6960bfafb70a4bdea87474134d298f51~mv2.jpg"
+     "titolo": "Murales in Corso Insurrezione",
+     "didascalia": "Murales opera di quattro autori di Novara - dal sito Gravellonartistica",
+     "img": "https://static.wixstatic.com/media/e8d208_6960bfafb70a4bdea87474134d298f51~mv2.jpg"
     },
     {
      "titolo": "Un muro dipinto",
@@ -123,6 +123,23 @@
      "h": 533,
      "credito": "Elaborazione con ChatGPT, 2026",
      "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera."
+    },
+    {
+     "titolo": "I Burattini Burocratici",
+     "didascalia": "Uomini come burattini di un burattinaio cartaceo - Opera di Roberta Filippi, vincitrice ex aequo dell'edizione 1996",
+     "file": "opere/burattini-burocratici-originale.png",
+     "anno": 1996,
+     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
+     "fonte": "https://www.facebook.com/photo/?fbid=1022513604483466&set=pb.100063560470620.-2207520000"
+    },
+    {
+     "titolo": "I Burattini Burocratici - ricostruzione ChatGPT",
+     "didascalia": "Restauro ipotetico dello stesso murale, generato con ChatGPT",
+     "file": "opere/burattini-burocratici-ricostruzione-chatgpt.png",
+     "anno": 1996,
+     "credito": "Elaborazione con ChatGPT, 2026",
+     "fonte": "https://www.facebook.com/photo/?fbid=1022513604483466&set=pb.100063560470620.-2207520000",
+     "nota": "I colori non sono quelli del muro: l'elaborazione è generata con ChatGPT. Serve solo a leggere le figure, non a documentare l'opera."
     }
    ]
   },
@@ -438,14 +455,6 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b",
      "anno": 2013,
      "annoDubbio": true
-    },
-    {
-     "titolo": "Il grande letto di benvenuto",
-     "didascalia": "Questo colorato pannello, posto all'ingresso di Gravellona Lomellina arrivando da Mortara, annuncia con un simpatico letto addobbato da salsicce che il nostro paese è un'ottimo posto per fare una sosta, rilassarsi e anche mangiar bene.",
-     "img": "https://www.gravellonartistica.com/via-cilavegna-circonvallazione?pgid=kihxveer-22e96dbb-5545-42e8-ad91-5fc6eb9f73df",
-     "fonte": "GravellonArtistica",
-     "nota": "20ª edizione della Festa dell'Arte",
-     "anno": 2013
     },
     {
      "titolo": "Cartello in ingresso",
