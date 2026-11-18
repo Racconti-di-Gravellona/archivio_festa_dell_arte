@@ -130,7 +130,7 @@
      "file": "opere/burattini-burocratici-originale.png",
      "anno": 1996,
      "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
-     "fonte": "https://www.facebook.com/photo/?fbid=1022513604483466&set=pb.100063560470620.-2207520000"
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
     },
     {
      "titolo": "I Burattini Burocratici - ricostruzione ChatGPT",
@@ -138,8 +138,15 @@
      "file": "opere/burattini-burocratici-ricostruzione-chatgpt.png",
      "anno": 1996,
      "credito": "Elaborazione con ChatGPT, 2026",
-     "fonte": "https://www.facebook.com/photo/?fbid=1022513604483466&set=pb.100063560470620.-2207520000",
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
      "nota": "I colori non sono quelli del muro: l'elaborazione è generata con ChatGPT. Serve solo a leggere le figure, non a documentare l'opera."
+    },
+    {
+     "titolo": "Il drago trafitto dalla lancia di San Giorgio",
+     "didascalia": "Mosaico di Vittorio Tonon, 1996 - ricostruzione tramite ChatGPT",
+     "file": "opere/drago-mosaico-in-volo.png",
+     "anno": 1996,
+     "credito": "Elaborazione con ChatGPT, 2026"
     }
    ]
   },
@@ -225,13 +232,6 @@
      "titolo": "Treno",
      "didascalia": "Mosaici di Gravellona Lomellina - Treno - Dal soprannome di un antico albergo con stallaggio",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7219--26-1224-0-0-bb459f2e2bccc42360aef542a82fa5db"
-    },
-    {
-     "titolo": "Il drago trafitto dalla lancia di San Giorgio",
-     "didascalia": "Mosaico di Vittorio Tonon, 1996 - ricostruzione tramite ChatGPT",
-     "file": "opere/drago-mosaico-in-volo.png",
-     "anno": 1996,
-     "credito": "Elaborazione con ChatGPT, 2026"
     }
    ]
   },
@@ -381,14 +381,14 @@
      "didascalia": "Vecchi oggetti come arredo: carri",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c",
      "anno": 1998,
-     "fonte": "https://www.facebook.com/photo/?fbid=892898007445027&set=pb.100063560470620.-2207520000"
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
     },
     {
      "titolo": "Carretto",
      "didascalia": "Carretto",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27136--26-1224-0-0-20b6f65cca6c8b17a36a4342d7a52fef",
      "anno": 1998,
-     "fonte": "https://www.facebook.com/photo/?fbid=892898007445027&set=pb.100063560470620.-2207520000"
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
     },
     {
      "titolo": "Pecore all'ingresso del paese",
@@ -408,7 +408,7 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26652--26-1224-0-0-ce7e5208d6d806221ca99708fdbb89ed",
      "anno": 2007,
      "credito": "Foto: Comune di Gravellona Lomellina",
-     "fonte": "https://www.facebook.com/photo/?fbid=1466397130095109&set=a.181244237337591"
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
     },
     {
      "titolo": "La grande uva",
@@ -416,7 +416,7 @@
      "img": "https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/511012566_10023594411041962_7177065709938214605_n.jpg?stp=dst-jpg_tt6&cstp=mx1421x2048&ctp=s1421x2048&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=N_AD8O8-hvwQ7kNvwEWJfgJ&_nc_oc=Adra3S3tNdNS6b1nRqPmWHwJAyV04hcrZVrakjaKzMGuOkD62IGjSGH6wCCK16DianQpA4ozXO7YEd8wOABXYIuA&_nc_zt=23&_nc_ht=scontent.fmxp5-1.fna&_nc_gid=KbjoymwBGgBetyEKravdSg&_nc_ss=7b289&oh=00_AQSX1wx2mWmD9MggSU-JESQZl-SRCDW2-plPsRyHmgYZLQ&oe=6B036853",
      "anno": 2007,
      "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
-     "fonte": "https://www.facebook.com/photo/?fbid=1466397130095109&set=a.181244237337591"
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
     },
     {
      "titolo": "Totem di palude",

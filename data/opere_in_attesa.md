@@ -9,7 +9,8 @@ Voci non ancora pubblicate nel JSON: mancano i file immagine. Da completare e tr
 - **Autore:** Antonio Ferrara (autore novarese)
 - **Anno:** non indicato
 - **Didascalia:** La gente fa un falò con le carte
-- **Fonte:** https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000
+- **Fonte:** Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.
+- **URL di riferimento:** https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000
 - **Immagine:** mancante
 
 Proposta di voce:
@@ -21,7 +22,7 @@ Proposta di voce:
   "file": "opere/...",
   "anno": null,
   "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
-  "fonte": "https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000"
+  "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
 }
 ```
 
@@ -32,7 +33,8 @@ Proposta di voce:
 - **Autore:** Massimo Gemelli (autore novarese)
 - **Anno:** non indicato
 - **Didascalia:** La gente suona e festeggia la morte della burocrazia, ma i colori plumbei fanno presagire una tragedia peggiore
-- **Fonte:** https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000
+- **Fonte:** Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.
+- **URL di riferimento:** https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000
 - **Immagine:** mancante
 
 Proposta di voce:
@@ -44,6 +46,6 @@ Proposta di voce:
   "file": "opere/...",
   "anno": null,
   "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
-  "fonte": "https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000"
+  "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
 }
 ```
