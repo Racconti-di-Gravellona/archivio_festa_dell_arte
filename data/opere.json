@@ -11,6 +11,14 @@
    "credito": "Foto: Comune di Gravellona Lomellina; una foto da mural.ch; una da GravellonArtistica; le ultime due dell'archivio",
    "opere": [
     {
+     "titolo": "Targa dei murales di Barbavara",
+     "didascalia": "Targa ricordo dei primi murales, opera degli artisti di Arte Nord, dal 1992",
+     "img": "https://static.wixstatic.com/media/e8d208_9aa7583b4bba417aa325cc809de22b8e~mv2.jpg/v1/fill/w_333,h_249,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/barbavara018.jpg",
+     "anno": 1992,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
      "titolo": "Frazione Barbavara",
      "didascalia": "I Murales di Gravellona Lomellina - Frazione Barbavara - Scomparso",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7248--26-1224-0-0-23fbd9e472601e78d57a758bdf9f1999"
@@ -21,8 +29,8 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7249--26-1224-0-0-381aa0ecb2116df0ff4aff21271f8027"
     },
     {
-     "titolo": "Casa Cocchetti",
-     "didascalia": "I Murales di Gravellona Lomellina - Casa Cocchetti - Bassorilievo in ceramica -",
+     "titolo": "Casa Cocchetti - Giorgio Crippa",
+     "didascalia": "I Murales di Gravellona Lomellina - Casa Cocchetti - Bassorilievo in ceramica di Giorgio Crippa",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7255--26-1224-0-0-6f154bf782e1e705c4f857e9364e8384"
     },
     {
@@ -61,12 +69,8 @@
     {
      "titolo": "L'uomo libero combatte contro la burocrazia",
      "didascalia": "Libero Greco, 1996, Barbavara: un bambino punta una pistola contro una pila di pratiche, un uomo incatenato resta carponi",
-     "img": "https://www.mural.ch/img/img_2213.jpg",
-     "w": 974,
-     "h": 599,
-     "credito": "Foto: Giannella Channel, da mural.ch",
-     "fonte": "mural.ch",
-     "nota": "Scheda e fotografia dalla voce 5255 di mural.ch, inserita nel 2017. L'opera fa parte del complesso «Barbavara di Gravellona Lomellina borgo dipinto».",
+     "img": "https://static.wixstatic.com/media/e8d208_57ae5e5f441741c3b43ac03dea4d6112~mv2.jpg/v1/fill/w_977,h_399,al_c,lg_1,q_85,enc_avif,quality_auto/E04022.jpg",
+     "credito": "Foto: GravellonArtistica",
      "anno": 1996
     },
     {
@@ -77,29 +81,25 @@
     },
     {
      "titolo": "Le ceramiche di G. Crippa",
-     "didascalia": "Le ceramiche di G. Crippa",
+     "didascalia": "Le ceramiche di Giorgio Crippa su Casa Volpi",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26649--26-1224-0-0-36acfb0414fd80128e28282741eb7b04",
      "anno": 1995
     },
     {
      "titolo": "L'eroe nella foresta di regole",
-     "didascalia": "G. Crippa - L'eroe nella foresta di regole",
+     "didascalia": "Giorgio Crippa - L'eroe nella foresta di regole",
+    "anno": 1995,
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26650--26-1224-0-0-7279e12b4ff926f59f8ea923e1bcdcde"
     },
     {
-     "titolo": "Tonon : il drago viene ucciso",
-     "didascalia": "In piazza Tonon ; il drago viene ucciso",
+     "titolo": "Tonon: il drago viene ucciso",
+     "didascalia": "In piazza Tonon; il drago viene ucciso",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26651--26-1224-0-0-be46123ef011dfd4c911bb36dcbcf878"
     },
     {
-     "titolo": "La grande uva",
-     "didascalia": "Cortile del municipio : la grande uva",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26652--26-1224-0-0-ce7e5208d6d806221ca99708fdbb89ed"
-    },
-    {
-     "titolo": "Omaggio a Borrani",
-     "didascalia": "Omaggio a Borrani",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26653--26-1224-0-0-608a5298376286316b44a07e8eae4789"
+    "titolo":"Murales in Corso Insurrezione",
+    "didascalia": "Murales opera di quattro autori di Novara - dal sito Gravellonartistica",
+    "img": "https://static.wixstatic.com/media/e8d208_6960bfafb70a4bdea87474134d298f51~mv2.jpg/"
     },
     {
      "titolo": "Un muro dipinto",
@@ -123,14 +123,6 @@
      "h": 533,
      "credito": "Elaborazione con ChatGPT, 2026",
      "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera."
-    },
-    {
-     "titolo": "Targa dei murales di Barbavara",
-     "didascalia": "Targa ricordo dei primi murales, opera degli artisti di Arte Nord, dal 1992",
-     "img": "https://static.wixstatic.com/media/e8d208_9aa7583b4bba417aa325cc809de22b8e~mv2.jpg/v1/fill/w_333,h_249,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/barbavara018.jpg",
-     "anno": 1992,
-     "credito": "Foto: GravellonArtistica",
-     "fonte": "GravellonArtistica"
     }
    ]
   },
@@ -248,6 +240,20 @@
      "anno": 1999
     },
     {
+     "titolo": "Cabina enel",
+     "didascalia": "Cabina enel - verso Borgolavezzaro",
+     "img": "https://static.wixstatic.com/media/e8d208_f321630530bb4fe8b6d85396f2807818~mv2.jpg/v1/fit/w_350,h_261,q_90,enc_avif,quality_auto/e8d208_f321630530bb4fe8b6d85396f2807818~mv2.jpg",
+     "fonte": "GravellonArtistica",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cabina enel",
+     "didascalia": "Cabina enel - verso Barbavara / Cassolnovo",
+     "img": "https://static.wixstatic.com/media/e8d208_8e9c269dcff64028bf13bdc0cd66f8eb~mv2.jpg/v1/fit/w_273,h_385,q_90,enc_avif,quality_auto/e8d208_8e9c269dcff64028bf13bdc0cd66f8eb~mv2.jpg",
+     "fonte": "GravellonArtistica",
+     "anno": 1999
+    },
+    {
      "titolo": "Cicogne sui tetti",
      "didascalia": "Cicogne sui tetti",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27133--26-1224-0-0-4e2c43e5d70ba06608f72d47adf60d21",
@@ -258,6 +264,18 @@
      "titolo": "Escavatore fioriera",
      "didascalia": "Escavatore trasformato in fioriera",
      "img": "https://static.wixstatic.com/media/e8d208_e7f2ad73e93548b7bc301625c913543c~mv2.jpg/v1/fill/w_385,h_289,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E06040.jpg",
+     "anno": 2000
+    },
+    {
+     "titolo": "Trattore",
+     "didascalia": "Trattore storico dipinto, collocato verso Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_708b45b89dd04117b13c1b00550e92ed~mv2.jpg/v1/fit/w_425,h_318,q_90,enc_avif,quality_auto/e8d208_708b45b89dd04117b13c1b00550e92ed~mv2.jpg",
+     "anno": 2000
+    },
+    {
+     "titolo": "Muro decorato",
+     "didascalia": "Muro decorato con ceramiche e arte povera, nella ex-caserma dei Carabinieri sulla strada per Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_0b6afdbaa1194dca88417314cc233702~mv2.jpg/v1/fit/w_506,h_337,q_90,enc_avif,quality_auto/e8d208_0b6afdbaa1194dca88417314cc233702~mv2.jpg",
      "anno": 2000
     },
     {
@@ -316,6 +334,13 @@
      "anno": 2003
     },
     {
+     "titolo": "Paracarri - omini e New Jersey - formiche",
+     "didascalia": "Libero Greco, 2003",
+     "img": "https://static.wixstatic.com/media/e8d208_94d24e4f791c436fb745f80bb1758551~mv2.jpg/v1/fit/w_393,h_275,q_90,enc_avif,quality_auto/e8d208_94d24e4f791c436fb745f80bb1758551~mv2.jpg",
+     "fonte": "GravellonArtistica",
+     "anno": 2003
+    },
+    {
      "titolo": "Fontana rana",
      "didascalia": "Giuliano Zanetti, 2005",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27140--26-1224-0-0-5b5b73fd9a6c838dc6c127944294c88a",
@@ -334,6 +359,12 @@
      "anno": 2007
     },
     {
+     "titolo": "Carretto",
+     "didascalia": "Carretto",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27136--26-1224-0-0-20b6f65cca6c8b17a36a4342d7a52fef",
+     "anno": 2007
+    },
+    {
      "titolo": "Pecore all'ingresso del paese",
      "didascalia": "Sagome di pecore e pastori, 2007",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8253--26-1224-0-0-bbcdc1abc66a95fd210d4f091828429d",
@@ -344,6 +375,22 @@
      "didascalia": "Sagome di pecore e pastore, 2007",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27125--26-1224-0-0-6c9accb35811082d5130736a0b71fff0",
      "anno": 2007
+    },
+    {
+     "titolo": "La grande uva",
+     "didascalia": "Cortile del municipio : la grande uva, realizzata per il concerto «il vino nella musica». Ideata da Libero Greco, realizzata da Donato Melito.",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26652--26-1224-0-0-ce7e5208d6d806221ca99708fdbb89ed",
+     "anno": 2007,
+     "credito": "Foto: Comune di Gravellona Lomellina",
+     "fonte": "https://www.facebook.com/photo/?fbid=1466397130095109&set=a.181244237337591"
+    },
+    {
+     "titolo": "La grande uva",
+     "didascalia": "dettaglio dell'ingresso all'Accademia di Musica (2017).",
+     "img": "https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/511012566_10023594411041962_7177065709938214605_n.jpg?stp=dst-jpg_tt6&cstp=mx1421x2048&ctp=s1421x2048&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=N_AD8O8-hvwQ7kNvwEWJfgJ&_nc_oc=Adra3S3tNdNS6b1nRqPmWHwJAyV04hcrZVrakjaKzMGuOkD62IGjSGH6wCCK16DianQpA4ozXO7YEd8wOABXYIuA&_nc_zt=23&_nc_ht=scontent.fmxp5-1.fna&_nc_gid=KbjoymwBGgBetyEKravdSg&_nc_ss=7b289&oh=00_AQSX1wx2mWmD9MggSU-JESQZl-SRCDW2-plPsRyHmgYZLQ&oe=6B036853",
+     "anno": 2007,
+     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
+     "fonte": "https://www.facebook.com/photo/?fbid=1466397130095109&set=a.181244237337591"
     },
     {
      "titolo": "Totem di palude",
@@ -386,9 +433,43 @@
      "fonte": "GravellonArtistica"
     },
     {
-     "titolo": "Casa Cocchetti",
-     "didascalia": "Casa Cocchetti",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8249--26-1224-0-0-586e805d514a5371e595164e0b27cf27"
+     "titolo": "Pescione",
+     "didascalia": "Pescione",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b",
+     "anno": 2013,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Cartello in ingresso a Gravellona da Cilavegna",
+     "didascalia": "Cartello in ingresso a Gravellona da Cilavegna, 20ª Festa dell'Arte",
+     "img": "https://www.gravellonartistica.com/via-cilavegna-circonvallazione?pgid=kihxveer-22e96dbb-5545-42e8-ad91-5fc6eb9f73df",
+     "fonte": "GravellonArtistica",
+     "nota": "20ª edizione della Festa dell'Arte",
+     "anno": 2013
+    },
+    {
+     "titolo": "Cartello in ingresso",
+     "didascalia": "Cartello in ingresso verso Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_319633bde96046dc83e2dad8f3412160~mv2.jpg/v1/fit/w_486,h_364,q_90,enc_avif,quality_auto/e8d208_319633bde96046dc83e2dad8f3412160~mv2.jpg",
+     "anno": 2014,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Benvenuti a Gravellona",
+     "didascalia": "Farfalle e coccinelle accolgono i visitatori provenienti da Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_4249954a17c34f0cb80e42881ddc1e70~mv2.jpg/v1/fit/w_760,h_558,q_90,enc_avif,quality_auto/e8d208_4249954a17c34f0cb80e42881ddc1e70~mv2.jpg",
+     "anno": 2014,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Bicicletta - orologio",
+     "didascalia": "Bicicletta realizzata con due quadranti di orologio - Circonvallazione interna",
+     "img": "https://static.wixstatic.com/media/e8d208_e5a67508049a44468ad23fc0442eaf06~mv2.jpg/v1/fit/w_494,h_311,q_90,enc_avif,quality_auto/e8d208_e5a67508049a44468ad23fc0442eaf06~mv2.jpg",
+     "anno": 2017,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
     },
     {
      "titolo": "Volontari dipingono",
@@ -396,19 +477,9 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8256--26-1224-0-0-e18b0bcb1f1eb331b7352aa509ea38de"
     },
     {
-     "titolo": "Pescione",
-     "didascalia": "Pescione",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b"
-    },
-    {
      "titolo": "Una casa colorata",
      "didascalia": "Una casa colorata",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26642--26-1224-0-0-ad6c831d7b15ac695b47af690024998f"
-    },
-    {
-     "titolo": "Carretto",
-     "didascalia": "Carretto",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27136--26-1224-0-0-20b6f65cca6c8b17a36a4342d7a52fef"
     }
    ]
   },
@@ -494,6 +565,11 @@
      "titolo": "Libro d'arte all'aperto",
      "didascalia": "Libro d'arte all'aperto",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26980--26-1224-0-0-a9efdb50d882eb10d1007adecc256ab9"
+    },
+    {
+     "titolo": "Omaggio a Borrani",
+     "didascalia": "Omaggio a Borrani",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26653--26-1224-0-0-608a5298376286316b44a07e8eae4789"
     }
    ]
   }
