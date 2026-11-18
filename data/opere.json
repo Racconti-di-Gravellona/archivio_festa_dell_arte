@@ -142,13 +142,6 @@
      "nota": "I colori non sono quelli del muro: l'elaborazione è generata con ChatGPT. Serve solo a leggere le figure, non a documentare l'opera."
     },
     {
-     "titolo": "Muro dietro l'oratorio (mongolfiera)",
-     "didascalia": "Muro dietro l'oratorio, con scene di paese. Opera di Libero Greco, 2011",
-     "file": "opere/muro-oratorio-mongolfiera.jpg",
-     "anno": 2011,
-     "annoDubbio": true
-    },
-    {
      "titolo": "Volantino 22ª edizione (2016) - fronte",
      "didascalia": "Volantino 22ª edizione della Festa dell'Arte - fronte",
      "file": "opere/volantino-22-edizione-fronte.jpg",
@@ -519,6 +512,13 @@
      "titolo": "Una casa colorata",
      "didascalia": "Una casa colorata",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26642--26-1224-0-0-ad6c831d7b15ac695b47af690024998f"
+    },
+    {
+     "titolo": "Muro dietro l'oratorio (mongolfiera)",
+     "didascalia": "Muro dietro l'oratorio, con scene di paese. Opera di Libero Greco, 2011",
+     "file": "opere/muro-oratorio-mongolfiera.jpg",
+     "anno": 2011,
+     "annoDubbio": true
     }
    ]
   },
