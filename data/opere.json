@@ -248,11 +248,10 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7219--26-1224-0-0-bb459f2e2bccc42360aef542a82fa5db"
     },
     {
-     "titolo": "Tonon - Il Drago ferito",
-     "didascalia": "Il Drago ferito - mosaico, ricostruzione tramite ChatGPT",
+     "titolo": "Il drago trafitto dalla lancia di San Giorgio",
+     "didascalia": "Mosaico di Vittorio Tonon, 1996 - ricostruzione tramite ChatGPT",
      "file": "opere/drago-mosaico-in-volo.png",
      "anno": 1996,
-     "annoDubbio": true,
      "credito": "Elaborazione con ChatGPT, 2026"
     }
    ]
@@ -402,13 +401,15 @@
      "titolo": "Carri",
      "didascalia": "Vecchi oggetti come arredo: carri",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c",
-     "anno": 2007
+     "anno": 1998,
+     "fonte": "https://www.facebook.com/photo/?fbid=892898007445027&set=pb.100063560470620.-2207520000"
     },
     {
      "titolo": "Carretto",
      "didascalia": "Carretto",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27136--26-1224-0-0-20b6f65cca6c8b17a36a4342d7a52fef",
-     "anno": 2007
+     "anno": 1998,
+     "fonte": "https://www.facebook.com/photo/?fbid=892898007445027&set=pb.100063560470620.-2207520000"
     },
     {
      "titolo": "Pecore all'ingresso del paese",
