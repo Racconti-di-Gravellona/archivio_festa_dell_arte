@@ -10,10 +10,13 @@ in `../../volantini/`. Non fanno parte della gallery e non vanno collegati da
 | `video2012/frames/` | 16 fotogrammi estratti dal video delle locandine 1995-2012 |
 | `video2012/estrazioni/` | ritagli usati per la 18ª edizione (2012): i `.jpg` sono identici agli originali in `../../volantini/2012-18ed-*`, i `.png` sono la versione grande |
 | `1995-mosaico.png` | mosaico di ricostruzione della locandina 1995 |
-| `2005-11ed-locandina-mosaico.png` | mosaico completo della locandina 2005 (496×639), ricomposto il 25-10-2026; la copia 3× per il restauro è in `gemini-locandine/2005-11ed-locandina-hd.png` |
-| `2013-volantino-full.png`, `2013-volantino-crop.png` | fotogramma del volantino 2013 e ritaglio |
+| `2005-11ed-locandina-mosaico.png` | mosaico completo della locandina 2005 (496×639), ricomposto il 25-10-2026; la copia 3× per il restauro è in `gemini-locandine/2005-11ed-locandina-hd.png`. Superato dalle scansioni originali, pubblicate in `../../volantini/2005-11ed-manifesto-*` con le pagine centrali 2-3 sia separate sia unite in un'unica immagine |
+| `2013-volantino-full.png`, `2013-volantino-crop.png` | fotogramma del volantino 2013 e ritaglio (bassa risoluzione, superato dalle scansioni originali) |
+| `volantino-2013/` | scansioni originali del volantino 2013 (fronte e retro) e istruzioni della ricomposizione; le immagini pubblicate sono in `../../volantini/2013-19ed-volantino-{fronte,retro}.jpg` |
 | `2013-sanpessimino.jpeg` | immagine del Decennale San Pessimino 2013 |
 | `installazione-arte31a.jpg` | piccola foto di un'installazione (208x150), provenienza da verificare |
+| `anteprima-social-1200x630.png` | copertina social (1200×630) con il disegno del favicon e il titolo «Archivio Festa dell'Arte»; la versione pubblicata è `../../assets/social/anteprima-social-1200x630.jpg` |
+| `socialcard.swift` | script AppKit che genera la copertina social: sfondo sfumato, favicon arrotondato, testo in Didot/Playfair |
 
 Regola: prima di aggiungere un file qui, controlla che non esista già in
 `../../volantini/` (stesso contenuto, anche con nome diverso).

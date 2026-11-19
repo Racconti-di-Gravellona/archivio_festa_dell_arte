@@ -6,7 +6,8 @@ Raccolta pubblica di volantini, manifesti e foto di programma della
 i programmi sono più lacunosi).
 
 - Gallery: `index.html` (sezioni per edizione, con tema e file).
-- Originali: `volantini/` (168 file: 148 jpg, 3 jpeg, 11 png, 1 webp, 5 PDF).
+- Opere in paese: `opere.html` (murales, mosaici, arredo e arte, libro d'arte all'aperto; immagini caricate dal sito del Comune, con crediti e copyright).
+- Originali: `volantini/` (176 file: 156 jpg, 3 jpeg, 11 png, 1 webp, 5 PDF).
 - Materiali di lavoro, non pubblicati: `sources/lavorazione/`.
 - Snapshot del vecchio sito: `sources/vecchio-sito/`.
 

@@ -1,0 +1,754 @@
+{
+ "aggiornato": "2026-11-05",
+ "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch e alcune immagini da GravellonArtistica, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
+ "gallerie": [
+  {
+   "id": "murales",
+   "titolo": "Murales",
+   "descrizione": "I murales nati nel 1992 a Barbavara per iniziativa del pittore Luigi Regianini e proseguiti in paese con il concorso «San Giorgio contro il drago / l'uomo libero contro la burocrazia». Molti sono scomparsi per umidità o ristrutturazioni.",
+   "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7",
+   "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/murales-36440-1-4723aaaa83193a5dcff9dbc606bc86b7?immagini#galleria-foto",
+   "credito": "Foto: Comune di Gravellona Lomellina; una foto da mural.ch; una da GravellonArtistica; le ultime due dell'archivio",
+   "opere": [
+    {
+     "titolo": "Targa dei murales di Barbavara",
+     "didascalia": "Targa ricordo dei primi murales, opera degli artisti di Arte Nord, dal 1992",
+     "img": "https://static.wixstatic.com/media/e8d208_9aa7583b4bba417aa325cc809de22b8e~mv2.jpg/v1/fill/w_333,h_249,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/barbavara018.jpg",
+     "anno": 1992,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Frazione Barbavara",
+     "didascalia": "I Murales di Gravellona Lomellina - Frazione Barbavara - Scomparso",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7248--26-1224-0-0-23fbd9e472601e78d57a758bdf9f1999"
+    },
+    {
+     "titolo": "L'arte povera dura poco",
+     "didascalia": "I Murales di Gravellona Lomellina - Frazione Barbavara - dipinti scomparsi per ristrutturazione casa",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7249--26-1224-0-0-381aa0ecb2116df0ff4aff21271f8027"
+    },
+    {
+     "titolo": "Casa Cocchetti - Giorgio Crippa",
+     "didascalia": "I Murales di Gravellona Lomellina - Casa Cocchetti - Bassorilievo in ceramica di Giorgio Crippa",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7255--26-1224-0-0-6f154bf782e1e705c4f857e9364e8384"
+    },
+    {
+     "titolo": "Scena anni 50",
+     "didascalia": "Scena anni 50",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8246--26-1224-0-0-d000c6db6fd35ba75c28bfb92618fb3c"
+    },
+    {
+     "titolo": "Belio: in principio fu il caos",
+     "didascalia": "Belio: in principio fu il caos",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26643--26-1224-0-0-c91cd0222277f9da34b8d4effb1e61af"
+    },
+    {
+     "titolo": "Poi venne la razionalità",
+     "didascalia": "Poi venne la razionalità",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26644--26-1224-0-0-94353be9e262a1566393da47ad3956af"
+    },
+    {
+     "titolo": "Cardano San Giorgio e il Drago",
+     "didascalia": "Cardano San Giorgio e il Drago",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26645--26-1224-0-0-a9f2a63a903376a07103a2c9dc55ca9b",
+     "anno": 1995
+    },
+    {
+     "titolo": "Il drago burocratico",
+     "didascalia": "Il drago burocratico trasforma tutto in carta",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26646--26-1224-0-0-f37e1fcc2951013c7ec72a19fe0d2b91",
+     "anno": 1995
+    },
+    {
+     "titolo": "Libero Greco - I benestanti",
+     "didascalia": "I benestanti - foto di gruppo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26647--26-1224-0-0-38ecde3d0490968e496a836523793d7d",
+     "anno": 1996
+    },
+    {
+     "titolo": "L'uomo libero combatte contro la burocrazia",
+     "didascalia": "Libero Greco, 1996, Barbavara: un bambino punta una pistola contro una pila di pratiche, un uomo incatenato resta carponi",
+     "img": "https://static.wixstatic.com/media/e8d208_57ae5e5f441741c3b43ac03dea4d6112~mv2.jpg/v1/fill/w_977,h_399,al_c,lg_1,q_85,enc_avif,quality_auto/E04022.jpg",
+     "credito": "Foto: GravellonArtistica",
+     "anno": 1996
+    },
+    {
+     "titolo": "San Giorgio porta i burocrati",
+     "didascalia": "San Giorgio porta i burocrati all'inferno",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26648--26-1224-0-0-a065458d7cc3315403c58c3a15ecd221",
+     "anno": 1996
+    },
+    {
+     "titolo": "Le ceramiche di G. Crippa",
+     "didascalia": "Le ceramiche di Giorgio Crippa su Casa Volpi",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26649--26-1224-0-0-36acfb0414fd80128e28282741eb7b04",
+     "anno": 1995
+    },
+    {
+     "titolo": "L'eroe nella foresta di regole",
+     "didascalia": "Giorgio Crippa - L'eroe nella foresta di regole",
+     "anno": 1995,
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26650--26-1224-0-0-7279e12b4ff926f59f8ea923e1bcdcde"
+    },
+    {
+     "titolo": "Tonon: il drago viene ucciso",
+     "didascalia": "In piazza Tonon; il drago viene ucciso",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26651--26-1224-0-0-be46123ef011dfd4c911bb36dcbcf878"
+    },
+    {
+     "titolo": "Murales in Corso Insurrezione",
+     "didascalia": "Murales opera di quattro autori di Novara - dal sito Gravellonartistica",
+     "img": "https://static.wixstatic.com/media/e8d208_6960bfafb70a4bdea87474134d298f51~mv2.jpg"
+    },
+    {
+     "titolo": "Un muro dipinto",
+     "didascalia": "Un muro dipinto",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26654--26-1224-0-0-70ee7ffcbc6c5e39ff11ff7ecb014105"
+    },
+    {
+     "titolo": "Muro con figure in marcia (autore e titolo non documentati)",
+     "didascalia": "Un fregio su muro ocra: undici figure in cammino verso un timbro a forma di pedina, una con un cappello a tesa; la figura centrale è inginocchiata sotto il peso del timbro",
+     "file": "opere/murales-timbro-omini-originale.jpg",
+     "w": 1280,
+     "h": 346,
+     "credito": "Foto dell'archivio, 2026",
+     "nota": "Autore e titolo del murale non sono documentati: la foto arriva da una segnalazione, non da una scheda. Non è nella galleria del Comune."
+    },
+    {
+     "titolo": "Lo stesso muro, ricostruzione cromatica con AI",
+     "didascalia": "Ricostruzione cromatica ipotetica dello stesso fregio, generata con ChatGPT",
+     "file": "opere/murales-timbro-omini-ricostruzione-chatgpt.jpg",
+     "w": 1600,
+     "h": 533,
+     "credito": "Elaborazione con ChatGPT, 2026",
+     "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera."
+    },
+    {
+     "titolo": "I Burattini Burocratici",
+     "didascalia": "Uomini come burattini di un burattinaio cartaceo - Opera di Roberta Filippi, vincitrice ex aequo dell'edizione 1996",
+     "file": "opere/burattini-burocratici-originale.png",
+     "anno": 1996,
+     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
+    },
+    {
+     "titolo": "I Burattini Burocratici - ricostruzione ChatGPT",
+     "didascalia": "Restauro ipotetico dello stesso murale, generato con ChatGPT",
+     "file": "opere/burattini-burocratici-ricostruzione-chatgpt.png",
+     "anno": 1996,
+     "credito": "Elaborazione con ChatGPT, 2026",
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
+     "nota": "I colori non sono quelli del muro: l'elaborazione è generata con ChatGPT. Serve solo a leggere le figure, non a documentare l'opera."
+    },
+    {
+     "titolo": "Il drago trafitto dalla lancia di San Giorgio",
+     "didascalia": "Mosaico di Vittorio Tonon, 1996 - ricostruzione tramite ChatGPT",
+     "file": "opere/drago-mosaico-in-volo.png",
+     "anno": 1996,
+     "credito": "Elaborazione con ChatGPT, 2026"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte05-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte05.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte06-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte06.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte09-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte09.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte10-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte10.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte12-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte12.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte13-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte13.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte14-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte14.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte16-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte16.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte17-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte17.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte18-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte18.html"
+    },
+    {
+     "titolo": "Murales, titolo e autore ignoto",
+     "didascalia": "Murales, titolo e autore ignoto",
+     "file": "opere/murales-arte19-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte19.html"
+    }
+   ]
+  },
+  {
+   "id": "mosaici",
+   "titolo": "Mosaici",
+   "descrizione": "I mosaici dei marciapiedi, su disegno di Camilla Storskog e realizzazione di Bekiri Fatmir: dalla foresta primigenia ai Celti, ai Romani, ai Longobardi, ai giochi popolari e all'Ottocento.",
+   "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/mosaici-36442-1-6d6c3bd1951c261df551687b5964b5d6",
+   "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/mosaici-36442-1-6d6c3bd1951c261df551687b5964b5d6?immagini",
+   "credito": "Foto: Comune di Gravellona Lomellina",
+   "opere": [
+    {
+     "titolo": "Cervo",
+     "didascalia": "Mosaici di Gravellona Lomellina - Cervo - Quando tutta la pianura padana era una immensa foresta",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7210--26-1224-0-0-6bafd444e7acf0b149723be2c653ecec"
+    },
+    {
+     "titolo": "Uomo primitivo",
+     "didascalia": "Mosaici di Gravellona Lomellina - Uomo primitivo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7216--26-1224-0-0-0d65548c2310711a4fab0f2523fdbe0d"
+    },
+    {
+     "titolo": "Cinghiale",
+     "didascalia": "Mosaici di Gravellona Lomellina - Cinghiale Sacro dei Celti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7221--26-1224-0-0-6fc4dc3c32c3c0ad653cdaf43e90b955"
+    },
+    {
+     "titolo": "Trischel",
+     "didascalia": "Mosaici di Gravellona Lomellina - Trischel - Simbolo dei nostri progenitori Celtici",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7222--26-1224-0-0-6b6b92ec7a68a694a166f1770cb0ddb4"
+    },
+    {
+     "titolo": "Aquila",
+     "didascalia": "Mosaici di Gravellona Lomellina - Aquila: i romani - La colonizzazione Romana",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7209--26-1224-0-0-6da538c9f3b267cd95133cd589478949"
+    },
+    {
+     "titolo": "Cavaliere",
+     "didascalia": "Mosaici di Gravellona Lomellina - Cavaliere - I Longobardi",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7211--26-1224-0-0-cbaa2b372d9ec7d0179bdaa202d989a5"
+    },
+    {
+     "titolo": "Croce",
+     "didascalia": "Mosaici di Gravellona Lomellina - Croce - Il Cristianesimo arriva in questi paesi (pagani da pagus = villaggio) verso l'anno 1000",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7212--26-1224-0-0-012757176bb5a2e410e6687b523cdd7a"
+    },
+    {
+     "titolo": "Quatter Canton",
+     "didascalia": "Mosaici di Gravellona Lomellina -Giochi Popolari - Quatter Canton (quattro cantoni)",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7213--26-1224-0-0-ff1ae33db0313f75502eaf6049568502"
+    },
+    {
+     "titolo": "Bambini",
+     "didascalia": "Mosaici di Gravellona Lomellina - Giochi popolari - Mago libero",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7214--26-1224-0-0-998a8ebe242f832c7119a851303059fe"
+    },
+    {
+     "titolo": "Alt e bass",
+     "didascalia": "Mosaici di Gravellona Lomellina - Giochi Popolari - Alt e bass - Rialzo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7215--26-1224-0-0-712176fdf0c53820263109d57350a257"
+    },
+    {
+     "titolo": "Topa",
+     "didascalia": "Mosaici di Gravellona Lomellina - Giochi popolari - Topa (nascondersi)",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7217--26-1224-0-0-fd9fa52f1a31a30b9b439d785d987095"
+    },
+    {
+     "titolo": "Campanon (mondo)",
+     "didascalia": "Mosaici di Gravellona Lomellina - Giochi poplari - Campanon (mondo)",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7223--26-1224-0-0-bd9a6d1b67571272f7b4f85ae1674f5e"
+    },
+    {
+     "titolo": "Carrozza",
+     "didascalia": "Mosaici di Gravellona Lomellina - Carrozza - Presenza signorile '800",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7220--26-1224-0-0-ab3f2b73ebb862ed13c6b16e556f32a6"
+    },
+    {
+     "titolo": "Automobile",
+     "didascalia": "Mosaici di Gravellona Lomellina - Automobile Signorile '900",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7218--26-1224-0-0-59640974a3c62cddeba41e71d41ff459"
+    },
+    {
+     "titolo": "Treno",
+     "didascalia": "Mosaici di Gravellona Lomellina - Treno - Dal soprannome di un antico albergo con stallaggio",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7219--26-1224-0-0-bb459f2e2bccc42360aef542a82fa5db"
+    }
+   ]
+  },
+  {
+   "id": "arredo",
+   "titolo": "Arredo e arte",
+   "descrizione": "Paracarri e spartitraffico dipinti, la zanzara, le cabine Enel trasformate in giganti, la rana, le pecore e i carri: gli arredi e le installazioni che hanno trasformato le strade del paese in un museo a cielo aperto.",
+   "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f",
+   "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/arredo-e-arte-36441-1-dccf009a5502beb0b06fa5537403e35f?immagini",
+   "credito": "Foto: Comune di Gravellona Lomellina; alcune da GravellonArtistica",
+   "opere": [
+    {
+     "titolo": "Dolmen",
+     "didascalia": "Dolmen installato nel 1998 sul dosso del Valdarengo, dal 2010 al Parco dei Tre Laghi",
+     "img": "https://static.wixstatic.com/media/e8d208_bb08f52a96724c0fad1407ff21b44d71~mv2.jpg/v1/fill/w_564,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E003.jpg",
+     "anno": 1998,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Cabine Enel come giganti",
+     "didascalia": "Cabine Enel come giganti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8248--26-1224-0-0-fc050058d314102187ac434de752ccbd",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cabina enel",
+     "didascalia": "Cabina enel",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26976--26-1224-0-0-51a4832a2812a3e838743f2f77f7d7f5",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cabina enel",
+     "didascalia": "Cabina enel - verso Borgolavezzaro",
+     "img": "https://static.wixstatic.com/media/e8d208_f321630530bb4fe8b6d85396f2807818~mv2.jpg/v1/fit/w_350,h_261,q_90,enc_avif,quality_auto/e8d208_f321630530bb4fe8b6d85396f2807818~mv2.jpg",
+     "fonte": "GravellonArtistica",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cabina enel",
+     "didascalia": "Cabina enel - verso Barbavara / Cassolnovo",
+     "img": "https://static.wixstatic.com/media/e8d208_8e9c269dcff64028bf13bdc0cd66f8eb~mv2.jpg/v1/fit/w_273,h_385,q_90,enc_avif,quality_auto/e8d208_8e9c269dcff64028bf13bdc0cd66f8eb~mv2.jpg",
+     "fonte": "GravellonArtistica",
+     "anno": 1999
+    },
+    {
+     "titolo": "Cicogne sui tetti",
+     "didascalia": "Cicogne sui tetti",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27133--26-1224-0-0-4e2c43e5d70ba06608f72d47adf60d21",
+     "anno": 2000,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Escavatore fioriera",
+     "didascalia": "Escavatore trasformato in fioriera",
+     "img": "https://static.wixstatic.com/media/e8d208_e7f2ad73e93548b7bc301625c913543c~mv2.jpg/v1/fill/w_385,h_289,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/E06040.jpg",
+     "anno": 2000
+    },
+    {
+     "titolo": "Trattore",
+     "didascalia": "Trattore storico dipinto, collocato verso Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_708b45b89dd04117b13c1b00550e92ed~mv2.jpg/v1/fit/w_425,h_318,q_90,enc_avif,quality_auto/e8d208_708b45b89dd04117b13c1b00550e92ed~mv2.jpg",
+     "anno": 2000
+    },
+    {
+     "titolo": "Muro decorato",
+     "didascalia": "Muro decorato con ceramiche e arte povera, nella ex-caserma dei Carabinieri sulla strada per Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_0b6afdbaa1194dca88417314cc233702~mv2.jpg/v1/fit/w_506,h_337,q_90,enc_avif,quality_auto/e8d208_0b6afdbaa1194dca88417314cc233702~mv2.jpg",
+     "anno": 2000
+    },
+    {
+     "titolo": "Zanzarone",
+     "didascalia": "Monumento alla Zanzara (Salvatore Fiori, 2001)",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7270--26-1224-0-0-99a9a59661357b25d148415fd6f5db06",
+     "anno": 2001
+    },
+    {
+     "titolo": "Spazzacamini",
+     "didascalia": "Libero Greco, 2001",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7272--26-1224-0-0-bd7096f17708f638b433ff63d2fcd828",
+     "anno": 2001
+    },
+    {
+     "titolo": "Ci guardano dall'alto",
+     "didascalia": "Libero Greco, 2001",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8250--26-1224-0-0-0d55a682e255cf7f9ad88c9801b281a3",
+     "anno": 2001
+    },
+    {
+     "titolo": "Rondini",
+     "didascalia": "Rondini",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8255--26-1224-0-0-6f97f2676001ca5d6df76f4782c33450",
+     "anno": 2001
+    },
+    {
+     "titolo": "Gatto e strega",
+     "didascalia": "Gatto e strega",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26978--26-1224-0-0-8664497b47d55bda00c3ec3a1e3baf14",
+     "anno": 2001
+    },
+    {
+     "titolo": "Sui tetti",
+     "didascalia": "Libero Greco, 2001",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26981--26-1224-0-0-25a2875e8f0a94c353ea918f3747e18a",
+     "anno": 2001
+    },
+    {
+     "titolo": "Rondini sul filo",
+     "didascalia": "Rondini sul filo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27135--26-1224-0-0-2debc5f5b09564039a9081af0c60b0f9",
+     "anno": 2001
+    },
+    {
+     "titolo": "Albero della cuccagna",
+     "didascalia": "Albero della cuccagna",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8247--26-1224-0-0-97d5f37b8d9dea6008064ef136326459",
+     "anno": 2002,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Paracarri",
+     "didascalia": "Libero Greco, 2003",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7260--26-1224-0-0-63e05437a411aa61ee4cd849b8fae1b7",
+     "anno": 2003
+    },
+    {
+     "titolo": "Paracarri - omini e New Jersey - formiche",
+     "didascalia": "Libero Greco, 2003",
+     "img": "https://static.wixstatic.com/media/e8d208_94d24e4f791c436fb745f80bb1758551~mv2.jpg/v1/fit/w_393,h_275,q_90,enc_avif,quality_auto/e8d208_94d24e4f791c436fb745f80bb1758551~mv2.jpg",
+     "fonte": "GravellonArtistica",
+     "anno": 2003
+    },
+    {
+     "titolo": "Fontana rana",
+     "didascalia": "Giuliano Zanetti, 2005",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27140--26-1224-0-0-5b5b73fd9a6c838dc6c127944294c88a",
+     "anno": 2005
+    },
+    {
+     "titolo": "Velocipede",
+     "didascalia": "Giuseppe Petralia, 2006",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27137--26-1224-0-0-9dc18bdfce80061ee10b753b1807005c",
+     "anno": 2006
+    },
+    {
+     "titolo": "Carri",
+     "didascalia": "Vecchi oggetti come arredo: carri",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-7275--26-1224-0-0-a3ad20a8c58a2e85f6c63657ba88bb4c",
+     "anno": 1998,
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
+    },
+    {
+     "titolo": "Carretto",
+     "didascalia": "Carretto",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27136--26-1224-0-0-20b6f65cca6c8b17a36a4342d7a52fef",
+     "anno": 1998,
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
+    },
+    {
+     "titolo": "Pecore all'ingresso del paese",
+     "didascalia": "Sagome di pecore e pastori, 2007",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8253--26-1224-0-0-bbcdc1abc66a95fd210d4f091828429d",
+     "anno": 2007
+    },
+    {
+     "titolo": "Sagome di pecore e pastore",
+     "didascalia": "Sagome di pecore e pastore, 2007",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27125--26-1224-0-0-6c9accb35811082d5130736a0b71fff0",
+     "anno": 2007
+    },
+    {
+     "titolo": "La grande uva",
+     "didascalia": "Cortile del municipio : la grande uva, realizzata per il concerto «il vino nella musica». Ideata da Libero Greco, realizzata da Donato Melito.",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26652--26-1224-0-0-ce7e5208d6d806221ca99708fdbb89ed",
+     "anno": 2007,
+     "credito": "Foto: Comune di Gravellona Lomellina",
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
+    },
+    {
+     "titolo": "La grande uva",
+     "didascalia": "dettaglio dell'ingresso all'Accademia di Musica (2017).",
+     "img": "https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/511012566_10023594411041962_7177065709938214605_n.jpg?stp=dst-jpg_tt6&cstp=mx1421x2048&ctp=s1421x2048&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=N_AD8O8-hvwQ7kNvwEWJfgJ&_nc_oc=Adra3S3tNdNS6b1nRqPmWHwJAyV04hcrZVrakjaKzMGuOkD62IGjSGH6wCCK16DianQpA4ozXO7YEd8wOABXYIuA&_nc_zt=23&_nc_ht=scontent.fmxp5-1.fna&_nc_gid=KbjoymwBGgBetyEKravdSg&_nc_ss=7b289&oh=00_AQSX1wx2mWmD9MggSU-JESQZl-SRCDW2-plPsRyHmgYZLQ&oe=6B036853",
+     "anno": 2007,
+     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
+    },
+    {
+     "titolo": "Totem di palude",
+     "didascalia": "Libero Greco, 2008",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27138--26-1224-0-0-d66e414136e9eb0b88ea1559ae433574",
+     "anno": 2008
+    },
+    {
+     "titolo": "Totem al parco",
+     "didascalia": "Totem di palude con gli animali totemici della nostra terra: l'airone, la rana, la zanzara, il pesce",
+     "img": "https://static.wixstatic.com/media/e8d208_67226059252e435aa2efca98706a638b~mv2.png/v1/fill/w_259,h_476,al_c,lg_1,q_85,enc_avif,quality_auto/totem.png",
+     "anno": 2008,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Zebre con la neve",
+     "didascalia": "Zebre, 2009",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8257--26-1224-0-0-9299601f858dcf9ebd49cd4dd38149f8",
+     "anno": 2009
+    },
+    {
+     "titolo": "Zebre",
+     "didascalia": "Sagome di zebre su un dosso stradale, 2009",
+     "img": "https://static.wixstatic.com/media/e8d208_8d040d90c6b745c2a4ee61837716f317~mv2.jpg/v1/fill/w_784,h_355,al_c,lg_1,q_80,enc_avif,quality_auto/e8d208_6a1b81c7920c4542985ed6d098cdb5d7_mv2.jpg",
+     "anno": 2009
+    },
+    {
+     "titolo": "Cromlech",
+     "didascalia": "Cromlech",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26638--26-1224-0-0-7ae119ba975e98faecb832da9e1f52f1",
+     "anno": 2010
+    },
+    {
+     "titolo": "Lavatoio palcoscenico",
+     "didascalia": "Libero Greco, 2011",
+     "img": "https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/910870155_29162038486770934_7472274040492347195_n.avif?stp=dst-jpg_tt6&cstp=mx2048x1398&ctp=s2048x1398&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Fa9rOeCuxxcQ7kNvwHQUsoi&_nc_oc=AdrfXzBqUc3zK6ja5Bxy2k4-nDdTQ_pEHy5ERF0sh17OSD2-ElTT8SkwbKGjZSKgUE7A4Dw4RrbsDlD2T4VlH_zi&_nc_zt=23&_nc_ht=scontent.fmxp5-1.fna&_nc_gid=93m4EKv3Lxx9Y4aIDEgRxw&_nc_ss=7b289&oh=00_AQSSluOBEJMnhc7A_yZzYId4tKAC24R6RqyVcTmKm8tHKQ&oe=6B0391C6",
+     "anno": 2011,
+     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)",
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)"
+    },
+    {
+     "titolo": "Pescione",
+     "didascalia": "Pescione",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26640--26-1224-0-0-75f0319c305c21950a5b19a236c9cd4b",
+     "anno": 2013,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Cartello in ingresso",
+     "didascalia": "Cartello in ingresso verso Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_319633bde96046dc83e2dad8f3412160~mv2.jpg/v1/fit/w_486,h_364,q_90,enc_avif,quality_auto/e8d208_319633bde96046dc83e2dad8f3412160~mv2.jpg",
+     "anno": 2014,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Benvenuti a Gravellona",
+     "didascalia": "Farfalle e coccinelle accolgono i visitatori provenienti da Cilavegna",
+     "img": "https://static.wixstatic.com/media/e8d208_4249954a17c34f0cb80e42881ddc1e70~mv2.jpg/v1/fit/w_760,h_558,q_90,enc_avif,quality_auto/e8d208_4249954a17c34f0cb80e42881ddc1e70~mv2.jpg",
+     "anno": 2014,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Bicicletta - orologio",
+     "didascalia": "Bicicletta realizzata con due quadranti di orologio - Circonvallazione interna",
+     "img": "https://static.wixstatic.com/media/e8d208_e5a67508049a44468ad23fc0442eaf06~mv2.jpg/v1/fit/w_494,h_311,q_90,enc_avif,quality_auto/e8d208_e5a67508049a44468ad23fc0442eaf06~mv2.jpg",
+     "anno": 2017,
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica"
+    },
+    {
+     "titolo": "Volontari dipingono",
+     "didascalia": "Volontari dipingono",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8256--26-1224-0-0-e18b0bcb1f1eb331b7352aa509ea38de"
+    },
+    {
+     "titolo": "Una casa colorata",
+     "didascalia": "Una casa colorata",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26642--26-1224-0-0-ad6c831d7b15ac695b47af690024998f"
+    },
+    {
+     "titolo": "Muro dietro l'oratorio (mongolfiera)",
+     "didascalia": "Muro dietro l'oratorio, con scene di paese. Opera di Libero Greco, 2011",
+     "file": "opere/muro-oratorio-mongolfiera.jpg",
+     "anno": 2011,
+     "annoDubbio": true
+    },
+    {
+     "titolo": "Arredo, titolo e autore ignoto",
+     "didascalia": "Arredo, titolo e autore ignoto",
+     "file": "opere/arredo-arte08-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte08.html",
+     "nota": "Didascalia originale nell'archivio Wayback: «Dal brutto al bello: paracarro dipinto»."
+    },
+    {
+     "titolo": "Arredo, titolo e autore ignoto",
+     "didascalia": "Arredo, titolo e autore ignoto",
+     "file": "opere/arredo-arte26-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte26.html",
+     "nota": "Didascalia originale nell'archivio Wayback: «Vecchi oggetti come arredo: escavatore»."
+    },
+    {
+     "titolo": "Arredo, titolo e autore ignoto",
+     "didascalia": "Arredo, titolo e autore ignoto",
+     "file": "opere/arredo-arte28-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte28.html"
+    },
+    {
+     "titolo": "Arredo, titolo e autore ignoto",
+     "didascalia": "Arredo, titolo e autore ignoto",
+     "file": "opere/arredo-arte31-wayback-1995.jpg",
+     "anno": 1995,
+     "annoDubbio": true,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte31.html"
+    }
+   ]
+  },
+  {
+   "id": "libro-arte",
+   "titolo": "Libro d'arte all'aperto",
+   "descrizione": "Le riproduzioni dei capolavori dell'Ottocento italiano installate lungo le strade dal 2012, con il progetto Art'è: Segantini, Fattori, Signorini, Pellizza da Volpedo, De Nittis, Corcos, Palizzi.",
+   "scheda": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/libro-d-arte-all-aperto-straordinaria-collezione-dell-800-italiano-29246-1-2ee19e2fb7cffd0bd8645a204bf1c083",
+   "galleria": "https://www.comune.gravellonalomellina.pv.it/it-it/vivere-il-comune/cosa-vedere/libro-d-arte-all-aperto-straordinaria-collezione-dell-800-italiano-29246-1-2ee19e2fb7cffd0bd8645a204bf1c083?immagini",
+   "credito": "Foto: Comune di Gravellona Lomellina — opere originali in pubblico dominio",
+   "opere": [
+    {
+     "titolo": "G. Segantini - Ave Maria",
+     "didascalia": "G. Segantini - Ave Maria a trasbordo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8445--26-1224-0-0-0224cf9cf2021da31cc1a027330a065c"
+    },
+    {
+     "titolo": "G. Fattori - le acquaiole",
+     "didascalia": "G. Fattori - le acquaiole livornesi",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26971--26-1224-0-0-a5019dcb29df1efc72513cac2e4757d4"
+    },
+    {
+     "titolo": "Telemaco Signorini - L'alzaia",
+     "didascalia": "Telemaco Signorini - L'alzaia",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26972--26-1224-0-0-dae2c89686c8c2f0428585219168ebd5"
+    },
+    {
+     "titolo": "Pellizza da Volpedo la fiumana",
+     "didascalia": "Pellizza da Volpedo la fiumana",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26973--26-1224-0-0-74907012734e1370858cfe7b4e0be709"
+    },
+    {
+     "titolo": "DeNittis Colazione a Posillipo",
+     "didascalia": "De Nittis Colazione a Posillipo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26974--26-1224-0-0-62cee1bd37b1f21a7e6bbefa555f7249"
+    },
+    {
+     "titolo": "Vittorio Corcos - Sogni",
+     "didascalia": "Vittorio Corcos - Sogni",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26982--26-1224-0-0-7b1e11f82e270d3ccc3e506042a67d36"
+    },
+    {
+     "titolo": "Vicolo del Macchiaioli",
+     "didascalia": "Vicolo dei Macchiaioli",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26983--26-1224-0-0-cd04c27477b22620a3cd2a94e36a1598"
+    },
+    {
+     "titolo": "Volontari al lavoro",
+     "didascalia": "Volontari al lavoro",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26984--26-1224-0-0-c3ba52bd13553a4034b8d6be81369a2d"
+    },
+    {
+     "titolo": "Vicolo Cà di ratt",
+     "didascalia": "Vicolo Cà di ratt",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26985--26-1224-0-0-088bee7c4dc130363003ec2a5ab3d3f7"
+    },
+    {
+     "titolo": "La ragazza sullo scoglio",
+     "didascalia": "F. Palizzi - La ragazza sullo scoglio di Sorrento",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27119--26-1224-0-0-7c67a96014a7c799775b32c4e44c4ec7"
+    },
+    {
+     "titolo": "Strada di Settignano",
+     "didascalia": "Telemaco Signorini - Strada di Settignano",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27120--26-1224-0-0-91e25c084421f5b0a1927636d90227f1"
+    },
+    {
+     "titolo": "Una casa",
+     "didascalia": "Una casa",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27121--26-1224-0-0-4f26fdeaec04b9a933688f4483b90947"
+    },
+    {
+     "titolo": "Prima",
+     "didascalia": "Prima",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27122--26-1224-0-0-d9c91142758e2dbfecd6e568473da792"
+    },
+    {
+     "titolo": "Dopo",
+     "didascalia": "Dopo",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-27123--26-1224-0-0-4df5edbdd82c16b25685c9e4f6d727a9"
+    },
+    {
+     "titolo": "Libro d'arte all'aperto",
+     "didascalia": "Libro d'arte all'aperto",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26980--26-1224-0-0-a9efdb50d882eb10d1007adecc256ab9"
+    },
+    {
+     "titolo": "Omaggio a Borrani",
+     "didascalia": "Omaggio a Borrani",
+     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26653--26-1224-0-0-608a5298376286316b44a07e8eae4789"
+    }
+   ]
+  }
+ ]
+}
