@@ -209,11 +209,18 @@ function card(opera){
 }
 
 function gallery(g){
+  const disclaimer = g.disclaimer ? `
+        <div class="mt-4 rounded-2xl border border-amber-300 bg-amber-50 p-4 sm:p-5">
+          <p class="text-sm sm:text-base font-semibold leading-relaxed text-stone-800">
+            <i class="fa-solid fa-circle-info text-amber-700 mr-2"></i>${esc(g.disclaimer)}
+            ${g.disclaimer_url ? ` <a href="${esc(g.disclaimer_url)}" target="_blank" rel="noopener" class="text-terracotta-700 underline decoration-terracotta-600/40 hover:decoration-terracotta-600 font-bold">${esc(g.disclaimer_label || 'Apri il sito')}</a>` : ''}
+          </p>
+        </div>` : '';
   return `
     <section id="${esc(g.id)}" class="scroll-mt-24 space-y-5 py-3 sm:py-5">
       <div class="max-w-3xl">
         <h2 class="font-serif text-2xl sm:text-3xl font-bold tracking-tight">${esc(g.titolo)} <span class="text-base font-normal text-stone-400">· ${g.opere.length} immagini</span></h2>
-        <p class="mt-2 text-sm leading-relaxed text-stone-600">${esc(g.descrizione)}</p>
+        <p class="mt-2 text-sm leading-relaxed text-stone-600">${esc(g.descrizione)}</p>${disclaimer}
         <p class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] font-semibold uppercase tracking-wider">
           <span class="text-stone-500"><i class="fa-solid fa-camera text-[10px] mr-1"></i>${esc(g.credito)}</span>
           <a href="${esc(g.galleria)}" target="_blank" rel="noopener" class="text-terracotta-700 hover:underline"><i class="fa-solid fa-images text-[10px] mr-1"></i>Galleria del Comune</a>
