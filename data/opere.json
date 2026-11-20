@@ -167,14 +167,14 @@
      "credito": "Elaborazione con ChatGPT, 2026"
     },
     {
-     "titolo": "Murales, titolo e autore ignoto",
-     "didascalia": "Murales, titolo e autore ignoto",
+     "titolo": "Titolo ignoto",
+     "didascalia": "di Aldo Fornoni, 1992",
      "file": "opere/murales-arte05-wayback-1995.jpg",
-     "anno": 1995,
-     "annoDubbio": true,
+     "anno": 1992,
      "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
      "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
-     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte05.html"
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte05.html",
+     "nota": "Fonte informazioni: GiannellaChannel."
     },
     {
      "titolo": "Murales, titolo e autore ignoto",
