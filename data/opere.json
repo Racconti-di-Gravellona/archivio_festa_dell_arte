@@ -57,12 +57,22 @@
     },
     {
      "titolo": "Fantoccio in divisa",
-     "didascalia": "Autore ignoto, opera oggi perduta, 1992",
+     "didascalia": "Autore ignoto, opera oggi perduta, 1992 (ricostruzione con IA)",
      "file": "opere/fantoccio_in_divisa.jpg",
      "anno": 1992,
      "fonte": "Internet Archive",
      "credito": "Immagine rigenerata da Gemini su un file da Internet Archive",
-     "nota": "Autore ignoto, opera oggi perduta."
+     "nota": "Autore ignoto, opera oggi perduta. Immagine rigenerata da Gemini su un file da Internet Archive."
+    },
+    {
+     "titolo": "Fantoccio in divisa",
+     "didascalia": "Autore ignoto, opera oggi perduta, 1992",
+     "file": "opere/murales-arte18-wayback-1995.jpg",
+     "anno": 1992,
+     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
+     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
+     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte18.html",
+     "nota": "Autore ignoto, opera oggi perduta. Versione non IA."
     },
     {
      "titolo": "Cardano San Giorgio e il Drago",
@@ -146,22 +156,50 @@
     {
      "titolo": "Murales, titolo e autore ignoto",
      "didascalia": "Murales, titolo e autore ignoto",
-     "file": "opere/murales-arte18-wayback-1995.jpg",
-     "anno": 1995,
-     "annoDubbio": true,
-     "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
-     "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
-     "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte18.html"
-    },
-    {
-     "titolo": "Murales, titolo e autore ignoto",
-     "didascalia": "Murales, titolo e autore ignoto",
      "file": "opere/murales-arte19-wayback-1995.jpg",
      "anno": 1995,
      "annoDubbio": true,
      "fonte": "Wayback Machine - sito del Comune di Gravellona Lomellina",
      "credito": "Immagine ricostruita da frammenti archiviati su Wayback Machine (sito del Comune di Gravellona Lomellina)",
      "link": "https://web.archive.org/web/20081005103918/http://www.comune.gravellona-lomellina.pv.it/arte/arte19.html"
+    },
+    {
+     "titolo": "Elio Bozzola - In principio fu il Caos",
+     "didascalia": "Elio Bozzola - In principio fu il Caos",
+     "img": "https://static.wixstatic.com/media/e8d208_8824b588f58947cb853527a5e14e604c~mv2.jpg/v1/fill/w_1104,h_427,al_c,lg_1,q_85,enc_avif,quality_auto/E04017.jpg",
+     "fonte": "GravellonArtistica",
+     "credito": "Foto: GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza",
+     "anno": 1995
+    },
+    {
+     "titolo": "Elio Bozzola - poi venne la razionalità",
+     "didascalia": "Elio Bozzola - poi venne la razionalità",
+     "img": "https://static.wixstatic.com/media/e8d208_953ea14d1fdc41d0a74a61a3fb2d0d89~mv2.jpg/v1/fill/w_1104,h_434,al_c,lg_1,q_85,enc_avif,quality_auto/E04016.jpg",
+     "fonte": "GravellonArtistica",
+     "credito": "Foto: GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza",
+     "anno": 1995
+    },
+    {
+     "titolo": "Muro con figure in marcia (autore e titolo non documentati)",
+     "didascalia": "Un fregio su muro ocra: undici figure in cammino verso un timbro a forma di pedina, una con un cappello a tesa; la figura centrale è inginocchiata sotto il peso del timbro",
+     "file": "opere/murales-timbro-omini-originale.jpg",
+     "w": 1280,
+     "h": 346,
+     "credito": "Foto dell'archivio, 2026",
+     "nota": "Autore e titolo del murale non sono documentati: la foto arriva da una segnalazione, non da una scheda. Non è nella galleria del Comune.",
+     "anno": 1995
+    },
+    {
+     "titolo": "Lo stesso muro, ricostruzione cromatica con AI",
+     "didascalia": "Ricostruzione cromatica ipotetica dello stesso fregio, generata con ChatGPT",
+     "file": "opere/murales-timbro-omini-ricostruzione-chatgpt.jpg",
+     "w": 1600,
+     "h": 533,
+     "credito": "Elaborazione con ChatGPT, 2026",
+     "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera.",
+     "anno": 1995
     },
     {
      "titolo": "Libero Greco - I benestanti",
@@ -253,22 +291,6 @@
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-8246--26-1224-0-0-d000c6db6fd35ba75c28bfb92618fb3c"
     },
     {
-     "titolo": "Elio Bozzola - In principio fu il Caos",
-     "didascalia": "Elio Bozzola - In principio fu il Caos",
-     "img": "https://static.wixstatic.com/media/e8d208_8824b588f58947cb853527a5e14e604c~mv2.jpg/v1/fill/w_1104,h_427,al_c,lg_1,q_85,enc_avif,quality_auto/E04017.jpg",
-     "fonte": "GravellonArtistica",
-     "credito": "Foto: GravellonArtistica",
-     "link": "https://www.gravellonartistica.com/piazza"
-    },
-    {
-     "titolo": "Elio Bozzola - poi venne la razionalità",
-     "didascalia": "Elio Bozzola - poi venne la razionalità",
-     "img": "https://static.wixstatic.com/media/e8d208_953ea14d1fdc41d0a74a61a3fb2d0d89~mv2.jpg/v1/fill/w_1104,h_434,al_c,lg_1,q_85,enc_avif,quality_auto/E04016.jpg",
-     "fonte": "GravellonArtistica",
-     "credito": "Foto: GravellonArtistica",
-     "link": "https://www.gravellonartistica.com/piazza"
-    },
-    {
      "titolo": "Tonon: il drago viene ucciso",
      "didascalia": "In piazza Tonon; il drago viene ucciso",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26651--26-1224-0-0-be46123ef011dfd4c911bb36dcbcf878"
@@ -282,24 +304,6 @@
      "titolo": "Un muro dipinto",
      "didascalia": "Un muro dipinto",
      "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26654--26-1224-0-0-70ee7ffcbc6c5e39ff11ff7ecb014105"
-    },
-    {
-     "titolo": "Muro con figure in marcia (autore e titolo non documentati)",
-     "didascalia": "Un fregio su muro ocra: undici figure in cammino verso un timbro a forma di pedina, una con un cappello a tesa; la figura centrale è inginocchiata sotto il peso del timbro",
-     "file": "opere/murales-timbro-omini-originale.jpg",
-     "w": 1280,
-     "h": 346,
-     "credito": "Foto dell'archivio, 2026",
-     "nota": "Autore e titolo del murale non sono documentati: la foto arriva da una segnalazione, non da una scheda. Non è nella galleria del Comune."
-    },
-    {
-     "titolo": "Lo stesso muro, ricostruzione cromatica con AI",
-     "didascalia": "Ricostruzione cromatica ipotetica dello stesso fregio, generata con ChatGPT",
-     "file": "opere/murales-timbro-omini-ricostruzione-chatgpt.jpg",
-     "w": 1600,
-     "h": 533,
-     "credito": "Elaborazione con ChatGPT, 2026",
-     "nota": "I colori non sono quelli del muro: l'originale è quasi monocromo su ocra. Serve solo a leggere le figure, non a documentare l'opera."
     }
    ]
   },
