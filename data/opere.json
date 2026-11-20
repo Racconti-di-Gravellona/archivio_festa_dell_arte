@@ -57,20 +57,29 @@
     {
      "titolo": "Cardano San Giorgio e il Drago",
      "didascalia": "Cardano San Giorgio e il Drago",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26645--26-1224-0-0-a9f2a63a903376a07103a2c9dc55ca9b",
-     "anno": 1995
+     "img": "https://static.wixstatic.com/media/e8d208_e45e48b48cac48da9d532ec4ad2e99f6~mv2.jpg/v1/fill/w_1175,h_425,al_c,lg_1,q_85,enc_avif,quality_auto/E04018.jpg",
+     "anno": 1995,
+     "fonte": "GravellonArtistica",
+     "credito": "Foto: GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza"
     },
     {
      "titolo": "Il drago burocratico",
      "didascalia": "Il drago burocratico trasforma tutto in carta",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26646--26-1224-0-0-f37e1fcc2951013c7ec72a19fe0d2b91",
-     "anno": 1995
+     "img": "https://static.wixstatic.com/media/e8d208_9c4eca13201441bfac1d1f1bb7f46cdb~mv2.jpg/v1/fill/w_1170,h_400,al_c,lg_1,q_85,enc_avif,quality_auto/E04019.jpg",
+     "anno": 1995,
+     "fonte": "GravellonArtistica",
+     "credito": "Foto: GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza"
     },
     {
      "titolo": "Libero Greco - I benestanti",
      "didascalia": "I benestanti - foto di gruppo",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26647--26-1224-0-0-38ecde3d0490968e496a836523793d7d",
-     "anno": 1996
+     "img": "https://static.wixstatic.com/media/e8d208_0d5467d2417d4c8081692211e866c3f5~mv2.jpg/v1/fill/w_1154,h_410,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/E04020.jpg",
+     "anno": 1996,
+     "fonte": "GravellonArtistica",
+     "credito": "Foto: GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza"
     },
     {
      "titolo": "L'uomo libero combatte contro la burocrazia",
@@ -82,8 +91,11 @@
     {
      "titolo": "San Giorgio porta i burocrati",
      "didascalia": "San Giorgio porta i burocrati all'inferno",
-     "img": "https://www.comune.gravellonalomellina.pv.it/it-it/immagine/img-26648--26-1224-0-0-a065458d7cc3315403c58c3a15ecd221",
-     "anno": 1996
+     "img": "https://static.wixstatic.com/media/e8d208_c3115c79125941558381c10096e13fe5~mv2.jpg/v1/fill/w_1200,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/E04021.jpg",
+     "anno": 1996,
+     "fonte": "GravellonArtistica",
+     "credito": "Foto: GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza"
     },
     {
      "titolo": "Le ceramiche di G. Crippa",
