@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-05",
+ "aggiornato": "2026-11-22",
  "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch e alcune immagini da GravellonArtistica, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
  "gallerie": [
   {
@@ -268,6 +268,16 @@
      "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)",
      "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)",
      "nota": "Autore: Massimo Gemelli (novarese). Vincitore ex aequo edizione 1996. Immagine raddrizzata con ChatGPT.",
+     "link": "https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000"
+    },
+    {
+     "titolo": "La gente suona e festeggia la morte della burocrazia",
+     "didascalia": "ma i colori plumbei fanno presagire una tragedia peggiore. di Massimo Gemelli, autore novarese, vincitore ex aequo edizione 1996. Restaurato con ChatGPT",
+     "file": "opere/buioPerLaFineDellaBurocrazia-ricostruzione-chatgpt.png",
+     "anno": 1996,
+     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)",
+     "credito": "Elaborazione con ChatGPT, 2026",
+     "nota": "Autore: Massimo Gemelli (novarese). Vincitore ex aequo edizione 1996. I colori non sono quelli del muro: l'immagine è restaurata con ChatGPT e serve a leggere le figure, non a documentare l'opera.",
      "link": "https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000"
     },
     {
