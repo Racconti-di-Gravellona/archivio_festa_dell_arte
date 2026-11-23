@@ -5,7 +5,7 @@
   "edition": 1,
   "decade": "1990s",
   "title": null,
-  "description": "La primissima Festa dell'Arte, il 17-18 giugno 1995: «una grande festa a giugno in piazza». Sulla copertina il disegno di Regianini; la locandina è di Gravellona e Barbavara.",
+  "description": "La primissima Festa dell'Arte, il 17-18 giugno 1995: «una grande festa a giugno in piazza». La copertina è di Libero Greco, autore di tutte le locandine della festa; il disegno in testata è di Luigi Regianini.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/1995-01ed-locandina-hd.jpg",
@@ -35,7 +35,7 @@
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
    }
   ],
-  "context": "Concorso di pittura a tema «Medioevo: San Giorgio combatte contro il drago — XX Secolo: l'uomo libero combatte contro la burocrazia». Vincitore G. Crippa con i pannelli di ceramica in piazza.",
+  "context": "Concorso di pittura a tema «Medioevo: San Giorgio combatte contro il drago — XX Secolo: l'uomo libero combatte contro la burocrazia». Vincitore G. Crippa con i pannelli di ceramica in piazza. Il manifesto di Libero Greco, autore di tutte le locandine della festa, mostra San Giorgio che porta all'inferno i protagonisti della società trionfante su un cavallo con gualdrappa di carta; il soggetto è ripreso in due murales del paese, già catalogati, che stanno scolorendo.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -44,11 +44,19 @@
    {
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
+   },
+   {
+    "label": "Sito comunale (da Wayback Machine, 30 aprile 2010)",
+    "url": "https://web.archive.org/web/20100430072907/http://www.comune.gravellona-lomellina.pv.it/festa/festa2.html"
    }
   ],
   "opere": [
    "Pannelli di ceramica di G. Crippa"
-  ]
+  ],
+  "opereLink": {
+   "label": "Vedi i Murales",
+   "url": "opere.html#murales"
+  }
  },
  {
   "id": "ed1996",
@@ -265,7 +273,7 @@
   "edition": 6,
   "decade": "2000s",
   "title": null,
-  "description": "6ª edizione, 3-4 e 10-11 giugno 2000: vecchie macchine agricole reinterpretate come sculture.",
+  "description": "6ª edizione, 3-4 e 10-11 giugno 2000, dedicata al ballo: vecchie macchine agricole reinterpretate come sculture.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2000-06ed-locandina-hd.jpg",
@@ -290,7 +298,7 @@
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
    }
   ],
-  "context": "Vecchie macchine agricole come sculture.",
+  "context": "L'edizione è dedicata al ballo. Dal punto di vista dell'arredo urbano compaiono qua e là vecchie macchine agricole come sculture.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -299,6 +307,10 @@
    {
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
+   },
+   {
+    "label": "Sito comunale (da Wayback Machine, 30 aprile 2010)",
+    "url": "https://web.archive.org/web/20100430072907/http://www.comune.gravellona-lomellina.pv.it/festa/festa2.html"
    }
   ],
   "opere": [
@@ -311,7 +323,7 @@
   "edition": 7,
   "decade": "2000s",
   "title": null,
-  "description": "7ª edizione, due weekend a giugno (2-3 e 9-10): spaventapasseri e spazzacamini, il convegno «Bellezza Natura Arte come fattori di sviluppo economico» e la prima edizione del Campionato Europeo di Caccia alla Zanzara. In questi mesi partono i lavori del Parco dei Tre Laghi.",
+  "description": "7ª edizione, due weekend a giugno (2-3 e 9-10): spaventapasseri e spazzacamini, il convegno «Bellezza Natura Arte come fattori di sviluppo economico» e la prima edizione del Campionato Europeo di Caccia alla Zanzara per coppie. In questi mesi partono i lavori del Parco dei Tre Laghi.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2001-07ed-locandina-hd.jpg",
@@ -336,7 +348,7 @@
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
    }
   ],
-  "context": "Spaventapasseri e spazzacamini. Durante questa festa si tiene la prima edizione del Campionato Europeo di Caccia alla Zanzara. Inizio dei lavori di costruzione del Parco dei Tre Laghi.",
+  "context": "Spaventapasseri e spazzacamini: sui tetti compaiono streghe e spazzacamini, ormai una caratteristica di Gravellona, mentre bambini e artisti riempiono la piazza di spaventapasseri. Durante la festa si tiene la prima edizione del Campionato Europeo di Caccia alla Zanzara per coppie. Inizio dei lavori di costruzione del Parco dei Tre Laghi.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -345,6 +357,10 @@
    {
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
+   },
+   {
+    "label": "Sito comunale (da Wayback Machine, 30 aprile 2010)",
+    "url": "https://web.archive.org/web/20100430072907/http://www.comune.gravellona-lomellina.pv.it/festa/festa2.html"
    }
   ],
   "opere": [
@@ -405,7 +421,7 @@
   "edition": 9,
   "decade": "2000s",
   "title": null,
-  "description": "9ª edizione, da sabato 31 maggio a domenica 8 giugno 2003: i muri di cinta diventano monumento.",
+  "description": "9ª edizione, da sabato 31 maggio a domenica 8 giugno 2003: i muri di cinta diventano monumento della società contadina.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2003-09ed-locandina-hd.jpg",
@@ -430,7 +446,7 @@
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
    }
   ],
-  "context": "I muri di cinta diventano monumento.",
+  "context": "I muri di cinta diventano monumento della società contadina.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -439,6 +455,10 @@
    {
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
+   },
+   {
+    "label": "Sito comunale (da Wayback Machine, 30 aprile 2010)",
+    "url": "https://web.archive.org/web/20100430072907/http://www.comune.gravellona-lomellina.pv.it/festa/festa2.html"
    }
   ],
   "opere": [
@@ -451,7 +471,7 @@
   "edition": 10,
   "decade": "2000s",
   "title": null,
-  "description": "10ª edizione, sabato 5 – domenica 6 e sabato 12 – domenica 13 giugno 2004: paracarri e spartitraffico dei margini stradali diventano colorati; in occasione della festa nascono i bicchieri celtici.",
+  "description": "10ª edizione, sabato 5 – domenica 6 e sabato 12 – domenica 13 giugno 2004: paracarri e spartitraffico dei margini stradali diventano colorati; in occasione della festa nascono i bicchieri celtici, ricostruiti in serie da un artigiano e venduti.",
   "date": null,
   "location": null,
   "primaryPoster": "volantini/2004-10ed-locandina-hd.jpg",
@@ -476,7 +496,7 @@
     "label": "Elisabetta Bevilacqua (@niktuberto1) — storico delle locandine"
    }
   ],
-  "context": "Sui margini delle strade paracarri e spartitraffico colorati. Durante questa festa vengono realizzati i bicchieri celtici.",
+  "context": "Sui margini delle strade paracarri e spartitraffico colorati. Viene ricostruito in serie da un artigiano e venduto l'antico bicchiere da birra dei guerrieri celtici, un tempo abitatori della Lomellina.",
   "sources": [
    {
     "label": "Wikipedia — Gravellona Lomellina (Paese d'arte)",
@@ -485,6 +505,10 @@
    {
     "label": "GravellonArtistica — Cento anni",
     "url": "https://www.gravellonartistica.com/cento-anni"
+   },
+   {
+    "label": "Sito comunale (da Wayback Machine, 30 aprile 2010)",
+    "url": "https://web.archive.org/web/20100430072907/http://www.comune.gravellona-lomellina.pv.it/festa/festa2.html"
    }
   ],
   "opere": [
