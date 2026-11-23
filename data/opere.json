@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-22",
+ "aggiornato": "2026-11-23",
  "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch e alcune immagini da GravellonArtistica, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
  "gallerie": [
   {
@@ -279,6 +279,26 @@
      "credito": "Elaborazione con ChatGPT, 2026",
      "nota": "Autore: Massimo Gemelli (novarese). Vincitore ex aequo edizione 1996. I colori non sono quelli del muro: l'immagine è restaurata con ChatGPT e serve a leggere le figure, non a documentare l'opera.",
      "link": "https://www.facebook.com/photo/?fbid=883128891755272&set=pb.100063560470620.-2207520000"
+    },
+    {
+     "titolo": "Le mani nelle tasche",
+     "didascalia": "Autore e descrizione ignoti, 1996",
+     "file": "opere/mani-nelle-tasche.png",
+     "w": 872,
+     "h": 212,
+     "anno": 1996,
+     "credito": "Immagine fornita all'archivio, 2026",
+     "nota": "Titolo noto; autore e descrizione non documentati."
+    },
+    {
+     "titolo": "Le mani nelle tasche - reinterpretazione Gemini",
+     "didascalia": "Reinterpretazione della stessa immagine generata con Gemini, 2026",
+     "file": "opere/mani-nelle-tasche-ricostruzione-gemini.jpg",
+     "w": 2106,
+     "h": 512,
+     "anno": 1996,
+     "credito": "Elaborazione con Gemini, 2026",
+     "nota": "Interpretazione generata con Gemini a partire dall'immagine del 1996: non documenta l'opera originale."
     },
     {
      "titolo": "Frazione Barbavara",
