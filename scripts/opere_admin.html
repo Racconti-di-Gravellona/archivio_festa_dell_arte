@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Opere Admin</title>
+<style>
+  :root{--bg:#f6f4ef;--fg:#1f1b16;--muted:#6b6258;--card:#fff;--line:#ddd5ca;--acc:#1f6feb;--danger:#b3261e;--ok:#1a7f37;}
+  *{box-sizing:border-box} body{margin:0;font:14px/1.4 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+  header{position:sticky;top:0;background:rgba(246,244,239,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:12px 16px;display:flex;gap:12px;align-items:center;z-index:2}
+  h1{font-size:16px;margin:0} .muted{color:var(--muted)} .sp{flex:1}
+  main{display:grid;grid-template-columns:320px 1fr;gap:16px;padding:16px;max-width:1600px;margin:0 auto}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .pad{padding:12px} .list{max-height:calc(100vh - 150px);overflow:auto}
+  .item{padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer}
+  .item:hover{background:#faf8f4} .item.active{background:#eef4ff}
+  .item .t{font-weight:600} .item .m{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  label{display:block;font-size:12px;color:var(--muted);margin:8px 0 4px}
+  input[type=text],input[type=number],textarea,select{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
+  textarea{min-height:72px;resize:vertical}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap} .row>*{flex:1}
+  button{padding:8px 10px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer;font:inherit}
+  button:hover{background:#f7f4ef} button.primary{background:var(--acc);color:#fff;border-color:var(--acc)}
+  button.danger{color:var(--danger);border-color:#e7b7b3} button.small{padding:4px 8px;font-size:12px}
+  .toolbar{display:flex;gap:8px;align-items:center;padding:12px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .status{font-size:12px;color:var(--muted)} .status.ok{color:var(--ok)} .status.err{color:var(--danger)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .preview{max-width:100%;max-height:220px;object-fit:contain;background:#f3f1ec;border-radius:8px;border:1px solid var(--line)}
+  @media (max-width:900px){main{grid-template-columns:1fr}.list{max-height:35vh}}
+</style>
+<header>
+  <h1>Opere Admin</h1>
+  <span class="muted" id="meta"></span>
+  <div class="sp"></div>
+  <label style="margin:0;display:flex;gap:6px;align-items:center;font-size:13px;color:var(--fg)">Galleria
+    <select id="gallery" style="width:auto;min-width:160px"></select>
+  </label>
+  <button onclick="reload()">Ricarica</button>
+  <button onclick="sortBy('anno')">Ordina anno</button>
+  <button onclick="sortBy('titolo')">Ordina titolo</button>
+  <button class="primary" onclick="newOpera()">+ Nuova</button>
+</header>
+<main>
+  <section class="card">
+    <div class="toolbar"><input id="q" type="text" placeholder="Filtra titolo/didascalia/file..." oninput="renderList()" style="flex:1"></div>
+    <div class="list" id="list"></div>
+  </section>
+  <section class="card">
+    <div class="toolbar">
+      <strong id="formTitle">Seleziona un'opera</strong>
+      <div class="sp"></div>
+      <button class="small" onclick="move(-1)">↑ Su</button>
+      <button class="small" onclick="move(1)">↓ Giù</button>
+      <button class="small danger" onclick="del()">Elimina</button>
+      <button class="primary" onclick="save()">Salva</button>
+    </div>
+    <div class="pad" id="formWrap">
+      <div id="status" class="status">API locale: modifica e salva scrive su <code>data/opere.json</code>.</div>
+      <div class="grid2">
+        <div><label>Titolo</label><input id="titolo" type="text"></div>
+        <div><label>Anno</label><div class="row"><input id="anno" type="number" placeholder="es. 1995"><label style="margin:0;display:flex;gap:6px;align-items:center;flex:0"><input id="annoDubbio" type="checkbox"> dubbio</label></div></div>
+      </div>
+      <label>Didascalia / testo</label><textarea id="didascalia"></textarea>
+      <div class="grid2">
+        <div><label>File (locale, es. opere/...)</label><input id="file" type="text"></div>
+        <div><label>Immagine URL (img)</label><input id="img" type="text"></div>
+      </div>
+      <div class="grid2">
+        <div><label>Fonte</label><input id="fonte" type="text"></div>
+        <div><label>Credito</label><input id="credito" type="text"></div>
+      </div>
+      <label>Link</label><input id="link" type="text">
+      <label>Nota</label><textarea id="nota" style="min-height:56px"></textarea>
+      <label>Anteprima</label>
+      <img id="preview" class="preview" alt="" onerror="this.style.display='none'">
+      <div class="muted" style="font-size:12px;margin-top:8px">Campi vuoti vengono rimossi al salvataggio (tranne titolo/didascalia). Indice corrente: <span id="idx">-</span></div>
+    </div>
+  </section>
+</main>
+<script>
+let galleries=[], galleryId='murales', items=[], selected=-1;
+const $=id=>document.getElementById(id);
+const fields=['titolo','didascalia','anno','file','img','fonte','credito','link','nota'];
+
+async function api(path, opts={}){
+  const r = await fetch(path, {headers:{'Content-Type':'application/json'}, ...opts});
+  const t = await r.text();
+  let data; try{data=JSON.parse(t)}catch{data={raw:t}}
+  if(!r.ok) throw new Error(data.error||r.statusText||t);
+  return data;
+}
+function setStatus(msg, cls=''){ const s=$('status'); s.textContent=msg; s.className='status '+cls; }
+function imgSrc(o){ if(o.file) return '../'+o.file.replace(/^\.\//,''); if(o.img) return o.img; return ''; }
+
+async function loadGalleries(){
+  galleries = await api('/api/galleries');
+  const sel=$('gallery'); sel.innerHTML='';
+  for(const g of galleries){ const o=document.createElement('option'); o.value=g.id; o.textContent=`${g.titolo||g.id} (${g.count})`; sel.appendChild(o); }
+  if(!galleries.find(g=>g.id===galleryId)) galleryId=galleries[0]?.id||'murales';
+  sel.value=galleryId;
+  sel.onchange=()=>{galleryId=sel.value; selected=-1; reload();};
+}
+
+async function reload(){
+  await loadGalleries();
+  const g = await api('/api/opere?gallery='+encodeURIComponent(galleryId));
+  items = g.opere||[];
+  $('meta').textContent = `${galleryId} · ${items.length} opere`;
+  renderList();
+  if(selected>=items.length) selected=items.length-1;
+  if(selected>=0) select(selected); else clearForm();
+}
+
+function renderList(){
+  const q=$('q').value.toLowerCase().trim();
+  const list=$('list'); list.innerHTML='';
+  items.forEach((o,i)=>{
+    const hay=`${o.titolo||''} ${o.didascalia||''} ${o.file||''} ${o.img||''}`.toLowerCase();
+    if(q && !hay.includes(q)) return;
+    const d=document.createElement('div'); d.className='item'+(i===selected?' active':'');
+    d.innerHTML=`<div class="t">${i}. ${esc(o.titolo||'(senza titolo)')}</div><div class="m">${o.anno??'-'} · ${esc(o.file||o.img||'')}</div>`;
+    d.onclick=()=>select(i);
+    list.appendChild(d);
+  });
+}
+function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+
+function clearForm(){ selected=-1; $('formTitle').textContent='Seleziona un\'opera'; $('idx').textContent='-'; for(const f of fields) $(f).value=''; $('annoDubbio').checked=false; $('preview').style.display='none'; }
+function select(i){ selected=i; const o=items[i]; $('formTitle').textContent=`Modifica #${i}`; $('idx').textContent=i; for(const f of fields) $(f).value=o[f]??''; $('annoDubbio').checked=!!o.annoDubbio; const src=imgSrc(o); const p=$('preview'); if(src){p.src=src;p.style.display='block'}else{p.style.display='none'} renderList(); }
+
+function readForm(){
+  const o={};
+  for(const f of fields){ const v=$(f).value.trim(); o[f]=v; }
+  o.anno = o.anno===''? null : Number(o.anno);
+  o.annoDubbio = $('annoDubbio').checked;
+  return o;
+}
+
+async function save(){
+  const o=readForm();
+  if(!o.titolo){ setStatus('Titolo obbligatorio', 'err'); return; }
+  try{
+    if(selected<0){
+      const r=await api('/api/opere/'+encodeURIComponent(galleryId),{method:'POST',body:JSON.stringify(o)});
+      setStatus('Creata #'+r.index,'ok'); selected=r.index; await reload(); select(selected);
+    } else {
+      const r=await api(`/api/opere/${encodeURIComponent(galleryId)}/${selected}`,{method:'PUT',body:JSON.stringify(o)});
+      setStatus('Salvata #'+r.index,'ok'); await reload(); select(r.index);
+    }
+  }catch(e){ setStatus(e.message,'err'); }
+}
+
+function newOpera(){ clearForm(); $('formTitle').textContent='Nuova opera'; $('titolo').focus(); }
+
+async function del(){
+  if(selected<0) return;
+  if(!confirm(`Eliminare "${items[selected].titolo}"?`)) return;
+  try{ await api(`/api/opere/${encodeURIComponent(galleryId)}/${selected}`,{method:'DELETE'}); setStatus('Eliminata','ok'); selected=-1; await reload(); }
+  catch(e){ setStatus(e.message,'err'); }
+}
+
+async function move(dir){
+  if(selected<0) return;
+  const to=selected+dir; if(to<0||to>=items.length) return;
+  try{ await api(`/api/opere/${encodeURIComponent(galleryId)}/move`,{method:'POST',body:JSON.stringify({from:selected,to})}); selected=to; await reload(); select(selected); setStatus('Spostata','ok'); }
+  catch(e){ setStatus(e.message,'err'); }
+}
+
+async function sortBy(by){
+  if(!confirm(`Ordinare "${galleryId}" per ${by}?`)) return;
+  try{ await api(`/api/opere/${encodeURIComponent(galleryId)}/sort`,{method:'POST',body:JSON.stringify({by})}); setStatus('Ordinata per '+by,'ok'); selected=-1; await reload(); }
+  catch(e){ setStatus(e.message,'err'); }
+}
+
+reload().catch(e=>setStatus(e.message,'err'));
+</script>
+</html>
