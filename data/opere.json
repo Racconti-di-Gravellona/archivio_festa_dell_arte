@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-23",
+ "aggiornato": "2026-11-24",
  "avvertenza": "Le immagini del Comune non sono copiate: sono caricate direttamente dal sito del Comune di Gravellona Lomellina. Copyright delle fotografie: Comune di Gravellona Lomellina e autori delle singole immagini; le opere raffigurate restano dei loro autori. Una foto dei murales viene da mural.ch e alcune immagini da GravellonArtistica, con il credito indicato sotto. Le due foto in coda ai murales sono invece dell'archivio, con il credito indicato sotto ciascuna.",
  "gallerie": [
   {
@@ -670,10 +670,11 @@
     {
      "titolo": "Lavatoio palcoscenico",
      "didascalia": "Libero Greco, 2011",
-     "img": "https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/910870155_29162038486770934_7472274040492347195_n.avif?stp=dst-jpg_tt6&cstp=mx2048x1398&ctp=s2048x1398&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Fa9rOeCuxxcQ7kNvwHQUsoi&_nc_oc=AdrfXzBqUc3zK6ja5Bxy2k4-nDdTQ_pEHy5ERF0sh17OSD2-ElTT8SkwbKGjZSKgUE7A4Dw4RrbsDlD2T4VlH_zi&_nc_zt=23&_nc_ht=scontent.fmxp5-1.fna&_nc_gid=93m4EKv3Lxx9Y4aIDEgRxw&_nc_ss=7b289&oh=00_AQSSluOBEJMnhc7A_yZzYId4tKAC24R6RqyVcTmKm8tHKQ&oe=6B0391C6",
+     "file": "opere/lavatoio-palcoscenico-barbavara.jpg",
      "anno": 2011,
-     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)",
-     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff. (Facebook)"
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/frazione-barbavara"
     },
     {
      "titolo": "Muro dietro l'oratorio (mongolfiera)",
