@@ -629,11 +629,12 @@
     },
     {
      "titolo": "La grande uva",
-     "didascalia": "dettaglio dell'ingresso all'Accademia di Musica (2017).",
-     "img": "https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/511012566_10023594411041962_7177065709938214605_n.jpg?stp=dst-jpg_tt6&cstp=mx1421x2048&ctp=s1421x2048&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=N_AD8O8-hvwQ7kNvwEWJfgJ&_nc_oc=Adra3S3tNdNS6b1nRqPmWHwJAyV04hcrZVrakjaKzMGuOkD62IGjSGH6wCCK16DianQpA4ozXO7YEd8wOABXYIuA&_nc_zt=23&_nc_ht=scontent.fmxp5-1.fna&_nc_gid=KbjoymwBGgBetyEKravdSg&_nc_ss=7b289&oh=00_AQSX1wx2mWmD9MggSU-JESQZl-SRCDW2-plPsRyHmgYZLQ&oe=6B036853",
+     "didascalia": "La grande uva dipinta su una facciata del paese (foto 2017)",
+     "file": "opere/grande-uva-facciata.jpg",
      "anno": 2007,
-     "credito": "Foto: Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff.",
-     "fonte": "Gravellona Lomellina Paese d'Arte, Natura e Fantasia - Pagina Uff."
+     "credito": "Foto: GravellonArtistica",
+     "fonte": "GravellonArtistica",
+     "link": "https://www.gravellonartistica.com/piazza"
     },
     {
      "titolo": "Totem di palude",
